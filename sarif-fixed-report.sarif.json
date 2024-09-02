@@ -1,0 +1,4191 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "fullName": "Qualys CLI Scanner",
+          "informationUri": "http://www.qualys.com",
+          "name": "qscanner",
+          "rules": [
+            {
+              "id": "502707",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for curl"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 5,
+                "cve-ids": [
+                  "CVE-2023-27533",
+                  "CVE-2023-27534",
+                  "CVE-2023-27535",
+                  "CVE-2023-27536",
+                  "CVE-2023-27537",
+                  "CVE-2023-27538"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.8",
+                  "temporalScore": "7.9"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Mon, 17 Apr 2023 18:45:58 +0530",
+                "risk": 50,
+                "severity": 5,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "499 days"
+              }
+            },
+            {
+              "id": "502509",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for expat"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 5,
+                "cve-ids": [
+                  "CVE-2022-40674"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.1",
+                  "temporalScore": "7.1"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Thu, 22 Sep 2022 18:50:05 +0530",
+                "risk": 50,
+                "severity": 5,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "706 days"
+              }
+            },
+            {
+              "id": "502475",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for zlib"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2022-37434"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.8",
+                  "temporalScore": "8.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Mon, 08 Aug 2022 18:34:29 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "751 days"
+              }
+            },
+            {
+              "id": "510762",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for expat"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-28757"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.6",
+                  "temporalScore": "7.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Mon, 18 Mar 2024 19:26:17 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "163 days"
+              }
+            },
+            {
+              "id": "991338",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Python (Pip) Security Update for wheel (GHSA-qwmp-2cf2-g9g6)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "SCA",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2022-40898"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.0",
+                  "temporalScore": "3.9",
+                  "accessVector": "Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Wed, 04 Jan 2023 18:26:49 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "easyExploit": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "602 days"
+              }
+            },
+            {
+              "id": "980359",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Python (pip) Security Update for urllib3 (GHSA-q2q7-5pp4-w6pg)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "SCA",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2021-33503"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.0",
+                  "temporalScore": "3.7",
+                  "accessVector": "Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Tue, 15 Mar 2022 20:12:50 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "easyExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "897 days"
+              }
+            },
+            {
+              "id": "991035",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Python (Pip) Security Update for setuptools (GHSA-r9hx-vwmv-q579)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "SCA",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2022-40897"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.9",
+                  "temporalScore": "5.3"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.0",
+                  "temporalScore": "3.9",
+                  "accessVector": "Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Wed, 04 Jan 2023 18:26:46 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "easyExploit": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "602 days"
+              }
+            },
+            {
+              "id": "510685",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for sqlite"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-7104"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.3",
+                  "temporalScore": "6.6"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.2",
+                  "temporalScore": "4.1",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Thu, 25 Jan 2024 18:46:55 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "easyExploit": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "216 days"
+              }
+            },
+            {
+              "id": "998684",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Python (Pip) Security Update for Werkzeug (GHSA-2g68-c3qc-8985)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "SCA",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-34069"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Wed, 08 May 2024 19:25:28 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "112 days"
+              }
+            },
+            {
+              "id": "502500",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for curl"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2022-35252"
+                ],
+                "cvss3Info": {
+                  "baseScore": "3.7",
+                  "temporalScore": "3.4"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Thu, 01 Sep 2022 18:03:51 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "727 days"
+              }
+            },
+            {
+              "id": "503023",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for Open Secure Sockets Layer (OpenSSL)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-2650"
+                ],
+                "cvss3Info": {
+                  "baseScore": "6.5",
+                  "temporalScore": "5.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Thu, 01 Jun 2023 18:40:11 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "454 days"
+              }
+            },
+            {
+              "id": "502694",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for Open Secure Sockets Layer (OpenSSL)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-0465"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.3",
+                  "temporalScore": "4.6"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Wed, 29 Mar 2023 18:46:41 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "518 days"
+              }
+            },
+            {
+              "id": "502413",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for Open Secure Sockets Layer (OpenSSL)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2022-2097"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.3",
+                  "temporalScore": "4.6"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.0",
+                  "temporalScore": "3.7",
+                  "accessVector": "Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Wed, 06 Jul 2022 18:19:02 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "easyExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "784 days"
+              }
+            },
+            {
+              "id": "503014",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for curl"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-28319",
+                  "CVE-2023-28320",
+                  "CVE-2023-28321",
+                  "CVE-2023-28322"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Thu, 18 May 2023 18:13:54 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "468 days"
+              }
+            },
+            {
+              "id": "503048",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for nghttp2"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-35945"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Mon, 24 Jul 2023 19:45:06 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "401 days"
+              }
+            },
+            {
+              "id": "5000411",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Python (Pip) Security Update for setuptools (GHSA-cx63-2mw6-8hw5)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "SCA",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-6345"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.8",
+                  "temporalScore": "7.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "7.5",
+                  "temporalScore": "5.5",
+                  "accessVector": "Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Tue, 16 Jul 2024 18:33:47 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "easyExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "43 days"
+              }
+            },
+            {
+              "id": "502452",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for busybox"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2022-30065"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.8",
+                  "temporalScore": "7.0"
+                },
+                "cvssInfo": {
+                  "baseScore": "6.8",
+                  "temporalScore": "5.3",
+                  "accessVector": "Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Wed, 20 Jul 2022 19:18:56 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "770 days"
+              }
+            },
+            {
+              "id": "502473",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for libtirpc"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2021-46828"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Mon, 08 Aug 2022 18:34:29 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "751 days"
+              }
+            },
+            {
+              "id": "502444",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for busybox"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2022-30065"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.8",
+                  "temporalScore": "7.0"
+                },
+                "cvssInfo": {
+                  "baseScore": "6.8",
+                  "temporalScore": "5.3",
+                  "accessVector": "Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Tue, 19 Jul 2022 17:51:17 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "771 days"
+              }
+            },
+            {
+              "id": "503089",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for Open Secure Sockets Layer (OpenSSL)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-3817"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.3",
+                  "temporalScore": "4.6"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Mon, 07 Aug 2023 19:27:57 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "387 days"
+              }
+            },
+            {
+              "id": "992196",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Python (Pip) Security Update for Werkzeug (GHSA-xg9f-g7g7-2323)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "SCA",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-25577"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Fri, 17 Feb 2023 18:08:57 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "558 days"
+              }
+            },
+            {
+              "id": "503469",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for nghttp2"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-44487"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Mon, 06 Nov 2023 18:24:18 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "296 days"
+              }
+            },
+            {
+              "id": "503682",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for curl"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-38039"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Thu, 21 Dec 2023 18:10:13 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "251 days"
+              }
+            },
+            {
+              "id": "503379",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for curl"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-38545",
+                  "CVE-2023-38546"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.8",
+                  "temporalScore": "8.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Wed, 11 Oct 2023 19:36:35 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "322 days"
+              }
+            },
+            {
+              "id": "502616",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for curl"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2022-43551",
+                  "CVE-2022-43552"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Thu, 22 Dec 2022 18:19:49 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "615 days"
+              }
+            },
+            {
+              "id": "503045",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for Open Secure Sockets Layer (OpenSSL)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-3446"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.3",
+                  "temporalScore": "4.6"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Mon, 24 Jul 2023 19:45:06 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "401 days"
+              }
+            },
+            {
+              "id": "503020",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for ncurses"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-29491"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.8",
+                  "temporalScore": "7.0"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Mon, 29 May 2023 19:53:42 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "457 days"
+              }
+            },
+            {
+              "id": "502652",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for Open Secure Sockets Layer (OpenSSL)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2022-4304",
+                  "CVE-2022-4450",
+                  "CVE-2023-0215",
+                  "CVE-2023-0286"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Wed, 08 Feb 2023 17:55:22 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "567 days"
+              }
+            },
+            {
+              "id": "510720",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for expat"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-52425",
+                  "CVE-2023-52426"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Mon, 12 Feb 2024 18:15:13 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "198 days"
+              }
+            },
+            {
+              "id": "502668",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for curl"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-23914",
+                  "CVE-2023-23915",
+                  "CVE-2023-23916"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.1",
+                  "temporalScore": "8.2"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Thu, 16 Feb 2023 19:05:35 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "559 days"
+              }
+            },
+            {
+              "id": "502572",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for expat"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2022-43680"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Thu, 27 Oct 2022 17:49:00 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "671 days"
+              }
+            },
+            {
+              "id": "503621",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for Open Secure Sockets Layer (OpenSSL)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-5678"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.3",
+                  "temporalScore": "4.6"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Tue, 21 Nov 2023 19:54:13 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "281 days"
+              }
+            },
+            {
+              "id": "502681",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for Open Secure Sockets Layer (OpenSSL)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-0464"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Thu, 23 Mar 2023 19:05:47 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "524 days"
+              }
+            },
+            {
+              "id": "502575",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for curl"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2022-32221",
+                  "CVE-2022-42915",
+                  "CVE-2022-42916"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.8",
+                  "temporalScore": "8.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Thu, 27 Oct 2022 17:49:00 +0530",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "671 days"
+              }
+            },
+            {
+              "id": "998062",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Python (Pip) Security Update for idna (GHSA-jjg7-2v4v-x38h)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "SCA",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2024-3651"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Mon, 15 Apr 2024 18:56:46 +0530",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "135 days"
+              }
+            },
+            {
+              "id": "5000214",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Python (Pip) Security Update for urllib3 (GHSA-34jh-p97f-mpxf)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "SCA",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2024-37891"
+                ],
+                "cvss3Info": {
+                  "baseScore": "4.4",
+                  "temporalScore": "3.9"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Wed, 19 Jun 2024 19:46:48 +0530",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "70 days"
+              }
+            },
+            {
+              "id": "5000357",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Python (Pip) Security Update for zipp (GHSA-jfmj-5v4g-7637)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "SCA",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2024-5569"
+                ],
+                "cvss3Info": {
+                  "baseScore": "6.2",
+                  "temporalScore": "5.4"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Thu, 11 Jul 2024 19:04:46 +0530",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "48 days"
+              }
+            },
+            {
+              "id": "998687",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Python (Pip) Security Update for Jinja2 (GHSA-h75v-3vvj-5mfj)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "SCA",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2024-34064"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Wed, 08 May 2024 19:25:29 +0530",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "112 days"
+              }
+            },
+            {
+              "id": "980343",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Python (pip) Security Update for urllib3 (GHSA-5phf-pp7p-vc2r)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "SCA",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2021-28363"
+                ],
+                "cvss3Info": {
+                  "baseScore": "6.5",
+                  "temporalScore": "5.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "6.4",
+                  "temporalScore": "4.7",
+                  "accessVector": "Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Tue, 15 Mar 2022 20:12:49 +0530",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "easyExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "897 days"
+              }
+            },
+            {
+              "id": "988183",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Python (pip) Security Update for py (GHSA-w596-4wvx-j9j6)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "SCA",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2022-42969"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "7.1"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.9",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Thu, 20 Oct 2022 18:36:24 +0530",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "noPatch": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "678 days"
+              }
+            },
+            {
+              "id": "990621",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Python (pip) Security Update for certifi (GHSA-43fp-rhv2-5gv8)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "SCA",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2022-23491"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Thu, 08 Dec 2022 18:11:25 +0530",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "629 days"
+              }
+            },
+            {
+              "id": "503683",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for curl"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-46218",
+                  "CVE-2023-46219"
+                ],
+                "cvss3Info": {
+                  "baseScore": "6.5",
+                  "temporalScore": "5.9"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Thu, 21 Dec 2023 18:10:14 +0530",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "251 days"
+              }
+            },
+            {
+              "id": "995496",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Python (Pip) Security Update for urllib3 (GHSA-v845-jxx5-vc9f)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "SCA",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-43804"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.1",
+                  "temporalScore": "7.3"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Tue, 03 Oct 2023 18:29:59 +0530",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "330 days"
+              }
+            },
+            {
+              "id": "993177",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Python (Pip) Security Update for requests (GHSA-j8r2-6x86-q33q)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "SCA",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-32681"
+                ],
+                "cvss3Info": {
+                  "baseScore": "6.1",
+                  "temporalScore": "5.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Wed, 24 May 2023 18:12:53 +0530",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "462 days"
+              }
+            },
+            {
+              "id": "510856",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Alpine Linux Security Update for busybox"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "Alpine Linux",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-42366"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.5",
+                  "temporalScore": "5.0"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Mon, 20 May 2024 18:09:34 +0530",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "100 days"
+              }
+            },
+            {
+              "id": "995614",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Python (Pip) Security Update for urllib3 (GHSA-g4mx-q9vg-27p4)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "SCA",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-45803"
+                ],
+                "cvss3Info": {
+                  "baseScore": "4.2",
+                  "temporalScore": "3.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Wed, 18 Oct 2023 18:54:14 +0530",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "315 days"
+              }
+            },
+            {
+              "id": "995407",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Python (Pip) Security Update for gevent (GHSA-x7m3-jprg-wc5g)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "SCA",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-41419"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.8",
+                  "temporalScore": "8.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Tue, 26 Sep 2023 18:03:54 +0530",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "337 days"
+              }
+            },
+            {
+              "id": "995818",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Python (Pip) Security Update for pip (GHSA-mq26-g339-26xf)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "SCA",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-5752"
+                ],
+                "cvss3Info": {
+                  "baseScore": "3.3",
+                  "temporalScore": "2.9"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Mon, 06 Nov 2023 18:24:21 +0530",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "296 days"
+              }
+            },
+            {
+              "id": "999064",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Python (Pip) Security Update for requests (GHSA-9wx4-h78v-vm56)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "SCA",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2024-35195"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.6",
+                  "temporalScore": "4.9"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Tue, 21 May 2024 17:59:16 +0530",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "99 days"
+              }
+            },
+            {
+              "id": "992198",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Python (Pip) Security Update for Werkzeug (GHSA-px8h-6qxv-m22q)"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "properties": {
+                "category": "SCA",
+                "customerSeverity": 2,
+                "cve-ids": [
+                  "CVE-2023-23934"
+                ],
+                "cvss3Info": {
+                  "baseScore": "3.5",
+                  "temporalScore": "3.1"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Fri, 17 Feb 2023 18:08:57 +0530",
+                "risk": 20,
+                "severity": 2,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "558 days"
+              }
+            },
+            {
+              "id": "994352",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Python (Pip) Security Update for certifi (GHSA-xqr8-7jwr-rhp7)"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "properties": {
+                "category": "SCA",
+                "customerSeverity": 2,
+                "cve-ids": [
+                  "CVE-2023-37920"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.8",
+                  "temporalScore": "8.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Fri, 23 Aug 2024 17:07:06 +0530",
+                "lastFound": "Thu, 29 Aug 2024 14:51:42 +0530",
+                "publishedDate": "Thu, 27 Jul 2023 19:01:26 +0530",
+                "risk": 20,
+                "severity": 2,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "398 days"
+              }
+            }
+          ],
+          "version": "4.2.0-1"
+        }
+      },
+      "results": [
+        {
+          "properties": {
+            "QID": 502707,
+            "vulnerableSoftware": [
+              {
+                "name": "libcurl",
+                "installedVersion": "7.83.1-r2",
+                "fixedVersion": "8.0.1-r0",
+                "layerSHA": "sha256:451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40"
+              },
+              {
+                "name": "curl",
+                "installedVersion": "7.83.1-r2",
+                "fixedVersion": "8.0.1-r0",
+                "layerSHA": "sha256:451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40"
+              }
+            ]
+          },
+          "ruleId": "502707",
+          "ruleIndex": 0,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for curl"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 502509,
+            "vulnerableSoftware": [
+              {
+                "name": "expat",
+                "installedVersion": "2.4.8-r0",
+                "fixedVersion": "2.4.9-r0",
+                "layerSHA": "sha256:a9a074cbd6ffb2834d2851b52fcbac8f45b8436a9beb5f20607d992e64cd3f6e"
+              }
+            ]
+          },
+          "ruleId": "502509",
+          "ruleIndex": 1,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for expat"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 502475,
+            "vulnerableSoftware": [
+              {
+                "name": "zlib",
+                "installedVersion": "1.2.12-r1",
+                "fixedVersion": "1.2.12-r2",
+                "layerSHA": "sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d"
+              }
+            ]
+          },
+          "ruleId": "502475",
+          "ruleIndex": 2,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for zlib"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 510762,
+            "vulnerableSoftware": [
+              {
+                "name": "expat",
+                "installedVersion": "2.4.8-r0",
+                "fixedVersion": "2.6.2-r0",
+                "layerSHA": "sha256:a9a074cbd6ffb2834d2851b52fcbac8f45b8436a9beb5f20607d992e64cd3f6e"
+              }
+            ]
+          },
+          "ruleId": "510762",
+          "ruleIndex": 3,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for expat"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 991338,
+            "vulnerableSoftware": [
+              {
+                "name": "wheel",
+                "path": "usr/local/lib/python3.7/site-packages/wheel-0.37.1.dist-info/METADATA",
+                "installedVersion": "0.37.1",
+                "fixedVersion": "0.38.1",
+                "layerSHA": "sha256:fbf68182cb69c8dbb38c6f653d3325c0a8fe4bc605915bd79447cf9271578ccb"
+              }
+            ]
+          },
+          "ruleId": "991338",
+          "ruleIndex": 4,
+          "level": "error",
+          "message": {
+            "text": "Python (Pip) Security Update for wheel (GHSA-qwmp-2cf2-g9g6)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "usr/local/lib/python3.7/site-packages/wheel-0.37.1.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 980359,
+            "vulnerableSoftware": [
+              {
+                "name": "urllib3",
+                "path": "home/dvga/.local/lib/python3.7/site-packages/urllib3-1.26.3.dist-info/METADATA",
+                "installedVersion": "1.26.3",
+                "fixedVersion": "1.26.5",
+                "layerSHA": "sha256:9f7d25e34b3d968db6a67a453e5e1fae880834a5c3a9a881d378da8e59a1e6d5"
+              }
+            ]
+          },
+          "ruleId": "980359",
+          "ruleIndex": 5,
+          "level": "error",
+          "message": {
+            "text": "Python (pip) Security Update for urllib3 (GHSA-q2q7-5pp4-w6pg)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "home/dvga/.local/lib/python3.7/site-packages/urllib3-1.26.3.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 991035,
+            "vulnerableSoftware": [
+              {
+                "name": "setuptools",
+                "path": "usr/local/lib/python3.7/site-packages/setuptools-57.5.0.dist-info/METADATA",
+                "installedVersion": "57.5.0",
+                "fixedVersion": "65.5.1",
+                "layerSHA": "sha256:fbf68182cb69c8dbb38c6f653d3325c0a8fe4bc605915bd79447cf9271578ccb"
+              },
+              {
+                "name": "setuptools",
+                "path": "opt/dvga/venv/lib/python3.7/site-packages/setuptools-47.1.0.dist-info/METADATA",
+                "installedVersion": "47.1.0",
+                "fixedVersion": "65.5.1",
+                "layerSHA": "sha256:ad1f499dac892046b030fa31232847572a522e64888f46230cc27bb67364139f"
+              }
+            ]
+          },
+          "ruleId": "991035",
+          "ruleIndex": 6,
+          "level": "error",
+          "message": {
+            "text": "Python (Pip) Security Update for setuptools (GHSA-r9hx-vwmv-q579)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "usr/local/lib/python3.7/site-packages/setuptools-57.5.0.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "opt/dvga/venv/lib/python3.7/site-packages/setuptools-47.1.0.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 510685,
+            "vulnerableSoftware": [
+              {
+                "name": "sqlite-libs",
+                "installedVersion": "3.38.5-r0",
+                "fixedVersion": "3.40.1-r1",
+                "layerSHA": "sha256:a9a074cbd6ffb2834d2851b52fcbac8f45b8436a9beb5f20607d992e64cd3f6e"
+              }
+            ]
+          },
+          "ruleId": "510685",
+          "ruleIndex": 7,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for sqlite"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 998684,
+            "vulnerableSoftware": [
+              {
+                "name": "Werkzeug",
+                "path": "home/dvga/.local/lib/python3.7/site-packages/Werkzeug-1.0.1.dist-info/METADATA",
+                "installedVersion": "1.0.1",
+                "fixedVersion": "3.0.3",
+                "layerSHA": "sha256:9f7d25e34b3d968db6a67a453e5e1fae880834a5c3a9a881d378da8e59a1e6d5"
+              }
+            ]
+          },
+          "ruleId": "998684",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Python (Pip) Security Update for Werkzeug (GHSA-2g68-c3qc-8985)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "home/dvga/.local/lib/python3.7/site-packages/Werkzeug-1.0.1.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 502500,
+            "vulnerableSoftware": [
+              {
+                "name": "libcurl",
+                "installedVersion": "7.83.1-r2",
+                "fixedVersion": "7.83.1-r3",
+                "layerSHA": "sha256:451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40"
+              },
+              {
+                "name": "curl",
+                "installedVersion": "7.83.1-r2",
+                "fixedVersion": "7.83.1-r3",
+                "layerSHA": "sha256:451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40"
+              }
+            ]
+          },
+          "ruleId": "502500",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for curl"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 503023,
+            "vulnerableSoftware": [
+              {
+                "name": "libssl1.1",
+                "installedVersion": "1.1.1o-r0",
+                "fixedVersion": "1.1.1u-r0",
+                "layerSHA": "sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d"
+              },
+              {
+                "name": "libcrypto1.1",
+                "installedVersion": "1.1.1o-r0",
+                "fixedVersion": "1.1.1u-r0",
+                "layerSHA": "sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d"
+              }
+            ]
+          },
+          "ruleId": "503023",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for Open Secure Sockets Layer (OpenSSL)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 502694,
+            "vulnerableSoftware": [
+              {
+                "name": "libssl1.1",
+                "installedVersion": "1.1.1o-r0",
+                "fixedVersion": "1.1.1t-r2",
+                "layerSHA": "sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d"
+              },
+              {
+                "name": "libcrypto1.1",
+                "installedVersion": "1.1.1o-r0",
+                "fixedVersion": "1.1.1t-r2",
+                "layerSHA": "sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d"
+              }
+            ]
+          },
+          "ruleId": "502694",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for Open Secure Sockets Layer (OpenSSL)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 502413,
+            "vulnerableSoftware": [
+              {
+                "name": "libssl1.1",
+                "installedVersion": "1.1.1o-r0",
+                "fixedVersion": "1.1.1q-r0",
+                "layerSHA": "sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d"
+              },
+              {
+                "name": "libcrypto1.1",
+                "installedVersion": "1.1.1o-r0",
+                "fixedVersion": "1.1.1q-r0",
+                "layerSHA": "sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d"
+              }
+            ]
+          },
+          "ruleId": "502413",
+          "ruleIndex": 12,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for Open Secure Sockets Layer (OpenSSL)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 503014,
+            "vulnerableSoftware": [
+              {
+                "name": "libcurl",
+                "installedVersion": "7.83.1-r2",
+                "fixedVersion": "8.1.0-r0",
+                "layerSHA": "sha256:451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40"
+              },
+              {
+                "name": "curl",
+                "installedVersion": "7.83.1-r2",
+                "fixedVersion": "8.1.0-r0",
+                "layerSHA": "sha256:451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40"
+              }
+            ]
+          },
+          "ruleId": "503014",
+          "ruleIndex": 13,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for curl"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 503048,
+            "vulnerableSoftware": [
+              {
+                "name": "nghttp2-libs",
+                "installedVersion": "1.47.0-r0",
+                "fixedVersion": "1.47.0-r1",
+                "layerSHA": "sha256:451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40"
+              }
+            ]
+          },
+          "ruleId": "503048",
+          "ruleIndex": 14,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for nghttp2"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 5000411,
+            "vulnerableSoftware": [
+              {
+                "name": "setuptools",
+                "path": "usr/local/lib/python3.7/site-packages/setuptools-57.5.0.dist-info/METADATA",
+                "installedVersion": "57.5.0",
+                "fixedVersion": "70.0.0",
+                "layerSHA": "sha256:fbf68182cb69c8dbb38c6f653d3325c0a8fe4bc605915bd79447cf9271578ccb"
+              },
+              {
+                "name": "setuptools",
+                "path": "opt/dvga/venv/lib/python3.7/site-packages/setuptools-47.1.0.dist-info/METADATA",
+                "installedVersion": "47.1.0",
+                "fixedVersion": "70.0.0",
+                "layerSHA": "sha256:ad1f499dac892046b030fa31232847572a522e64888f46230cc27bb67364139f"
+              }
+            ]
+          },
+          "ruleId": "5000411",
+          "ruleIndex": 15,
+          "level": "error",
+          "message": {
+            "text": "Python (Pip) Security Update for setuptools (GHSA-cx63-2mw6-8hw5)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "usr/local/lib/python3.7/site-packages/setuptools-57.5.0.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "opt/dvga/venv/lib/python3.7/site-packages/setuptools-47.1.0.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 502452,
+            "vulnerableSoftware": [
+              {
+                "name": "busybox",
+                "installedVersion": "1.35.0-r13",
+                "fixedVersion": "1.35.0-r15",
+                "layerSHA": "sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d"
+              }
+            ]
+          },
+          "ruleId": "502452",
+          "ruleIndex": 16,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for busybox"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 502473,
+            "vulnerableSoftware": [
+              {
+                "name": "libtirpc",
+                "installedVersion": "1.3.2-r0",
+                "fixedVersion": "1.3.2-r1",
+                "layerSHA": "sha256:a9a074cbd6ffb2834d2851b52fcbac8f45b8436a9beb5f20607d992e64cd3f6e"
+              }
+            ]
+          },
+          "ruleId": "502473",
+          "ruleIndex": 17,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for libtirpc"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 502444,
+            "vulnerableSoftware": [
+              {
+                "name": "busybox",
+                "installedVersion": "1.35.0-r13",
+                "fixedVersion": "1.35.0-r17",
+                "layerSHA": "sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d"
+              }
+            ]
+          },
+          "ruleId": "502444",
+          "ruleIndex": 18,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for busybox"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 503089,
+            "vulnerableSoftware": [
+              {
+                "name": "libssl1.1",
+                "installedVersion": "1.1.1o-r0",
+                "fixedVersion": "1.1.1v-r0",
+                "layerSHA": "sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d"
+              },
+              {
+                "name": "libcrypto1.1",
+                "installedVersion": "1.1.1o-r0",
+                "fixedVersion": "1.1.1v-r0",
+                "layerSHA": "sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d"
+              }
+            ]
+          },
+          "ruleId": "503089",
+          "ruleIndex": 19,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for Open Secure Sockets Layer (OpenSSL)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 992196,
+            "vulnerableSoftware": [
+              {
+                "name": "Werkzeug",
+                "path": "home/dvga/.local/lib/python3.7/site-packages/Werkzeug-1.0.1.dist-info/METADATA",
+                "installedVersion": "1.0.1",
+                "fixedVersion": "2.2.3",
+                "layerSHA": "sha256:9f7d25e34b3d968db6a67a453e5e1fae880834a5c3a9a881d378da8e59a1e6d5"
+              }
+            ]
+          },
+          "ruleId": "992196",
+          "ruleIndex": 20,
+          "level": "error",
+          "message": {
+            "text": "Python (Pip) Security Update for Werkzeug (GHSA-xg9f-g7g7-2323)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "home/dvga/.local/lib/python3.7/site-packages/Werkzeug-1.0.1.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 503469,
+            "vulnerableSoftware": [
+              {
+                "name": "nghttp2-libs",
+                "installedVersion": "1.47.0-r0",
+                "fixedVersion": "1.47.0-r2",
+                "layerSHA": "sha256:451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40"
+              }
+            ]
+          },
+          "ruleId": "503469",
+          "ruleIndex": 21,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for nghttp2"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 503682,
+            "vulnerableSoftware": [
+              {
+                "name": "libcurl",
+                "installedVersion": "7.83.1-r2",
+                "fixedVersion": "8.3.0-r0",
+                "layerSHA": "sha256:451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40"
+              },
+              {
+                "name": "curl",
+                "installedVersion": "7.83.1-r2",
+                "fixedVersion": "8.3.0-r0",
+                "layerSHA": "sha256:451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40"
+              }
+            ]
+          },
+          "ruleId": "503682",
+          "ruleIndex": 22,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for curl"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 503379,
+            "vulnerableSoftware": [
+              {
+                "name": "libcurl",
+                "installedVersion": "7.83.1-r2",
+                "fixedVersion": "8.4.0-r0",
+                "layerSHA": "sha256:451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40"
+              },
+              {
+                "name": "curl",
+                "installedVersion": "7.83.1-r2",
+                "fixedVersion": "8.4.0-r0",
+                "layerSHA": "sha256:451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40"
+              }
+            ]
+          },
+          "ruleId": "503379",
+          "ruleIndex": 23,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for curl"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 502616,
+            "vulnerableSoftware": [
+              {
+                "name": "libcurl",
+                "installedVersion": "7.83.1-r2",
+                "fixedVersion": "7.83.1-r5",
+                "layerSHA": "sha256:451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40"
+              },
+              {
+                "name": "curl",
+                "installedVersion": "7.83.1-r2",
+                "fixedVersion": "7.83.1-r5",
+                "layerSHA": "sha256:451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40"
+              }
+            ]
+          },
+          "ruleId": "502616",
+          "ruleIndex": 24,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for curl"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 503045,
+            "vulnerableSoftware": [
+              {
+                "name": "libssl1.1",
+                "installedVersion": "1.1.1o-r0",
+                "fixedVersion": "1.1.1u-r2",
+                "layerSHA": "sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d"
+              },
+              {
+                "name": "libcrypto1.1",
+                "installedVersion": "1.1.1o-r0",
+                "fixedVersion": "1.1.1u-r2",
+                "layerSHA": "sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d"
+              }
+            ]
+          },
+          "ruleId": "503045",
+          "ruleIndex": 25,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for Open Secure Sockets Layer (OpenSSL)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 503020,
+            "vulnerableSoftware": [
+              {
+                "name": "ncurses-libs",
+                "installedVersion": "6.3_p20220521-r0",
+                "fixedVersion": "6.3__p20220521-r1",
+                "layerSHA": "sha256:a9a074cbd6ffb2834d2851b52fcbac8f45b8436a9beb5f20607d992e64cd3f6e"
+              },
+              {
+                "name": "ncurses-terminfo-base",
+                "installedVersion": "6.3_p20220521-r0",
+                "fixedVersion": "6.3__p20220521-r1",
+                "layerSHA": "sha256:a9a074cbd6ffb2834d2851b52fcbac8f45b8436a9beb5f20607d992e64cd3f6e"
+              }
+            ]
+          },
+          "ruleId": "503020",
+          "ruleIndex": 26,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for ncurses"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 502652,
+            "vulnerableSoftware": [
+              {
+                "name": "libssl1.1",
+                "installedVersion": "1.1.1o-r0",
+                "fixedVersion": "1.1.1t-r0",
+                "layerSHA": "sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d"
+              },
+              {
+                "name": "libcrypto1.1",
+                "installedVersion": "1.1.1o-r0",
+                "fixedVersion": "1.1.1t-r0",
+                "layerSHA": "sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d"
+              }
+            ]
+          },
+          "ruleId": "502652",
+          "ruleIndex": 27,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for Open Secure Sockets Layer (OpenSSL)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 510720,
+            "vulnerableSoftware": [
+              {
+                "name": "expat",
+                "installedVersion": "2.4.8-r0",
+                "fixedVersion": "2.6.0-r0",
+                "layerSHA": "sha256:a9a074cbd6ffb2834d2851b52fcbac8f45b8436a9beb5f20607d992e64cd3f6e"
+              }
+            ]
+          },
+          "ruleId": "510720",
+          "ruleIndex": 28,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for expat"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 502668,
+            "vulnerableSoftware": [
+              {
+                "name": "libcurl",
+                "installedVersion": "7.83.1-r2",
+                "fixedVersion": "7.83.1-r6",
+                "layerSHA": "sha256:451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40"
+              },
+              {
+                "name": "curl",
+                "installedVersion": "7.83.1-r2",
+                "fixedVersion": "7.83.1-r6",
+                "layerSHA": "sha256:451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40"
+              }
+            ]
+          },
+          "ruleId": "502668",
+          "ruleIndex": 29,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for curl"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 502572,
+            "vulnerableSoftware": [
+              {
+                "name": "expat",
+                "installedVersion": "2.4.8-r0",
+                "fixedVersion": "2.5.0-r0",
+                "layerSHA": "sha256:a9a074cbd6ffb2834d2851b52fcbac8f45b8436a9beb5f20607d992e64cd3f6e"
+              }
+            ]
+          },
+          "ruleId": "502572",
+          "ruleIndex": 30,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for expat"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 503621,
+            "vulnerableSoftware": [
+              {
+                "name": "libssl1.1",
+                "installedVersion": "1.1.1o-r0",
+                "fixedVersion": "1.1.1w-r1",
+                "layerSHA": "sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d"
+              },
+              {
+                "name": "libcrypto1.1",
+                "installedVersion": "1.1.1o-r0",
+                "fixedVersion": "1.1.1w-r1",
+                "layerSHA": "sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d"
+              }
+            ]
+          },
+          "ruleId": "503621",
+          "ruleIndex": 31,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for Open Secure Sockets Layer (OpenSSL)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 502681,
+            "vulnerableSoftware": [
+              {
+                "name": "libssl1.1",
+                "installedVersion": "1.1.1o-r0",
+                "fixedVersion": "1.1.1t-r1",
+                "layerSHA": "sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d"
+              },
+              {
+                "name": "libcrypto1.1",
+                "installedVersion": "1.1.1o-r0",
+                "fixedVersion": "1.1.1t-r1",
+                "layerSHA": "sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d"
+              }
+            ]
+          },
+          "ruleId": "502681",
+          "ruleIndex": 32,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for Open Secure Sockets Layer (OpenSSL)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 502575,
+            "vulnerableSoftware": [
+              {
+                "name": "libcurl",
+                "installedVersion": "7.83.1-r2",
+                "fixedVersion": "7.83.1-r4",
+                "layerSHA": "sha256:451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40"
+              },
+              {
+                "name": "curl",
+                "installedVersion": "7.83.1-r2",
+                "fixedVersion": "7.83.1-r4",
+                "layerSHA": "sha256:451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40"
+              }
+            ]
+          },
+          "ruleId": "502575",
+          "ruleIndex": 33,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for curl"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 998062,
+            "vulnerableSoftware": [
+              {
+                "name": "idna",
+                "path": "home/dvga/.local/lib/python3.7/site-packages/idna-2.10.dist-info/METADATA",
+                "installedVersion": "2.10",
+                "fixedVersion": "3.7",
+                "layerSHA": "sha256:9f7d25e34b3d968db6a67a453e5e1fae880834a5c3a9a881d378da8e59a1e6d5"
+              }
+            ]
+          },
+          "ruleId": "998062",
+          "ruleIndex": 34,
+          "level": "error",
+          "message": {
+            "text": "Python (Pip) Security Update for idna (GHSA-jjg7-2v4v-x38h)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "home/dvga/.local/lib/python3.7/site-packages/idna-2.10.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 5000214,
+            "vulnerableSoftware": [
+              {
+                "name": "urllib3",
+                "path": "home/dvga/.local/lib/python3.7/site-packages/urllib3-1.26.3.dist-info/METADATA",
+                "installedVersion": "1.26.3",
+                "fixedVersion": "1.26.19",
+                "layerSHA": "sha256:9f7d25e34b3d968db6a67a453e5e1fae880834a5c3a9a881d378da8e59a1e6d5"
+              }
+            ]
+          },
+          "ruleId": "5000214",
+          "ruleIndex": 35,
+          "level": "error",
+          "message": {
+            "text": "Python (Pip) Security Update for urllib3 (GHSA-34jh-p97f-mpxf)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "home/dvga/.local/lib/python3.7/site-packages/urllib3-1.26.3.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 5000357,
+            "vulnerableSoftware": [
+              {
+                "name": "zipp",
+                "path": "home/dvga/.local/lib/python3.7/site-packages/zipp-3.8.0.dist-info/METADATA",
+                "installedVersion": "3.8.0",
+                "fixedVersion": "3.19.1",
+                "layerSHA": "sha256:9f7d25e34b3d968db6a67a453e5e1fae880834a5c3a9a881d378da8e59a1e6d5"
+              }
+            ]
+          },
+          "ruleId": "5000357",
+          "ruleIndex": 36,
+          "level": "error",
+          "message": {
+            "text": "Python (Pip) Security Update for zipp (GHSA-jfmj-5v4g-7637)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "home/dvga/.local/lib/python3.7/site-packages/zipp-3.8.0.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 998687,
+            "vulnerableSoftware": [
+              {
+                "name": "Jinja2",
+                "path": "home/dvga/.local/lib/python3.7/site-packages/Jinja2-2.11.2.dist-info/METADATA",
+                "installedVersion": "2.11.2",
+                "fixedVersion": "3.1.4",
+                "layerSHA": "sha256:9f7d25e34b3d968db6a67a453e5e1fae880834a5c3a9a881d378da8e59a1e6d5"
+              }
+            ]
+          },
+          "ruleId": "998687",
+          "ruleIndex": 37,
+          "level": "error",
+          "message": {
+            "text": "Python (Pip) Security Update for Jinja2 (GHSA-h75v-3vvj-5mfj)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "home/dvga/.local/lib/python3.7/site-packages/Jinja2-2.11.2.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 980343,
+            "vulnerableSoftware": [
+              {
+                "name": "urllib3",
+                "path": "home/dvga/.local/lib/python3.7/site-packages/urllib3-1.26.3.dist-info/METADATA",
+                "installedVersion": "1.26.3",
+                "fixedVersion": "1.26.4",
+                "layerSHA": "sha256:9f7d25e34b3d968db6a67a453e5e1fae880834a5c3a9a881d378da8e59a1e6d5"
+              }
+            ]
+          },
+          "ruleId": "980343",
+          "ruleIndex": 38,
+          "level": "error",
+          "message": {
+            "text": "Python (pip) Security Update for urllib3 (GHSA-5phf-pp7p-vc2r)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "home/dvga/.local/lib/python3.7/site-packages/urllib3-1.26.3.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 988183,
+            "vulnerableSoftware": [
+              {
+                "name": "py",
+                "path": "home/dvga/.local/lib/python3.7/site-packages/py-1.11.0.dist-info/METADATA",
+                "installedVersion": "1.11.0",
+                "fixedVersion": "None",
+                "layerSHA": "sha256:9f7d25e34b3d968db6a67a453e5e1fae880834a5c3a9a881d378da8e59a1e6d5"
+              }
+            ]
+          },
+          "ruleId": "988183",
+          "ruleIndex": 39,
+          "level": "error",
+          "message": {
+            "text": "Python (pip) Security Update for py (GHSA-w596-4wvx-j9j6)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "home/dvga/.local/lib/python3.7/site-packages/py-1.11.0.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 990621,
+            "vulnerableSoftware": [
+              {
+                "name": "certifi",
+                "path": "home/dvga/.local/lib/python3.7/site-packages/certifi-2020.12.5.dist-info/METADATA",
+                "installedVersion": "2020.12.5",
+                "fixedVersion": "2022.12.07",
+                "layerSHA": "sha256:9f7d25e34b3d968db6a67a453e5e1fae880834a5c3a9a881d378da8e59a1e6d5"
+              }
+            ]
+          },
+          "ruleId": "990621",
+          "ruleIndex": 40,
+          "level": "error",
+          "message": {
+            "text": "Python (pip) Security Update for certifi (GHSA-43fp-rhv2-5gv8)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "home/dvga/.local/lib/python3.7/site-packages/certifi-2020.12.5.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 503683,
+            "vulnerableSoftware": [
+              {
+                "name": "libcurl",
+                "installedVersion": "7.83.1-r2",
+                "fixedVersion": "8.5.0-r0",
+                "layerSHA": "sha256:451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40"
+              },
+              {
+                "name": "curl",
+                "installedVersion": "7.83.1-r2",
+                "fixedVersion": "8.5.0-r0",
+                "layerSHA": "sha256:451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40"
+              }
+            ]
+          },
+          "ruleId": "503683",
+          "ruleIndex": 41,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for curl"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 995496,
+            "vulnerableSoftware": [
+              {
+                "name": "urllib3",
+                "path": "home/dvga/.local/lib/python3.7/site-packages/urllib3-1.26.3.dist-info/METADATA",
+                "installedVersion": "1.26.3",
+                "fixedVersion": "1.26.17",
+                "layerSHA": "sha256:9f7d25e34b3d968db6a67a453e5e1fae880834a5c3a9a881d378da8e59a1e6d5"
+              }
+            ]
+          },
+          "ruleId": "995496",
+          "ruleIndex": 42,
+          "level": "error",
+          "message": {
+            "text": "Python (Pip) Security Update for urllib3 (GHSA-v845-jxx5-vc9f)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "home/dvga/.local/lib/python3.7/site-packages/urllib3-1.26.3.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 993177,
+            "vulnerableSoftware": [
+              {
+                "name": "requests",
+                "path": "home/dvga/.local/lib/python3.7/site-packages/requests-2.25.1.dist-info/METADATA",
+                "installedVersion": "2.25.1",
+                "fixedVersion": "2.31.0",
+                "layerSHA": "sha256:9f7d25e34b3d968db6a67a453e5e1fae880834a5c3a9a881d378da8e59a1e6d5"
+              }
+            ]
+          },
+          "ruleId": "993177",
+          "ruleIndex": 43,
+          "level": "error",
+          "message": {
+            "text": "Python (Pip) Security Update for requests (GHSA-j8r2-6x86-q33q)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "home/dvga/.local/lib/python3.7/site-packages/requests-2.25.1.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 510856,
+            "vulnerableSoftware": [
+              {
+                "name": "busybox",
+                "installedVersion": "1.35.0-r13",
+                "fixedVersion": "1.35.0-r18",
+                "layerSHA": "sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d"
+              }
+            ]
+          },
+          "ruleId": "510856",
+          "ruleIndex": 44,
+          "level": "error",
+          "message": {
+            "text": "Alpine Linux Security Update for busybox"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 995614,
+            "vulnerableSoftware": [
+              {
+                "name": "urllib3",
+                "path": "home/dvga/.local/lib/python3.7/site-packages/urllib3-1.26.3.dist-info/METADATA",
+                "installedVersion": "1.26.3",
+                "fixedVersion": "1.26.18",
+                "layerSHA": "sha256:9f7d25e34b3d968db6a67a453e5e1fae880834a5c3a9a881d378da8e59a1e6d5"
+              }
+            ]
+          },
+          "ruleId": "995614",
+          "ruleIndex": 45,
+          "level": "error",
+          "message": {
+            "text": "Python (Pip) Security Update for urllib3 (GHSA-g4mx-q9vg-27p4)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "home/dvga/.local/lib/python3.7/site-packages/urllib3-1.26.3.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 995407,
+            "vulnerableSoftware": [
+              {
+                "name": "gevent",
+                "path": "home/dvga/.local/lib/python3.7/site-packages/gevent-21.12.0.dist-info/METADATA",
+                "installedVersion": "21.12.0",
+                "fixedVersion": "23.9.0",
+                "layerSHA": "sha256:9f7d25e34b3d968db6a67a453e5e1fae880834a5c3a9a881d378da8e59a1e6d5"
+              }
+            ]
+          },
+          "ruleId": "995407",
+          "ruleIndex": 46,
+          "level": "error",
+          "message": {
+            "text": "Python (Pip) Security Update for gevent (GHSA-x7m3-jprg-wc5g)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "home/dvga/.local/lib/python3.7/site-packages/gevent-21.12.0.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 995818,
+            "vulnerableSoftware": [
+              {
+                "name": "pip",
+                "path": "opt/dvga/venv/lib/python3.7/site-packages/pip-22.0.4.dist-info/METADATA",
+                "installedVersion": "22.0.4",
+                "fixedVersion": "23.3",
+                "layerSHA": "sha256:fbf68182cb69c8dbb38c6f653d3325c0a8fe4bc605915bd79447cf9271578ccb"
+              },
+              {
+                "name": "pip",
+                "path": "home/dvga/.local/lib/python3.7/site-packages/pip-22.1.2.dist-info/METADATA",
+                "installedVersion": "22.1.2",
+                "fixedVersion": "23.3",
+                "layerSHA": "sha256:3ced4a578537fc48c1be6799970ef0f1985bcb9b3670a4a6cce2ef5265cb471a"
+              }
+            ]
+          },
+          "ruleId": "995818",
+          "ruleIndex": 47,
+          "level": "error",
+          "message": {
+            "text": "Python (Pip) Security Update for pip (GHSA-mq26-g339-26xf)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "opt/dvga/venv/lib/python3.7/site-packages/pip-22.0.4.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "home/dvga/.local/lib/python3.7/site-packages/pip-22.1.2.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 999064,
+            "vulnerableSoftware": [
+              {
+                "name": "requests",
+                "path": "home/dvga/.local/lib/python3.7/site-packages/requests-2.25.1.dist-info/METADATA",
+                "installedVersion": "2.25.1",
+                "fixedVersion": "2.32.0",
+                "layerSHA": "sha256:9f7d25e34b3d968db6a67a453e5e1fae880834a5c3a9a881d378da8e59a1e6d5"
+              }
+            ]
+          },
+          "ruleId": "999064",
+          "ruleIndex": 48,
+          "level": "error",
+          "message": {
+            "text": "Python (Pip) Security Update for requests (GHSA-9wx4-h78v-vm56)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "home/dvga/.local/lib/python3.7/site-packages/requests-2.25.1.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 992198,
+            "vulnerableSoftware": [
+              {
+                "name": "Werkzeug",
+                "path": "home/dvga/.local/lib/python3.7/site-packages/Werkzeug-1.0.1.dist-info/METADATA",
+                "installedVersion": "1.0.1",
+                "fixedVersion": "2.2.3",
+                "layerSHA": "sha256:9f7d25e34b3d968db6a67a453e5e1fae880834a5c3a9a881d378da8e59a1e6d5"
+              }
+            ]
+          },
+          "ruleId": "992198",
+          "ruleIndex": 49,
+          "level": "warning",
+          "message": {
+            "text": "Python (Pip) Security Update for Werkzeug (GHSA-px8h-6qxv-m22q)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "home/dvga/.local/lib/python3.7/site-packages/Werkzeug-1.0.1.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 994352,
+            "vulnerableSoftware": [
+              {
+                "name": "certifi",
+                "path": "home/dvga/.local/lib/python3.7/site-packages/certifi-2020.12.5.dist-info/METADATA",
+                "installedVersion": "2020.12.5",
+                "fixedVersion": "2023.7.22",
+                "layerSHA": "sha256:9f7d25e34b3d968db6a67a453e5e1fae880834a5c3a9a881d378da8e59a1e6d5"
+              }
+            ]
+          },
+          "ruleId": "994352",
+          "ruleIndex": 50,
+          "level": "warning",
+          "message": {
+            "text": "Python (Pip) Security Update for certifi (GHSA-xqr8-7jwr-rhp7)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "home/dvga/.local/lib/python3.7/site-packages/certifi-2020.12.5.dist-info/METADATA"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "architecture": "amd64",
+        "imageID": "sha256:9640df3c67a03dba7a2c6423ae3d9c1dd82f95e2be511a078b87c73e9ec4132e",
+        "layerInfo": [
+          {
+            "LayerNum": 1,
+            "LayerContentHash": "24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d",
+            "Command": "ADD file:8e81116368669ed3dd361bc898d61bff249f524139a239fdaf3ec46869a39921 in / ",
+            "CreatedAt": 1653333570413
+          },
+          {
+            "LayerNum": 2,
+            "IsEmpty": true,
+            "Command": "CMD [\"/bin/sh\"]",
+            "CreatedAt": 1653333571970
+          },
+          {
+            "LayerNum": 3,
+            "IsEmpty": true,
+            "Command": "ENV PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "CreatedAt": 1653502787459
+          },
+          {
+            "LayerNum": 4,
+            "IsEmpty": true,
+            "Command": "ENV LANG=C.UTF-8",
+            "CreatedAt": 1653512276085
+          },
+          {
+            "LayerNum": 5,
+            "LayerContentHash": "09c126bb3acd5942cefeed535511b1ebfcff4015c3323dc96a72cac69165c436",
+            "Command": "RUN set -eux; \tapk add --no-cache \t\tca-certificates \t\ttzdata \t;",
+            "CreatedAt": 1653512277340
+          },
+          {
+            "LayerNum": 6,
+            "IsEmpty": true,
+            "Command": "ENV GPG_KEY=0D96DF4D4110E5C43FBFB17F2D347EA6AA65421D",
+            "CreatedAt": 1653514939904
+          },
+          {
+            "LayerNum": 7,
+            "IsEmpty": true,
+            "Command": "ENV PYTHON_VERSION=3.7.13",
+            "CreatedAt": 1653514940001
+          },
+          {
+            "LayerNum": 8,
+            "LayerContentHash": "a9a074cbd6ffb2834d2851b52fcbac8f45b8436a9beb5f20607d992e64cd3f6e",
+            "Command": "RUN set -eux; \t\tapk add --no-cache --virtual .build-deps \t\tgnupg \t\ttar \t\txz \t\t\t\tbluez-dev \t\tbzip2-dev \t\tdpkg-dev dpkg \t\texpat-dev \t\tfindutils \t\tgcc \t\tgdbm-dev \t\tlibc-dev \t\tlibffi-dev \t\tlibnsl-dev \t\tlibtirpc-dev \t\tlinux-headers \t\tmake \t\tncurses-dev \t\topenssl-dev \t\tpax-utils \t\treadline-dev \t\tsqlite-dev \t\ttcl-dev \t\ttk \t\ttk-dev \t\tutil-linux-dev \t\txz-dev \t\tzlib-dev \t; \t\twget -O python.tar.xz \"https://www.python.org/ftp/python/${PYTHON_VERSION%%[a-z]*}/Python-$PYTHON_VERSION.tar.xz\"; \twget -O python.tar.xz.asc \"https://www.python.org/ftp/python/${PYTHON_VERSION%%[a-z]*}/Python-$PYTHON_VERSION.tar.xz.asc\"; \tGNUPGHOME=\"$(mktemp -d)\"; export GNUPGHOME; \tgpg --batch --keyserver hkps://keys.openpgp.org --recv-keys \"$GPG_KEY\"; \tgpg --batch --verify python.tar.xz.asc python.tar.xz; \tcommand -v gpgconf \u003e /dev/null \u0026\u0026 gpgconf --kill all || :; \trm -rf \"$GNUPGHOME\" python.tar.xz.asc; \tmkdir -p /usr/src/python; \ttar --extract --directory /usr/src/python --strip-components=1 --file python.tar.xz; \trm python.tar.xz; \t\tcd /usr/src/python; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \t./configure \t\t--build=\"$gnuArch\" \t\t--enable-loadable-sqlite-extensions \t\t--enable-optimizations \t\t--enable-option-checking=fatal \t\t--enable-shared \t\t--with-system-expat \t\t--without-ensurepip \t; \tnproc=\"$(nproc)\"; \tmake -j \"$nproc\" \t\tEXTRA_CFLAGS=\"-DTHREAD_STACK_SIZE=0x100000\" \t\tLDFLAGS=\"-Wl,--strip-all\" \t\tPROFILE_TASK='-m test.regrtest --pgo \t\t\ttest_array \t\t\ttest_base64 \t\t\ttest_binascii \t\t\ttest_binhex \t\t\ttest_binop \t\t\ttest_bytes \t\t\ttest_c_locale_coercion \t\t\ttest_class \t\t\ttest_cmath \t\t\ttest_codecs \t\t\ttest_compile \t\t\ttest_complex \t\t\ttest_csv \t\t\ttest_decimal \t\t\ttest_dict \t\t\ttest_float \t\t\ttest_fstring \t\t\ttest_hashlib \t\t\ttest_io \t\t\ttest_iter \t\t\ttest_json \t\t\ttest_long \t\t\ttest_math \t\t\ttest_memoryview \t\t\ttest_pickle \t\t\ttest_re \t\t\ttest_set \t\t\ttest_slice \t\t\ttest_struct \t\t\ttest_threading \t\t\ttest_time \t\t\ttest_traceback \t\t\ttest_unicode \t\t' \t; \tmake install; \t\tcd /; \trm -rf /usr/src/python; \t\tfind /usr/local -depth \t\t\\( \t\t\t\\( -type d -a \\( -name test -o -name tests -o -name idle_test \\) \\) \t\t\t-o \\( -type f -a \\( -name '*.pyc' -o -name '*.pyo' -o -name 'libpython*.a' \\) \\) \t\t\t-o \\( -type f -a -name 'wininst-*.exe' \\) \t\t\\) -exec rm -rf '{}' + \t; \t\tfind /usr/local -type f -executable -not \\( -name '*tkinter*' \\) -exec scanelf --needed --nobanner --format '%n#p' '{}' ';' \t\t| tr ',' '\\n' \t\t| sort -u \t\t| awk 'system(\"[ -e /usr/local/lib/\" $1 \" ]\") == 0 { next } { print \"so:\" $1 }' \t\t| xargs -rt apk add --no-network --virtual .python-rundeps \t; \tapk del --no-network .build-deps; \t\tpython3 --version",
+            "CreatedAt": 1653515350138
+          },
+          {
+            "LayerNum": 9,
+            "LayerContentHash": "453359037770472d8f1caa96f33740e8a2072cf74815e703af19c2de7ed1fc33",
+            "Command": "RUN set -eux; \tfor src in idle3 pydoc3 python3 python3-config; do \t\tdst=\"$(echo \"$src\" | tr -d 3)\"; \t\t[ -s \"/usr/local/bin/$src\" ]; \t\t[ ! -e \"/usr/local/bin/$dst\" ]; \t\tln -svT \"$src\" \"/usr/local/bin/$dst\"; \tdone",
+            "CreatedAt": 1653515350787
+          },
+          {
+            "LayerNum": 10,
+            "IsEmpty": true,
+            "Command": "ENV PYTHON_PIP_VERSION=22.0.4",
+            "CreatedAt": 1653515350886
+          },
+          {
+            "LayerNum": 11,
+            "IsEmpty": true,
+            "Command": "ENV PYTHON_SETUPTOOLS_VERSION=57.5.0",
+            "CreatedAt": 1653515350983
+          },
+          {
+            "LayerNum": 12,
+            "IsEmpty": true,
+            "Command": "ENV PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/6ce3639da143c5d79b44f94b04080abf2531fd6e/public/get-pip.py",
+            "CreatedAt": 1654201131821
+          },
+          {
+            "LayerNum": 13,
+            "IsEmpty": true,
+            "Command": "ENV PYTHON_GET_PIP_SHA256=ba3ab8267d91fd41c58dbce08f76db99f747f716d85ce1865813842bb035524d",
+            "CreatedAt": 1654201131926
+          },
+          {
+            "LayerNum": 14,
+            "LayerContentHash": "fbf68182cb69c8dbb38c6f653d3325c0a8fe4bc605915bd79447cf9271578ccb",
+            "Command": "RUN set -eux; \t\twget -O get-pip.py \"$PYTHON_GET_PIP_URL\"; \techo \"$PYTHON_GET_PIP_SHA256 *get-pip.py\" | sha256sum -c -; \t\texport PYTHONDONTWRITEBYTECODE=1; \t\tpython get-pip.py \t\t--disable-pip-version-check \t\t--no-cache-dir \t\t--no-compile \t\t\"pip==$PYTHON_PIP_VERSION\" \t\t\"setuptools==$PYTHON_SETUPTOOLS_VERSION\" \t; \trm -f get-pip.py; \t\tpip --version",
+            "CreatedAt": 1654201138525
+          },
+          {
+            "LayerNum": 15,
+            "IsEmpty": true,
+            "Command": "CMD [\"python3\"]",
+            "CreatedAt": 1654201138660
+          },
+          {
+            "LayerNum": 16,
+            "IsEmpty": true,
+            "Command": "LABEL description=Damn Vulnerable GraphQL Application",
+            "CreatedAt": 1657201500635
+          },
+          {
+            "LayerNum": 17,
+            "IsEmpty": true,
+            "Command": "LABEL github=https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application",
+            "CreatedAt": 1657201500721
+          },
+          {
+            "LayerNum": 18,
+            "IsEmpty": true,
+            "Command": "LABEL maintainers=Dolev Farhi \u0026 Connor McKinnon \u0026 Nick Aleks",
+            "CreatedAt": 1657201500784
+          },
+          {
+            "LayerNum": 19,
+            "IsEmpty": true,
+            "Command": "ARG TARGET_FOLDER=/opt/dvga",
+            "CreatedAt": 1657201500848
+          },
+          {
+            "LayerNum": 20,
+            "LayerContentHash": "b068d42aca3a3706254c1048a4f003633eae89ead0d91debfa9f74cffdf6afd5",
+            "Command": "WORKDIR /opt/dvga/",
+            "CreatedAt": 1657201500918
+          },
+          {
+            "LayerNum": 21,
+            "LayerContentHash": "451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40",
+            "Command": "|1 TARGET_FOLDER=/opt/dvga /bin/sh -c apk add --update curl",
+            "CreatedAt": 1657201503404
+          },
+          {
+            "LayerNum": 22,
+            "LayerContentHash": "eb7271bee87a949a540f8b1688f2875d76229f36c385b512b23e446bca4e08d1",
+            "Command": "|1 TARGET_FOLDER=/opt/dvga /bin/sh -c adduser -D dvga",
+            "CreatedAt": 1657201503995
+          },
+          {
+            "LayerNum": 23,
+            "LayerContentHash": "ebe94cc38b2512c4d99f7bfb10159cc0c7e9198f0cc48a0cf17f178657bde98e",
+            "Command": "|1 TARGET_FOLDER=/opt/dvga /bin/sh -c chown dvga. $TARGET_FOLDER/",
+            "CreatedAt": 1657201504569
+          },
+          {
+            "LayerNum": 24,
+            "IsEmpty": true,
+            "Command": "USER dvga",
+            "CreatedAt": 1657201504633
+          },
+          {
+            "LayerNum": 25,
+            "LayerContentHash": "ad1f499dac892046b030fa31232847572a522e64888f46230cc27bb67364139f",
+            "Command": "|1 TARGET_FOLDER=/opt/dvga /bin/sh -c python -m venv venv",
+            "CreatedAt": 1657201510961
+          },
+          {
+            "LayerNum": 26,
+            "IsEmpty": true,
+            "Command": "|1 TARGET_FOLDER=/opt/dvga /bin/sh -c source venv/bin/activate",
+            "CreatedAt": 1657201511594
+          },
+          {
+            "LayerNum": 27,
+            "LayerContentHash": "3ced4a578537fc48c1be6799970ef0f1985bcb9b3670a4a6cce2ef5265cb471a",
+            "Command": "|1 TARGET_FOLDER=/opt/dvga /bin/sh -c pip3 install --upgrade pip --no-warn-script-location --disable-pip-version-check",
+            "CreatedAt": 1657201517194
+          },
+          {
+            "LayerNum": 28,
+            "LayerContentHash": "5be4c964a55fe8195b3cca0a173b10fc9d85a7248cbd60feb9c5da3ae398139b",
+            "Command": "ADD --chown=dvga:dvgadir:dbfea6c86a45e41383365f62d0aa838e91138440e45672c8764526dfce2f43e6 in /opt/dvga/core ",
+            "CreatedAt": 1657201517319
+          },
+          {
+            "LayerNum": 29,
+            "LayerContentHash": "6167bc2326d82e28c675792899dfa652de9a9f80c255c8af4654bb3163f9b30e",
+            "Command": "ADD --chown=dvga:dvgadir:ade4cad5a9108c0514235ab9fb4bc097a36570c8a105b36c316b052c0efe5c07 in /opt/dvga/db ",
+            "CreatedAt": 1657201517408
+          },
+          {
+            "LayerNum": 30,
+            "LayerContentHash": "848d3b261ad9bf2a3ff2d99135381d2a120c3cc4893de113187585371a9f809f",
+            "Command": "ADD --chown=dvga:dvgadir:30688c1ac40f34a1fbeb420a59943163519257f2b17f228720d307b5798ed8d0 in /opt/dvga/static ",
+            "CreatedAt": 1657201517556
+          },
+          {
+            "LayerNum": 31,
+            "LayerContentHash": "2b414f029c6b4c828980f6599ee763711589623b46004b5d548c7e8a15d91da8",
+            "Command": "ADD --chown=dvga:dvgadir:752653d40e2d8dae45bac4579c5c01354478c2c37332f9b07c8176939a24c7e6 in /opt/dvga/templates ",
+            "CreatedAt": 1657201517660
+          },
+          {
+            "LayerNum": 32,
+            "LayerContentHash": "bc7192da760a2961f652679911868d6b907d584304e405b2a68323d72a2a02e3",
+            "Command": "COPY --chown=dvga:dvgafile:717a5853c3044c080987bbe9d9e93259bd88f98b0d15123d8938a9003500c22e in /opt/dvga ",
+            "CreatedAt": 1657201517746
+          },
+          {
+            "LayerNum": 33,
+            "LayerContentHash": "ee405cc30617e25dc96bb78b558098df56ef7390d067b7125e3654942360a67d",
+            "Command": "COPY --chown=dvga:dvgafile:27b8cfb449da0bfab3b7ffa5836b649a3c23210ee70457373562fc6c81f99f36 in /opt/dvga ",
+            "CreatedAt": 1657201517833
+          },
+          {
+            "LayerNum": 34,
+            "LayerContentHash": "32ce0f7e6c0c58b5662068b2669412783cf57ca5bb8878d683ac9edf9721a672",
+            "Command": "COPY --chown=dvga:dvgafile:da2a04401341c6c19236cb409dd2d1dedba0f067e16b3a30318a4cce0836c342 in /opt/dvga/ ",
+            "CreatedAt": 1657201517925
+          },
+          {
+            "LayerNum": 35,
+            "LayerContentHash": "2a1dedb3e328cc9907b9de8f9ce6057038d6ff1a5ee75966f9dba2d39121f885",
+            "Command": "COPY --chown=dvga:dvgafile:d73921a81d1f43a4b1e9c59953f79898c78061c45e0f8dcb46a5dfb3be233eca in /opt/dvga/ ",
+            "CreatedAt": 1657205932110
+          },
+          {
+            "LayerNum": 36,
+            "LayerContentHash": "3392e433e3dfbcbd5cd0571d5b2a278be77b48e2e56be139c87866685bae0460",
+            "Command": "COPY --chown=dvga:dvgafile:1ff8ddec5b1c55f86fca0bd92146523ff30a8904f854cd4a8f972c4e0db28482 in /opt/dvga/ ",
+            "CreatedAt": 1657205932285
+          },
+          {
+            "LayerNum": 37,
+            "LayerContentHash": "9f7d25e34b3d968db6a67a453e5e1fae880834a5c3a9a881d378da8e59a1e6d5",
+            "Command": "|1 TARGET_FOLDER=/opt/dvga /bin/sh -c pip3 install -r requirements.txt --user --no-warn-script-location",
+            "CreatedAt": 1657205959590
+          },
+          {
+            "LayerNum": 38,
+            "LayerContentHash": "e9503003d60b3deb5a191420b297013946dbbfa4ad707d45210249c43134137b",
+            "Command": "|1 TARGET_FOLDER=/opt/dvga /bin/sh -c python setup.py",
+            "CreatedAt": 1657205961382
+          },
+          {
+            "LayerNum": 39,
+            "IsEmpty": true,
+            "Command": "EXPOSE 5013/tcp",
+            "CreatedAt": 1657205961452
+          },
+          {
+            "LayerNum": 40,
+            "IsEmpty": true,
+            "Command": "CMD [\"python\" \"app.py\"]",
+            "CreatedAt": 1657205961533
+          }
+        ],
+        "layers": [
+          "sha256:24302eb7d9085da80f016e7e4ae55417e412fb7e0a8021e95e3b60c67cde557d",
+          "sha256:09c126bb3acd5942cefeed535511b1ebfcff4015c3323dc96a72cac69165c436",
+          "sha256:a9a074cbd6ffb2834d2851b52fcbac8f45b8436a9beb5f20607d992e64cd3f6e",
+          "sha256:453359037770472d8f1caa96f33740e8a2072cf74815e703af19c2de7ed1fc33",
+          "sha256:fbf68182cb69c8dbb38c6f653d3325c0a8fe4bc605915bd79447cf9271578ccb",
+          "sha256:b068d42aca3a3706254c1048a4f003633eae89ead0d91debfa9f74cffdf6afd5",
+          "sha256:451fb05f2641f9cc2aca1d314cab7bec7f9c1bf6bbe24396ca878d59bb90bd40",
+          "sha256:eb7271bee87a949a540f8b1688f2875d76229f36c385b512b23e446bca4e08d1",
+          "sha256:ebe94cc38b2512c4d99f7bfb10159cc0c7e9198f0cc48a0cf17f178657bde98e",
+          "sha256:ad1f499dac892046b030fa31232847572a522e64888f46230cc27bb67364139f",
+          "sha256:3ced4a578537fc48c1be6799970ef0f1985bcb9b3670a4a6cce2ef5265cb471a",
+          "sha256:5be4c964a55fe8195b3cca0a173b10fc9d85a7248cbd60feb9c5da3ae398139b",
+          "sha256:6167bc2326d82e28c675792899dfa652de9a9f80c255c8af4654bb3163f9b30e",
+          "sha256:848d3b261ad9bf2a3ff2d99135381d2a120c3cc4893de113187585371a9f809f",
+          "sha256:2b414f029c6b4c828980f6599ee763711589623b46004b5d548c7e8a15d91da8",
+          "sha256:bc7192da760a2961f652679911868d6b907d584304e405b2a68323d72a2a02e3",
+          "sha256:ee405cc30617e25dc96bb78b558098df56ef7390d067b7125e3654942360a67d",
+          "sha256:32ce0f7e6c0c58b5662068b2669412783cf57ca5bb8878d683ac9edf9721a672",
+          "sha256:2a1dedb3e328cc9907b9de8f9ce6057038d6ff1a5ee75966f9dba2d39121f885",
+          "sha256:3392e433e3dfbcbd5cd0571d5b2a278be77b48e2e56be139c87866685bae0460",
+          "sha256:9f7d25e34b3d968db6a67a453e5e1fae880834a5c3a9a881d378da8e59a1e6d5",
+          "sha256:e9503003d60b3deb5a191420b297013946dbbfa4ad707d45210249c43134137b"
+        ],
+        "os": "Alpine Linux 3.16.0",
+        "repoTags": [
+          "dolevf/dvga:latest"
+        ],
+        "scansPerformed": [
+          "metadata",
+          "os",
+          "sca"
+        ]
+      }
+    }
+  ]
+}
