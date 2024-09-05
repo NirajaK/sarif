@@ -1895,7 +1895,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "os/package/manager"
+                  "uri": "/eol/os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
