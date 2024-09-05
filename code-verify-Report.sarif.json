@@ -1890,20 +1890,7 @@
           "level": "error",
           "message": {
             "text": "EOL/Obsolete Operating System: Debian 9.0 Detected"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 1
-                }
-              }
-            }
-          ]
+          }
         },
         {
           "properties": {
@@ -1933,7 +1920,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -1944,7 +1931,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -1976,7 +1963,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2008,7 +1995,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2040,7 +2027,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2078,7 +2065,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2089,7 +2076,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2121,7 +2108,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2165,7 +2152,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2176,7 +2163,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2187,7 +2174,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2258,7 +2245,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2269,7 +2256,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2301,7 +2288,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2333,7 +2320,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2365,7 +2352,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2397,7 +2384,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2429,7 +2416,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2461,7 +2448,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2499,7 +2486,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2510,7 +2497,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2548,7 +2535,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2559,7 +2546,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2597,7 +2584,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2608,7 +2595,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2658,7 +2645,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2669,7 +2656,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2680,7 +2667,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2691,7 +2678,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2729,7 +2716,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2740,7 +2727,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2778,7 +2765,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2789,7 +2776,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2821,7 +2808,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2871,7 +2858,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2882,7 +2869,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2893,7 +2880,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2904,7 +2891,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2936,7 +2923,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -2968,7 +2955,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3000,7 +2987,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3032,7 +3019,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3064,7 +3051,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3096,7 +3083,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3128,7 +3115,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3166,7 +3153,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3177,7 +3164,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3209,7 +3196,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3241,7 +3228,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3273,7 +3260,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3305,7 +3292,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3337,7 +3324,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3375,7 +3362,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3386,7 +3373,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3418,7 +3405,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3456,7 +3443,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3467,7 +3454,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3499,7 +3486,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3531,7 +3518,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3563,7 +3550,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3613,7 +3600,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3624,7 +3611,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3635,7 +3622,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3646,7 +3633,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3684,7 +3671,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3695,7 +3682,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3745,7 +3732,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3756,7 +3743,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3767,7 +3754,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3778,7 +3765,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3816,7 +3803,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3827,7 +3814,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3865,7 +3852,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3876,7 +3863,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3914,7 +3901,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3925,7 +3912,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3957,7 +3944,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -3989,7 +3976,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -4027,7 +4014,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -4038,7 +4025,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -4070,7 +4057,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -4102,7 +4089,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/os/package/manager"
+                  "uri": "os/package/manager"
                 },
                 "region": {
                   "startLine": 1,
@@ -4127,7 +4114,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377/policy/evaluation"
+                  "uri": "policy/evaluation"
                 },
                 "region": {
                   "startLine": 1,
