@@ -1890,7 +1890,20 @@
           "level": "error",
           "message": {
             "text": "EOL/Obsolete Operating System: Debian 9.0 Detected"
-          }
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os/package/manager"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
         },
         {
           "properties": {
