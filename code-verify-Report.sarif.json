@@ -183,7 +183,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "os/package/manager"
+                  "uri": "os"
                 },
                 "region": {
                   "startLine": 1,
@@ -254,7 +254,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "os/package/manager"
+                  "uri": "os"
                 },
                 "region": {
                   "startLine": 1,
@@ -265,7 +265,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "os/package/manager"
+                  "uri": "os"
                 },
                 "region": {
                   "startLine": 1,
@@ -290,7 +290,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "policy/evaluation"
+                  "uri": "policy-evaluation"
                 },
                 "region": {
                   "startLine": 1,
