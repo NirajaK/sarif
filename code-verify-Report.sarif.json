@@ -76,155 +76,1821 @@
               }
             },
             {
+              "id": "179044",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for expat (DLA 2904-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 5,
+                "cve-ids": [
+                  "CVE-2022-22822",
+                  "CVE-2022-23990",
+                  "CVE-2022-22826",
+                  "CVE-2022-22827",
+                  "CVE-2021-46143",
+                  "CVE-2022-22825",
+                  "CVE-2022-23852",
+                  "CVE-2022-22824",
+                  "CVE-2021-45960",
+                  "CVE-2022-22823"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.8",
+                  "temporalScore": "8.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "9.0",
+                  "temporalScore": "7.1",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 50,
+                "severity": 5,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "372268",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "GNU Bash Privilege Escalation Vulnerability for Debian"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 5,
+                "cve-ids": [
+                  "CVE-2019-18276"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.8",
+                  "temporalScore": "7.4"
+                },
+                "cvssInfo": {
+                  "baseScore": "7.2",
+                  "temporalScore": "6.4",
+                  "accessVector": "Local"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 50,
+                "severity": 5,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "179107",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for expat (DLA 2935-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 5,
+                "cve-ids": [
+                  "CVE-2022-25313",
+                  "CVE-2022-25236",
+                  "CVE-2022-25235",
+                  "CVE-2022-25315",
+                  "CVE-2022-23852"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.8",
+                  "temporalScore": "8.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "7.5",
+                  "temporalScore": "5.9",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 50,
+                "severity": 5,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "180179",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for systemd (DLA 3063-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2020-1712"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.8",
+                  "temporalScore": "6.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "4.6",
+                  "temporalScore": "3.4",
+                  "accessVector": "Local"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "179324",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for cups (DLA 3029-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2022-26691"
+                ],
+                "cvss3Info": {
+                  "baseScore": "6.7",
+                  "temporalScore": "5.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "7.2",
+                  "temporalScore": "5.3",
+                  "accessVector": "Local"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "179359",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for avahi (DLA 3047-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2021-3468",
+                  "CVE-2021-26720"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.8",
+                  "temporalScore": "6.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "4.6",
+                  "temporalScore": "3.4",
+                  "accessVector": "Local"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "996005",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Java (Maven) Security Update for org.apache.derby:derby (GHSA-rcjc-c4pj-xxrp)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2022-46337"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.8",
+                  "temporalScore": "8.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "179184",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for xz-utils (DLA 2977-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2022-1271"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.8",
+                  "temporalScore": "7.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178391",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update Multiple Vulnerabilities for perl"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2020-10543",
+                  "CVE-2020-10878",
+                  "CVE-2020-12723"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.6",
+                  "temporalScore": "7.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "7.5",
+                  "temporalScore": "5.5",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "179314",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for dpkg (DLA 3022-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2022-1664"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.8",
+                  "temporalScore": "8.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "7.5",
+                  "temporalScore": "5.5",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "179180",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for gzip (DLA 2976-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2022-1271"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.8",
+                  "temporalScore": "7.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178369",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for tzdata (DLA 2424-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 4,
+                "cve-ids": null,
+                "cvss3Info": {
+                  "baseScore": "5.3",
+                  "temporalScore": "4.6"
+                },
+                "cvssInfo": {
+                  "baseScore": "7.5",
+                  "temporalScore": "5.5",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "179169",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for zlib (DLA 2968-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2018-25032"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.0",
+                  "temporalScore": "3.9",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "179341",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for libjpeg-turbo (DLA 3037-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2019-2201"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.8",
+                  "temporalScore": "6.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "9.3",
+                  "temporalScore": "6.9",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178067",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for libx11 (DLA 2361-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2020-14363"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.8",
+                  "temporalScore": "7.0"
+                },
+                "cvssInfo": {
+                  "baseScore": "4.6",
+                  "temporalScore": "3.6",
+                  "accessVector": "Local"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "177363",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for Open Secure Sockets Layer (OpenSSL) (DSA 4539-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2019-1547",
+                  "CVE-2019-1549",
+                  "CVE-2019-1563"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.3",
+                  "temporalScore": "4.6"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.0",
+                  "temporalScore": "3.7",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178263",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for Open Secure Sockets Layer (OpenSSL) (DLA 2492-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2020-1971"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.9",
+                  "temporalScore": "5.2"
+                },
+                "cvssInfo": {
+                  "baseScore": "4.3",
+                  "temporalScore": "3.2",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "177983",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for e2fsprogs (DLA 2290-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2019-5188"
+                ],
+                "cvss3Info": {
+                  "baseScore": "6.7",
+                  "temporalScore": "6.0"
+                },
+                "cvssInfo": {
+                  "baseScore": "4.4",
+                  "temporalScore": "3.4",
+                  "accessVector": "Local"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178407",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for Open Secure Sockets Layer (OpenSSL) (DLA 2563-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2021-23840",
+                  "CVE-2021-23841"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.0",
+                  "temporalScore": "3.7",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "177008",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for Open Secure Sockets Layer (OpenSSL) (DSA 4475-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2019-1543"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.4",
+                  "temporalScore": "6.4"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.8",
+                  "temporalScore": "4.3",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178682",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for libgcrypt20 (DLA 2691-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2021-33560"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.0",
+                  "temporalScore": "3.9",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178852",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for krb5 (DLA 2771-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2018-5729",
+                  "CVE-2018-5730",
+                  "CVE-2021-37750",
+                  "CVE-2018-20217"
+                ],
+                "cvss3Info": {
+                  "baseScore": "6.5",
+                  "temporalScore": "5.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "6.5",
+                  "temporalScore": "4.8",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "179162",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for tzdata (DLA 2963-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": null,
+                "cvss3Info": {
+                  "baseScore": "8.6",
+                  "temporalScore": "7.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178414",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for libbsd (DLA 2566-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2019-20367"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.1",
+                  "temporalScore": "8.2"
+                },
+                "cvssInfo": {
+                  "baseScore": "6.4",
+                  "temporalScore": "5.0",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "177009",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for expat (DSA 4472-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2018-20843"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "7.8",
+                  "temporalScore": "6.1",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178395",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for tzdata (DLA 2542-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": null,
+                "cvss3Info": {
+                  "baseScore": "5.0",
+                  "temporalScore": "4.4"
+                },
+                "cvssInfo": {
+                  "baseScore": "6.0",
+                  "temporalScore": "4.4",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178319",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for p11-kit (DLA 2513-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2020-29361",
+                  "CVE-2020-29362"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.0",
+                  "temporalScore": "3.7",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178306",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for tzdata (DLA 2509-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": null,
+                "cvss3Info": {
+                  "baseScore": "7.8",
+                  "temporalScore": "6.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "7.2",
+                  "temporalScore": "5.3",
+                  "accessVector": "Local"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "177338",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for expat (DSA 4530-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2019-15903"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.0",
+                  "temporalScore": "3.9",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178001",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for libx11 (DLA 2312-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2020-14344"
+                ],
+                "cvss3Info": {
+                  "baseScore": "6.7",
+                  "temporalScore": "5.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "4.6",
+                  "temporalScore": "3.4",
+                  "accessVector": "Local"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "179383",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for tzdata (DLA 3051-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": null,
+                "cvss3Info": {
+                  "baseScore": "8.6",
+                  "temporalScore": "7.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "176984",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for dbus (DSA 4462-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2019-12749"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.1",
+                  "temporalScore": "6.2"
+                },
+                "cvssInfo": {
+                  "baseScore": "3.6",
+                  "temporalScore": "2.7",
+                  "accessVector": "Local"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178171",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for freetype (DLA 2415-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2020-15999"
+                ],
+                "cvss3Info": {
+                  "baseScore": "6.5",
+                  "temporalScore": "6.0"
+                },
+                "cvssInfo": {
+                  "baseScore": "4.3",
+                  "temporalScore": "3.6",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178590",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for lz4 (DLA 2657-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2021-3520"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.8",
+                  "temporalScore": "8.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "7.5",
+                  "temporalScore": "5.5",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178873",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for tzdata (DLA 2797-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": null,
+                "cvss3Info": {
+                  "baseScore": "4.2",
+                  "temporalScore": "3.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "177804",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for apt (DSA 4685-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2020-3810"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.5",
+                  "temporalScore": "5.0"
+                },
+                "cvssInfo": {
+                  "baseScore": "4.3",
+                  "temporalScore": "3.4",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178483",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for ca-certificates whitelist Symantec CA (DLA 2593-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": null,
+                "cvss3Info": {
+                  "baseScore": "6.5",
+                  "temporalScore": "5.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "7.5",
+                  "temporalScore": "5.5",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "179132",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for Open Secure Sockets Layer (OpenSSL) (DLA 2952-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2019-1551",
+                  "CVE-2022-0778"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.0",
+                  "temporalScore": "3.9",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178261",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for sqlite3 (DLA 2340-2)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2019-20218"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.0",
+                  "temporalScore": "3.7",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178803",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for gnutls28 (DLA 2759-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": null,
+                "cvss3Info": {
+                  "baseScore": "4.2",
+                  "temporalScore": "3.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "179127",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for debian-archive-keyring (DLA 2948-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": null,
+                "cvss3Info": {
+                  "baseScore": "8.6",
+                  "temporalScore": "7.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "7.2",
+                  "temporalScore": "5.3",
+                  "accessVector": "Local"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178189",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for krb5 (DLA 2437-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2020-28196"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.0",
+                  "temporalScore": "3.7",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178810",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for Open Secure Sockets Layer (OpenSSL) (DLA 2766-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2021-3712"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.4",
+                  "temporalScore": "6.4"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.8",
+                  "temporalScore": "4.3",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "177343",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for e2fsprogs (DSA 4535-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2019-5094"
+                ],
+                "cvss3Info": {
+                  "baseScore": "6.7",
+                  "temporalScore": "6.0"
+                },
+                "cvssInfo": {
+                  "baseScore": "4.6",
+                  "temporalScore": "3.6",
+                  "accessVector": "Local"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178606",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for libx11 (DLA 2666-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2021-31535"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.8",
+                  "temporalScore": "8.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "7.5",
+                  "temporalScore": "5.9",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178711",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for systemd (DLA 2715-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2021-33910"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.5",
+                  "temporalScore": "5.0"
+                },
+                "cvssInfo": {
+                  "baseScore": "4.9",
+                  "temporalScore": "3.8",
+                  "accessVector": "Local"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178806",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for nettle (DLA 2760-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2021-3580",
+                  "CVE-2021-20305"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.1",
+                  "temporalScore": "7.1"
+                },
+                "cvssInfo": {
+                  "baseScore": "6.8",
+                  "temporalScore": "5.0",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178038",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for sqlite3 (DLA 2340-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2018-8740",
+                  "CVE-2018-20346",
+                  "CVE-2018-20506",
+                  "CVE-2019-5827",
+                  "CVE-2019-9936",
+                  "CVE-2019-9937",
+                  "CVE-2019-16168",
+                  "CVE-2019-20218",
+                  "CVE-2020-11655",
+                  "CVE-2020-13434",
+                  "CVE-2020-13630",
+                  "CVE-2020-13632",
+                  "CVE-2020-13871"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.8",
+                  "temporalScore": "7.9"
+                },
+                "cvssInfo": {
+                  "baseScore": "6.8",
+                  "temporalScore": "5.3",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "177994",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for libjpeg-turbo (DLA 2302-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2018-1152",
+                  "CVE-2018-14498",
+                  "CVE-2020-13790",
+                  "CVE-2020-14152"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.1",
+                  "temporalScore": "7.3"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.8",
+                  "temporalScore": "4.5",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178285",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for apt (DLA 2487-1)"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 2,
+                "cve-ids": [
+                  "CVE-2020-27350"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.7",
+                  "temporalScore": "5.0"
+                },
+                "cvssInfo": {
+                  "baseScore": "4.6",
+                  "temporalScore": "3.4",
+                  "accessVector": "Local"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 20,
+                "severity": 2,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178877",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for cups (DLA 2800-1)"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 2,
+                "cve-ids": [
+                  "CVE-2020-10001"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.5",
+                  "temporalScore": "4.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "4.3",
+                  "temporalScore": "3.2",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 20,
+                "severity": 2,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "178916",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for tar (DLA 2830-1)"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 2,
+                "cve-ids": [
+                  "CVE-2018-20482"
+                ],
+                "cvss3Info": {
+                  "baseScore": "4.7",
+                  "temporalScore": "4.2"
+                },
+                "cvssInfo": {
+                  "baseScore": "1.9",
+                  "temporalScore": "1.4",
+                  "accessVector": "Local"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 20,
+                "severity": 2,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
               "id": "PolicyEvaluationResult",
               "name": "PolicyEvaluation",
               "shortDescription": {
-                "text": "Evaluated against the default policy: : [TestRego1] with ID: [7033e891-fb28-48aa-8bc7-6c16d546c6c5] and policy version: [1]"
+                "text": "No active policy is assigned with these tags: [] and there is also no active default policy available."
               },
               "defaultConfiguration": {
-                "level": "none"
-              }
-            },
-            {
-              "id": "ff34aaee-e4c2-11ed-b5ea-0242ac120002",
-              "name": "Secret",
-              "shortDescription": {
-                "text": "SSH public key DSA"
-              },
-              "defaultConfiguration": {
-                "level": "error"
-              }
-            },
-            {
-              "id": "ac882852-c960-11ed-afa1-0242ac120002",
-              "name": "Secret",
-              "shortDescription": {
-                "text": "Private Key"
-              },
-              "defaultConfiguration": {
-                "level": "error"
+                "level": "warning"
               }
             }
           ],
-          "version": ""
+          "version": "dev-0"
         }
       },
       "results": [
         {
           "properties": {
             "QID": 650061,
-            "vulnerableSoftware": [
-              {
-                "name": "libssl1.1",
-                "path": "/lib/libssl1.1",
-                "installedVersion": "1.1.0j-1~deb9u1",
-                "fixedVersion": "1.1.0l-1~deb9u6",
-                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
-              }
-            ]
+            "vulnerableSoftware": null
           },
           "ruleId": "650061",
           "ruleIndex": 0,
           "level": "error",
           "message": {
             "text": "EOL/Obsolete Operating System: Debian 9.0 Detected"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "/lib/libssl1.1"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "properties": {
-            "QID": 179286,
-            "vulnerableSoftware": [
-              {
-                "name": "libssl1.1",
-                "path": "/CVE-2022-1292/lib/libssl1.1",
-                "installedVersion": "1.1.0j-1~deb9u1",
-                "fixedVersion": "1.1.0l-1~deb9u6",
-                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
-              },
-              {
-                "name": "openssl",
-                "installedVersion": "1.1.0j-1~deb9u1",
-                "fixedVersion": "1.1.0l-1~deb9u6",
-                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
-              }
-            ]
-          },
-          "ruleId": "179286",
-          "ruleIndex": 1,
-          "level": "error",
-          "message": {
-            "text": "Debian Security Update for Open Secure Sockets Layer (OpenSSL) (DLA 3008-1)"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "/CVE-2022-1292/lib/libssl1.1"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 1
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "os"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 1
-                }
-              }
-            }
-          ]
-        },
-        {
-          "properties": {
-            "QID": 179286,
-            "vulnerableSoftware": [
-              {
-                "name": "libssl1.1",
-                "path": "/CVE-2022-1292/lib/libssl1.1",
-                "installedVersion": "1.1.0j-1~deb9u1",
-                "fixedVersion": "1.1.0l-1~deb9u6",
-                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
-              }
-            ]
-          },
-          "ruleId": "179286",
-          "ruleIndex": 1,
-          "level": "error",
-          "message": {
-            "text": "Debian Security Update for Open Secure Sockets Layer (OpenSSL) (DLA 3008-1)"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "/CVE-2022-1292/lib/libssl1.1"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 1
-                }
-              }
-            }
-          ]
+          }
         },
         {
           "properties": {
@@ -249,186 +1915,1182 @@
           "level": "error",
           "message": {
             "text": "Debian Security Update for Open Secure Sockets Layer (OpenSSL) (DLA 3008-1)"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "os"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 1
-                }
-              }
-            },
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "os"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 1
-                }
-              }
-            }
-          ]
+          }
         },
         {
           "properties": {
-            "action": "ALLOW",
-            "evaluatedAt": "2023-12-11 09:26:50"
+            "QID": 179044,
+            "vulnerableSoftware": [
+              {
+                "name": "libexpat1",
+                "installedVersion": "2.2.0-2+deb9u1",
+                "fixedVersion": "2.2.0-2+deb9u4",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
           },
-          "ruleId": "PolicyEvaluationResult",
+          "ruleId": "179044",
           "ruleIndex": 2,
-          "level": "none",
+          "level": "error",
           "message": {
-            "text": "Evaluated against the default policy: : [TestRego1] with ID: [7033e891-fb28-48aa-8bc7-6c16d546c6c5] and policy version: [1]"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "policy-evaluation"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 1
-                }
-              }
-            }
-          ]
+            "text": "Debian Security Update for expat (DLA 2904-1)"
+          }
         },
         {
           "properties": {
-            "category": "PublicKey",
-            "layerSHA": "sha256:2ef3351afa6d94a8874a6af5aa1bafcd85106616ced8ac63112022fb04232d03",
-            "title": "SSH public key DSA"
+            "QID": 372268,
+            "vulnerableSoftware": [
+              {
+                "name": "bash",
+                "installedVersion": "4.4-5",
+                "fixedVersion": "4.4-6",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
           },
-          "ruleId": "ff34aaee-e4c2-11ed-b5ea-0242ac120002",
+          "ruleId": "372268",
           "ruleIndex": 3,
           "level": "error",
           "message": {
-            "text": "   using the \"key::\" prefix mechanism (e.g. \"key::*******************"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "/usr/share/doc/git/RelNotes/2.35.0.txt"
-                },
-                "region": {
-                  "startLine": 62,
-                  "endLine": 62
-                }
-              }
-            }
-          ]
+            "text": "GNU Bash Privilege Escalation Vulnerability for Debian"
+          }
         },
         {
           "properties": {
-            "category": "AsymmetricPrivateKey",
-            "layerSHA": "sha256:fbc321379a11088c8b501eb89ac7e1f41d4b511b14c9914f2963683d92e78fd9",
-            "title": "Private Key"
+            "QID": 179107,
+            "vulnerableSoftware": [
+              {
+                "name": "libexpat1",
+                "installedVersion": "2.2.0-2+deb9u1",
+                "fixedVersion": "2.2.0-2+deb9u5",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
           },
-          "ruleId": "ac882852-c960-11ed-afa1-0242ac120002",
+          "ruleId": "179107",
           "ruleIndex": 4,
           "level": "error",
           "message": {
-            "text": "\tkeyPem := []byte(`-----BEGIN EC PRIVATE KEY-----************************************************************************************************************************************************************************"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "/usr/local/go/src/crypto/tls/example_test.go"
-                },
-                "region": {
-                  "startLine": 139,
-                  "endLine": 139
-                }
-              }
-            }
-          ]
+            "text": "Debian Security Update for expat (DLA 2935-1)"
+          }
         },
         {
           "properties": {
-            "category": "AsymmetricPrivateKey",
-            "layerSHA": "sha256:fbc321379a11088c8b501eb89ac7e1f41d4b511b14c9914f2963683d92e78fd9",
-            "title": "Private Key"
+            "QID": 180179,
+            "vulnerableSoftware": [
+              {
+                "name": "libsystemd0",
+                "installedVersion": "232-25+deb9u11",
+                "fixedVersion": "232-25+deb9u14",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              },
+              {
+                "name": "libudev1",
+                "installedVersion": "232-25+deb9u11",
+                "fixedVersion": "232-25+deb9u14",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
           },
-          "ruleId": "ac882852-c960-11ed-afa1-0242ac120002",
-          "ruleIndex": 4,
+          "ruleId": "180179",
+          "ruleIndex": 5,
           "level": "error",
           "message": {
-            "text": "\tkeyPem := []byte(`-----BEGIN EC PRIVATE KEY-----************************************************************************************************************************************************************************"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "/usr/local/go/src/crypto/tls/example_test.go"
-                },
-                "region": {
-                  "startLine": 164,
-                  "endLine": 164
-                }
-              }
-            }
-          ]
+            "text": "Debian Security Update for systemd (DLA 3063-1)"
+          }
         },
         {
           "properties": {
-            "category": "AsymmetricPrivateKey",
-            "layerSHA": "sha256:fbc321379a11088c8b501eb89ac7e1f41d4b511b14c9914f2963683d92e78fd9",
-            "title": "Private Key"
+            "QID": 179324,
+            "vulnerableSoftware": [
+              {
+                "name": "libcups2",
+                "installedVersion": "2.2.1-8+deb9u3",
+                "fixedVersion": "2.2.1-8+deb9u8",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
           },
-          "ruleId": "ac882852-c960-11ed-afa1-0242ac120002",
-          "ruleIndex": 4,
+          "ruleId": "179324",
+          "ruleIndex": 6,
           "level": "error",
           "message": {
-            "text": "-----BEGIN EC PRIVATE KEY-----************************************************************************************************************************************************************************"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "/usr/local/go/src/crypto/tls/testdata/example-key.pem"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 1
-                }
-              }
-            }
-          ]
+            "text": "Debian Security Update for cups (DLA 3029-1)"
+          }
         },
         {
           "properties": {
-            "category": "AsymmetricPrivateKey",
-            "layerSHA": "sha256:fbc321379a11088c8b501eb89ac7e1f41d4b511b14c9914f2963683d92e78fd9",
-            "title": "Private Key"
+            "QID": 179359,
+            "vulnerableSoftware": [
+              {
+                "name": "libavahi-client3",
+                "installedVersion": "0.6.32-2",
+                "fixedVersion": "0.6.32-2+deb9u1",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              },
+              {
+                "name": "libavahi-common3",
+                "installedVersion": "0.6.32-2",
+                "fixedVersion": "0.6.32-2+deb9u1",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              },
+              {
+                "name": "libavahi-common-data",
+                "installedVersion": "0.6.32-2",
+                "fixedVersion": "0.6.32-2+deb9u1",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
           },
-          "ruleId": "ac882852-c960-11ed-afa1-0242ac120002",
-          "ruleIndex": 4,
+          "ruleId": "179359",
+          "ruleIndex": 7,
           "level": "error",
           "message": {
-            "text": "-----BEGIN EC PRIVATE KEY-----************************************************************************************************************************************************************************"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "/usr/local/go/src/crypto/x509/platform_root_key.pem"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 1
-                }
+            "text": "Debian Security Update for avahi (DLA 3047-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 996005,
+            "vulnerableSoftware": [
+              {
+                "name": "org.apache.derby:derby",
+                "path": "derby/lib/derby.jar",
+                "installedVersion": "10.15.1.3",
+                "fixedVersion": "10.17.1.0",
+                "layerSHA": "sha256:a8b6f739a0c62f18090a4f75eb3ffc2ce565bb999cabc1e8420d7b366bc8d0c3"
               }
-            }
-          ]
+            ]
+          },
+          "ruleId": "996005",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Java (Maven) Security Update for org.apache.derby:derby (GHSA-rcjc-c4pj-xxrp)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 179184,
+            "vulnerableSoftware": [
+              {
+                "name": "xz-utils",
+                "installedVersion": "5.2.2-1.2+b1",
+                "fixedVersion": "5.2.2-1.2+deb9u1",
+                "layerSHA": "sha256:270b3f9af07ef8df7a16821f3e13938bd239a785be4c2e64015a3cfd30901d5e"
+              },
+              {
+                "name": "liblzma5",
+                "installedVersion": "5.2.2-1.2+b1",
+                "fixedVersion": "5.2.2-1.2+deb9u1",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
+          },
+          "ruleId": "179184",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for xz-utils (DLA 2977-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178391,
+            "vulnerableSoftware": [
+              {
+                "name": "perl-base",
+                "installedVersion": "5.24.1-3+deb9u5",
+                "fixedVersion": "5.24.1-3+deb9u7",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
+          },
+          "ruleId": "178391",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update Multiple Vulnerabilities for perl"
+          }
+        },
+        {
+          "properties": {
+            "QID": 179314,
+            "vulnerableSoftware": [
+              {
+                "name": "dpkg",
+                "installedVersion": "1.18.25",
+                "fixedVersion": "1.18.26",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
+          },
+          "ruleId": "179314",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for dpkg (DLA 3022-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 179180,
+            "vulnerableSoftware": [
+              {
+                "name": "gzip",
+                "installedVersion": "1.6-5+b1",
+                "fixedVersion": "1.6-5+deb9u1",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
+          },
+          "ruleId": "179180",
+          "ruleIndex": 12,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for gzip (DLA 2976-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178369,
+            "vulnerableSoftware": [
+              {
+                "name": "tzdata",
+                "installedVersion": "2019a-0+deb9u1",
+                "fixedVersion": "2020d-0+deb9u1",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
+          },
+          "ruleId": "178369",
+          "ruleIndex": 13,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for tzdata (DLA 2424-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 179169,
+            "vulnerableSoftware": [
+              {
+                "name": "zlib1g",
+                "installedVersion": "1.2.8.dfsg-5",
+                "fixedVersion": "1:1.2.8.dfsg-5+deb9u1",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
+          },
+          "ruleId": "179169",
+          "ruleIndex": 14,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for zlib (DLA 2968-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 179341,
+            "vulnerableSoftware": [
+              {
+                "name": "libjpeg62-turbo",
+                "installedVersion": "1.5.1-2",
+                "fixedVersion": "1:1.5.1-2+deb9u2",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "179341",
+          "ruleIndex": 15,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for libjpeg-turbo (DLA 3037-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178067,
+            "vulnerableSoftware": [
+              {
+                "name": "libx11-6",
+                "installedVersion": "1.6.4-3+deb9u1",
+                "fixedVersion": "2:1.6.4-3+deb9u3",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              },
+              {
+                "name": "libx11-data",
+                "installedVersion": "1.6.4-3+deb9u1",
+                "fixedVersion": "2:1.6.4-3+deb9u3",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "178067",
+          "ruleIndex": 16,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for libx11 (DLA 2361-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 177363,
+            "vulnerableSoftware": [
+              {
+                "name": "libssl1.1",
+                "installedVersion": "1.1.0j-1~deb9u1",
+                "fixedVersion": "1.1.0l-1~deb9u1",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              },
+              {
+                "name": "openssl",
+                "installedVersion": "1.1.0j-1~deb9u1",
+                "fixedVersion": "1.1.0l-1~deb9u1",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "177363",
+          "ruleIndex": 17,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for Open Secure Sockets Layer (OpenSSL) (DSA 4539-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178263,
+            "vulnerableSoftware": [
+              {
+                "name": "libssl1.1",
+                "installedVersion": "1.1.0j-1~deb9u1",
+                "fixedVersion": "1.1.0l-1~deb9u2",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              },
+              {
+                "name": "openssl",
+                "installedVersion": "1.1.0j-1~deb9u1",
+                "fixedVersion": "1.1.0l-1~deb9u2",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "178263",
+          "ruleIndex": 18,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for Open Secure Sockets Layer (OpenSSL) (DLA 2492-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 177983,
+            "vulnerableSoftware": [
+              {
+                "name": "e2fslibs",
+                "installedVersion": "1.43.4-2",
+                "fixedVersion": "1.43.4-2+deb9u2",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              },
+              {
+                "name": "libcomerr2",
+                "installedVersion": "1.43.4-2",
+                "fixedVersion": "1.43.4-2+deb9u2",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              },
+              {
+                "name": "e2fsprogs",
+                "installedVersion": "1.43.4-2",
+                "fixedVersion": "1.43.4-2+deb9u2",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              },
+              {
+                "name": "libss2",
+                "installedVersion": "1.43.4-2",
+                "fixedVersion": "1.43.4-2+deb9u2",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
+          },
+          "ruleId": "177983",
+          "ruleIndex": 19,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for e2fsprogs (DLA 2290-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178407,
+            "vulnerableSoftware": [
+              {
+                "name": "libssl1.1",
+                "installedVersion": "1.1.0j-1~deb9u1",
+                "fixedVersion": "1.1.0l-1~deb9u3",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              },
+              {
+                "name": "openssl",
+                "installedVersion": "1.1.0j-1~deb9u1",
+                "fixedVersion": "1.1.0l-1~deb9u3",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "178407",
+          "ruleIndex": 20,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for Open Secure Sockets Layer (OpenSSL) (DLA 2563-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 177008,
+            "vulnerableSoftware": [
+              {
+                "name": "libssl1.1",
+                "installedVersion": "1.1.0j-1~deb9u1",
+                "fixedVersion": "1.1.0k-1~deb9u1",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              },
+              {
+                "name": "openssl",
+                "installedVersion": "1.1.0j-1~deb9u1",
+                "fixedVersion": "1.1.0k-1~deb9u1",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "177008",
+          "ruleIndex": 21,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for Open Secure Sockets Layer (OpenSSL) (DSA 4475-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178682,
+            "vulnerableSoftware": [
+              {
+                "name": "libgcrypt20",
+                "installedVersion": "1.7.6-2+deb9u3",
+                "fixedVersion": "1.7.6-2+deb9u4",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
+          },
+          "ruleId": "178682",
+          "ruleIndex": 22,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for libgcrypt20 (DLA 2691-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178852,
+            "vulnerableSoftware": [
+              {
+                "name": "libk5crypto3",
+                "installedVersion": "1.15-1+deb9u1",
+                "fixedVersion": "1.15-1+deb9u3",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              },
+              {
+                "name": "libkrb5-3",
+                "installedVersion": "1.15-1+deb9u1",
+                "fixedVersion": "1.15-1+deb9u3",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              },
+              {
+                "name": "libkrb5support0",
+                "installedVersion": "1.15-1+deb9u1",
+                "fixedVersion": "1.15-1+deb9u3",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              },
+              {
+                "name": "libgssapi-krb5-2",
+                "installedVersion": "1.15-1+deb9u1",
+                "fixedVersion": "1.15-1+deb9u3",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "178852",
+          "ruleIndex": 23,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for krb5 (DLA 2771-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 179162,
+            "vulnerableSoftware": [
+              {
+                "name": "tzdata",
+                "installedVersion": "2019a-0+deb9u1",
+                "fixedVersion": "2021a-0+deb9u3",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
+          },
+          "ruleId": "179162",
+          "ruleIndex": 24,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for tzdata (DLA 2963-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178414,
+            "vulnerableSoftware": [
+              {
+                "name": "libbsd0",
+                "installedVersion": "0.8.3-1",
+                "fixedVersion": "0.8.3-1+deb9u1",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "178414",
+          "ruleIndex": 25,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for libbsd (DLA 2566-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 177009,
+            "vulnerableSoftware": [
+              {
+                "name": "libexpat1",
+                "installedVersion": "2.2.0-2+deb9u1",
+                "fixedVersion": "2.2.0-2+deb9u2",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "177009",
+          "ruleIndex": 26,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for expat (DSA 4472-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178395,
+            "vulnerableSoftware": [
+              {
+                "name": "tzdata",
+                "installedVersion": "2019a-0+deb9u1",
+                "fixedVersion": "2021a-0+deb9u1",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
+          },
+          "ruleId": "178395",
+          "ruleIndex": 27,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for tzdata (DLA 2542-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178319,
+            "vulnerableSoftware": [
+              {
+                "name": "libp11-kit0",
+                "installedVersion": "0.23.3-2",
+                "fixedVersion": "0.23.3-2+deb9u1",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "178319",
+          "ruleIndex": 28,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for p11-kit (DLA 2513-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178306,
+            "vulnerableSoftware": [
+              {
+                "name": "tzdata",
+                "installedVersion": "2019a-0+deb9u1",
+                "fixedVersion": "2020e-0+deb9u1",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
+          },
+          "ruleId": "178306",
+          "ruleIndex": 29,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for tzdata (DLA 2509-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 177338,
+            "vulnerableSoftware": [
+              {
+                "name": "libexpat1",
+                "installedVersion": "2.2.0-2+deb9u1",
+                "fixedVersion": "2.2.0-2+deb9u3",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "177338",
+          "ruleIndex": 30,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for expat (DSA 4530-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178001,
+            "vulnerableSoftware": [
+              {
+                "name": "libx11-6",
+                "installedVersion": "1.6.4-3+deb9u1",
+                "fixedVersion": "2:1.6.4-3+deb9u2",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              },
+              {
+                "name": "libx11-data",
+                "installedVersion": "1.6.4-3+deb9u1",
+                "fixedVersion": "2:1.6.4-3+deb9u2",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "178001",
+          "ruleIndex": 31,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for libx11 (DLA 2312-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 179383,
+            "vulnerableSoftware": [
+              {
+                "name": "tzdata",
+                "installedVersion": "2019a-0+deb9u1",
+                "fixedVersion": "2021a-0+deb9u4",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
+          },
+          "ruleId": "179383",
+          "ruleIndex": 32,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for tzdata (DLA 3051-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 176984,
+            "vulnerableSoftware": [
+              {
+                "name": "libdbus-1-3",
+                "installedVersion": "1.10.26-0+deb9u1",
+                "fixedVersion": "1.10.28-0+deb9u1",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "176984",
+          "ruleIndex": 33,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for dbus (DSA 4462-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178171,
+            "vulnerableSoftware": [
+              {
+                "name": "libfreetype6",
+                "installedVersion": "2.6.3-3.2",
+                "fixedVersion": "2.6.3-3.2+deb9u2",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "178171",
+          "ruleIndex": 34,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for freetype (DLA 2415-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178590,
+            "vulnerableSoftware": [
+              {
+                "name": "liblz4-1",
+                "installedVersion": "0.0~r131-2+b1",
+                "fixedVersion": "0.0~r131-2+deb9u1",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
+          },
+          "ruleId": "178590",
+          "ruleIndex": 35,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for lz4 (DLA 2657-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178873,
+            "vulnerableSoftware": [
+              {
+                "name": "tzdata",
+                "installedVersion": "2019a-0+deb9u1",
+                "fixedVersion": "2021a-0+deb9u2",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
+          },
+          "ruleId": "178873",
+          "ruleIndex": 36,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for tzdata (DLA 2797-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 177804,
+            "vulnerableSoftware": [
+              {
+                "name": "apt",
+                "installedVersion": "1.4.9",
+                "fixedVersion": "1.4.10",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              },
+              {
+                "name": "libapt-pkg5.0",
+                "installedVersion": "1.4.9",
+                "fixedVersion": "1.4.10",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
+          },
+          "ruleId": "177804",
+          "ruleIndex": 37,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for apt (DSA 4685-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178483,
+            "vulnerableSoftware": [
+              {
+                "name": "ca-certificates",
+                "installedVersion": "20161130+nmu1+deb9u1",
+                "fixedVersion": "20200601~deb9u2",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "178483",
+          "ruleIndex": 38,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for ca-certificates whitelist Symantec CA (DLA 2593-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 179132,
+            "vulnerableSoftware": [
+              {
+                "name": "libssl1.1",
+                "installedVersion": "1.1.0j-1~deb9u1",
+                "fixedVersion": "1.1.0l-1~deb9u5",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              },
+              {
+                "name": "openssl",
+                "installedVersion": "1.1.0j-1~deb9u1",
+                "fixedVersion": "1.1.0l-1~deb9u5",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "179132",
+          "ruleIndex": 39,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for Open Secure Sockets Layer (OpenSSL) (DLA 2952-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178261,
+            "vulnerableSoftware": [
+              {
+                "name": "libsqlite3-0",
+                "installedVersion": "3.16.2-5+deb9u1",
+                "fixedVersion": "3.16.2-5+deb9u3",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "178261",
+          "ruleIndex": 40,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for sqlite3 (DLA 2340-2)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178803,
+            "vulnerableSoftware": [
+              {
+                "name": "libgnutls30",
+                "installedVersion": "3.5.8-5+deb9u4",
+                "fixedVersion": "3.5.8-5+deb9u6",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "178803",
+          "ruleIndex": 41,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for gnutls28 (DLA 2759-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 179127,
+            "vulnerableSoftware": [
+              {
+                "name": "debian-archive-keyring",
+                "installedVersion": "2017.5",
+                "fixedVersion": "2017.5+deb9u2",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
+          },
+          "ruleId": "179127",
+          "ruleIndex": 42,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for debian-archive-keyring (DLA 2948-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178189,
+            "vulnerableSoftware": [
+              {
+                "name": "libk5crypto3",
+                "installedVersion": "1.15-1+deb9u1",
+                "fixedVersion": "1.15-1+deb9u2",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              },
+              {
+                "name": "libkrb5-3",
+                "installedVersion": "1.15-1+deb9u1",
+                "fixedVersion": "1.15-1+deb9u2",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              },
+              {
+                "name": "libkrb5support0",
+                "installedVersion": "1.15-1+deb9u1",
+                "fixedVersion": "1.15-1+deb9u2",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              },
+              {
+                "name": "libgssapi-krb5-2",
+                "installedVersion": "1.15-1+deb9u1",
+                "fixedVersion": "1.15-1+deb9u2",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "178189",
+          "ruleIndex": 43,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for krb5 (DLA 2437-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178810,
+            "vulnerableSoftware": [
+              {
+                "name": "libssl1.1",
+                "installedVersion": "1.1.0j-1~deb9u1",
+                "fixedVersion": "1.1.0l-1~deb9u4",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              },
+              {
+                "name": "openssl",
+                "installedVersion": "1.1.0j-1~deb9u1",
+                "fixedVersion": "1.1.0l-1~deb9u4",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "178810",
+          "ruleIndex": 44,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for Open Secure Sockets Layer (OpenSSL) (DLA 2766-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 177343,
+            "vulnerableSoftware": [
+              {
+                "name": "e2fslibs",
+                "installedVersion": "1.43.4-2",
+                "fixedVersion": "1.43.4-2+deb9u1",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              },
+              {
+                "name": "libcomerr2",
+                "installedVersion": "1.43.4-2",
+                "fixedVersion": "1.43.4-2+deb9u1",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              },
+              {
+                "name": "e2fsprogs",
+                "installedVersion": "1.43.4-2",
+                "fixedVersion": "1.43.4-2+deb9u1",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              },
+              {
+                "name": "libss2",
+                "installedVersion": "1.43.4-2",
+                "fixedVersion": "1.43.4-2+deb9u1",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
+          },
+          "ruleId": "177343",
+          "ruleIndex": 45,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for e2fsprogs (DSA 4535-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178606,
+            "vulnerableSoftware": [
+              {
+                "name": "libx11-6",
+                "installedVersion": "1.6.4-3+deb9u1",
+                "fixedVersion": "2:1.6.4-3+deb9u4",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              },
+              {
+                "name": "libx11-data",
+                "installedVersion": "1.6.4-3+deb9u1",
+                "fixedVersion": "2:1.6.4-3+deb9u4",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "178606",
+          "ruleIndex": 46,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for libx11 (DLA 2666-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178711,
+            "vulnerableSoftware": [
+              {
+                "name": "libsystemd0",
+                "installedVersion": "232-25+deb9u11",
+                "fixedVersion": "232-25+deb9u13",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              },
+              {
+                "name": "libudev1",
+                "installedVersion": "232-25+deb9u11",
+                "fixedVersion": "232-25+deb9u13",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
+          },
+          "ruleId": "178711",
+          "ruleIndex": 47,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for systemd (DLA 2715-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178806,
+            "vulnerableSoftware": [
+              {
+                "name": "libnettle6",
+                "installedVersion": "3.3-1+b2",
+                "fixedVersion": "3.3-1+deb9u1",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              },
+              {
+                "name": "libhogweed4",
+                "installedVersion": "3.3-1+b2",
+                "fixedVersion": "3.3-1+deb9u1",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "178806",
+          "ruleIndex": 48,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for nettle (DLA 2760-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178038,
+            "vulnerableSoftware": [
+              {
+                "name": "libsqlite3-0",
+                "installedVersion": "3.16.2-5+deb9u1",
+                "fixedVersion": "3.16.2-5+deb9u2",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "178038",
+          "ruleIndex": 49,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for sqlite3 (DLA 2340-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 177994,
+            "vulnerableSoftware": [
+              {
+                "name": "libjpeg62-turbo",
+                "installedVersion": "1.5.1-2",
+                "fixedVersion": "1:1.5.1-2+deb9u1",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "177994",
+          "ruleIndex": 50,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for libjpeg-turbo (DLA 2302-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178285,
+            "vulnerableSoftware": [
+              {
+                "name": "apt",
+                "installedVersion": "1.4.9",
+                "fixedVersion": "1.4.11",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              },
+              {
+                "name": "libapt-pkg5.0",
+                "installedVersion": "1.4.9",
+                "fixedVersion": "1.4.11",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
+          },
+          "ruleId": "178285",
+          "ruleIndex": 51,
+          "level": "warning",
+          "message": {
+            "text": "Debian Security Update for apt (DLA 2487-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178877,
+            "vulnerableSoftware": [
+              {
+                "name": "libcups2",
+                "installedVersion": "2.2.1-8+deb9u3",
+                "fixedVersion": "2.2.1-8+deb9u7",
+                "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
+              }
+            ]
+          },
+          "ruleId": "178877",
+          "ruleIndex": 52,
+          "level": "warning",
+          "message": {
+            "text": "Debian Security Update for cups (DLA 2800-1)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 178916,
+            "vulnerableSoftware": [
+              {
+                "name": "tar",
+                "installedVersion": "1.29b-1.1",
+                "fixedVersion": "1.29b-1.1+deb9u1",
+                "layerSHA": "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4"
+              }
+            ]
+          },
+          "ruleId": "178916",
+          "ruleIndex": 53,
+          "level": "warning",
+          "message": {
+            "text": "Debian Security Update for tar (DLA 2830-1)"
+          }
+        },
+        {
+          "properties": {
+            "action": "AUDIT",
+            "evaluatedAt": "2023-12-11 10:21:32"
+          },
+          "ruleId": "PolicyEvaluationResult",
+          "ruleIndex": 54,
+          "level": "warning",
+          "message": {
+            "text": "No active policy is assigned with these tags: [] and there is also no active default policy available."
+          }
         }
       ],
       "properties": {
@@ -569,8 +3231,7 @@
         "scansPerformed": [
           "metadata",
           "os",
-          "sca",
-          "secret"
+          "sca"
         ]
       }
     }
