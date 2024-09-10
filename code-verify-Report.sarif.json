@@ -5,8 +5,7 @@
       {
         "tool": {
           "driver": {
-            "name": "qscanner",
-            "version": ""
+            "name": "qscanner"
           }
         },
         "results": [
