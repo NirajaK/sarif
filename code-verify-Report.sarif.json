@@ -1,48 +1,559 @@
 {
-    "version": "2.1.0",
-    "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
-    "runs": [
-      {
-        "tool": {
-          "driver": {
-            "name": "qscanner"
-          }
-        },
-        "results": [
+  "version": "2.1.0",
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "fullName": "Qualys CLI Scanner",
+          "informationUri": "http://www.qualys.com",
+          "name": "qscanner",
+          "rules": [
             {
-                "properties": {
-                  "QID": 650061,
-                  "vulnerableSoftware": [
-                    {
-                      "name": "libssl1.1",
-                      "path": "/lib/libssl1.1",
-                      "installedVersion": "1.1.0j-1~deb9u1",
-                      "fixedVersion": "1.1.0l-1~deb9u6",
-                      "layerSHA": "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a"
-                    }
-                  ]
+              "id": "",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "EOL/Obsolete Operating System: Debian 9.0 Detected"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 5,
+                "cve-ids": null,
+                "cvss3Info": {
+                  "baseScore": "9.4",
+                  "temporalScore": "8.6"
                 },
-                "ruleId": "",
-                "ruleIndex": 0,
-                "level": "error",
-                "message": {
-                  "text": "EOL/Obsolete Operating System: Debian 9.0 Detected"
+                "cvssInfo": {
+                  "baseScore": "10.0",
+                  "temporalScore": "10.0",
+                  "accessVector": "Network"
                 },
-                "locations": [
-                  {
-                    "physicalLocation": {
-                      "artifactLocation": {
-                        "uri": "/lib/libssl1.1"
-                      },
-                      "region": {
-                        "startLine": 1,
-                        "endLine": 1
-                      }
-                    }
-                  }
-                ]
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 50,
+                "severity": 5,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
               }
+            },
+            {
+              "id": "179286",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for Open Secure Sockets Layer (OpenSSL) (DLA 3008-1)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 5,
+                "cve-ids": [
+                  "CVE-2022-1292"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.8",
+                  "temporalScore": "8.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "10.0",
+                  "temporalScore": "7.8",
+                  "accessVector": "Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 50,
+                "severity": 5,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
+              "id": "PolicyEvaluationResult",
+              "name": "PolicyEvaluation",
+              "shortDescription": {
+                "text": "Evaluated against the default policy: : [TestRego1] with ID: [7033e891-fb28-48aa-8bc7-6c16d546c6c5] and policy version: [1]"
+              },
+              "defaultConfiguration": {
+                "level": "none"
+              }
+            },
+            {
+              "id": "ff34aaee-e4c2-11ed-b5ea-0242ac120002",
+              "name": "Secret",
+              "shortDescription": {
+                "text": "SSH public key DSA"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "ac882852-c960-11ed-afa1-0242ac120002",
+              "name": "Secret",
+              "shortDescription": {
+                "text": "Private Key"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            }
+          ],
+          "version": ""
+        }
+      },
+      "results": [
+        {
+          "properties": {
+            "QID": 650061,
+            "vulnerableSoftware": [
+              {
+                "name": "libssl1.1",
+                "path": "/lib/libssl1.1",
+                "installedVersion": "1.1.0j-1~deb9u1",
+                "fixedVersion": "1.1.0l-1~deb9u6",
+                "layerSHA": "UNKNOWN"
+              }
+            ]
+          },
+          "ruleId": "",
+          "ruleIndex": 0,
+          "level": "",
+          "message": {
+            "text": "EOL/Obsolete Operating System: Debian 9.0 Detected"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/lib/libssl1.1"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 179286,
+            "vulnerableSoftware": [
+              {
+                "name": "libssl1.1",
+                "installedVersion": "1.1.0j-1~deb9u1",
+                "fixedVersion": "1.1.0l-1~deb9u6",
+                "layerSHA": "UNKNOWN"
+              },
+              {
+                "name": "openssl",
+                "installedVersion": "1.1.0j-1~deb9u1",
+                "fixedVersion": "1.1.0l-1~deb9u6",
+                "layerSHA": "UNKNOWN"
+              }
+            ]
+          },
+          "ruleId": "179286",
+          "ruleIndex": 1,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for Open Secure Sockets Layer (OpenSSL) (DLA 3008-1)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 179286,
+            "vulnerableSoftware": [
+              {
+                "name": "libssl1.1",
+                "installedVersion": "1.1.0j-1~deb9u1",
+                "fixedVersion": "1.1.0l-1~deb9u6",
+                "layerSHA": "UNKNOWN"
+              }
+            ]
+          },
+          "ruleId": "179286",
+          "ruleIndex": 1,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for Open Secure Sockets Layer (OpenSSL) (DLA 3008-1)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "QID": 179286,
+            "vulnerableSoftware": [
+              {
+                "name": "libssl1.1",
+                "installedVersion": "1.1.0j-1~deb9u1",
+                "fixedVersion": "1.1.0l-1~deb9u6",
+                "layerSHA": "UNKNOWN"
+              }
+            ]
+          },
+          "ruleId": "179286",
+          "ruleIndex": 1,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for Open Secure Sockets Layer (OpenSSL) (DLA 3008-1)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "action": "ALLOW",
+            "evaluatedAt": "2023-12-11 09:26:50"
+          },
+          "ruleId": "PolicyEvaluationResult",
+          "ruleIndex": 2,
+          "level": "none",
+          "message": {
+            "text": "Evaluated against the default policy: : [TestRego1] with ID: [7033e891-fb28-48aa-8bc7-6c16d546c6c5] and policy version: [1]"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "policy-evaluation"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "category": "PublicKey",
+            "layerSHA": "sha256:2ef3351afa6d94a8874a6af5aa1bafcd85106616ced8ac63112022fb04232d03",
+            "title": "SSH public key DSA"
+          },
+          "ruleId": "ff34aaee-e4c2-11ed-b5ea-0242ac120002",
+          "ruleIndex": 3,
+          "level": "error",
+          "message": {
+            "text": "   using the \"key::\" prefix mechanism (e.g. \"key::*******************"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/usr/share/doc/git/RelNotes/2.35.0.txt"
+                },
+                "region": {
+                  "startLine": 62,
+                  "endLine": 62
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "category": "AsymmetricPrivateKey",
+            "layerSHA": "sha256:fbc321379a11088c8b501eb89ac7e1f41d4b511b14c9914f2963683d92e78fd9",
+            "title": "Private Key"
+          },
+          "ruleId": "ac882852-c960-11ed-afa1-0242ac120002",
+          "ruleIndex": 4,
+          "level": "error",
+          "message": {
+            "text": "\tkeyPem := []byte(`-----BEGIN EC PRIVATE KEY-----************************************************************************************************************************************************************************"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/usr/local/go/src/crypto/tls/example_test.go"
+                },
+                "region": {
+                  "startLine": 139,
+                  "endLine": 139
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "category": "AsymmetricPrivateKey",
+            "layerSHA": "sha256:fbc321379a11088c8b501eb89ac7e1f41d4b511b14c9914f2963683d92e78fd9",
+            "title": "Private Key"
+          },
+          "ruleId": "ac882852-c960-11ed-afa1-0242ac120002",
+          "ruleIndex": 4,
+          "level": "error",
+          "message": {
+            "text": "\tkeyPem := []byte(`-----BEGIN EC PRIVATE KEY-----************************************************************************************************************************************************************************"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/usr/local/go/src/crypto/tls/example_test.go"
+                },
+                "region": {
+                  "startLine": 164,
+                  "endLine": 164
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "category": "AsymmetricPrivateKey",
+            "layerSHA": "sha256:fbc321379a11088c8b501eb89ac7e1f41d4b511b14c9914f2963683d92e78fd9",
+            "title": "Private Key"
+          },
+          "ruleId": "ac882852-c960-11ed-afa1-0242ac120002",
+          "ruleIndex": 4,
+          "level": "error",
+          "message": {
+            "text": "-----BEGIN EC PRIVATE KEY-----************************************************************************************************************************************************************************"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/usr/local/go/src/crypto/tls/testdata/example-key.pem"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "category": "AsymmetricPrivateKey",
+            "layerSHA": "sha256:fbc321379a11088c8b501eb89ac7e1f41d4b511b14c9914f2963683d92e78fd9",
+            "title": "Private Key"
+          },
+          "ruleId": "ac882852-c960-11ed-afa1-0242ac120002",
+          "ruleIndex": 4,
+          "level": "error",
+          "message": {
+            "text": "-----BEGIN EC PRIVATE KEY-----************************************************************************************************************************************************************************"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/usr/local/go/src/crypto/x509/platform_root_key.pem"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "architecture": "amd64",
+        "imageID": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377",
+        "layerInfo": [
+          {
+            "LayerNum": 1,
+            "LayerContentHash": "6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4",
+            "Command": "/bin/sh -c #(nop) ADD file:fcb9328ea4c1156709f3d04c3d9a5f3667e77fb36a4a83390ae2495555fc0238 in / "
+          },
+          {
+            "LayerNum": 2,
+            "IsEmpty": true,
+            "Command": "/bin/sh -c #(nop)  CMD [\"bash\"]"
+          },
+          {
+            "LayerNum": 3,
+            "LayerContentHash": "270b3f9af07ef8df7a16821f3e13938bd239a785be4c2e64015a3cfd30901d5e",
+            "Command": "/bin/sh -c apt-get update \u0026\u0026 apt-get install -y --no-install-recommends \t\tbzip2 \t\tunzip \t\txz-utils \t\u0026\u0026 rm -rf /var/lib/apt/lists/*"
+          },
+          {
+            "LayerNum": 4,
+            "LayerContentHash": "f5d98c1f94702e7f54e22a74216bd081508e9ef64817499cb2e71c3eea340b48",
+            "Command": "/bin/sh -c echo 'deb http://deb.debian.org/debian stretch-backports main' \u003e /etc/apt/sources.list.d/stretch-backports.list"
+          },
+          {
+            "LayerNum": 5,
+            "IsEmpty": true,
+            "Command": "/bin/sh -c #(nop)  ENV LANG=C.UTF-8"
+          },
+          {
+            "LayerNum": 6,
+            "LayerContentHash": "b61c7ac22d6e86b1a4dcbb81c10a3d5bc7332f4a9341eb564b1e1a6f80a9aa15",
+            "Command": "/bin/sh -c { \t\techo '#!/bin/sh'; \t\techo 'set -e'; \t\techo; \t\techo 'dirname \"$(dirname \"$(readlink -f \"$(which javac || which java)\")\")\"'; \t} \u003e /usr/local/bin/docker-java-home \t\u0026\u0026 chmod +x /usr/local/bin/docker-java-home"
+          },
+          {
+            "LayerNum": 7,
+            "LayerContentHash": "1654ace8426ec9456738f977f8150ad38be65fa8647d881da2ce0c1c84588547",
+            "Command": "/bin/sh -c ln -svT \"/usr/lib/jvm/java-11-openjdk-$(dpkg --print-architecture)\" /docker-java-home"
+          },
+          {
+            "LayerNum": 8,
+            "IsEmpty": true,
+            "Command": "/bin/sh -c #(nop)  ENV JAVA_HOME=/docker-java-home"
+          },
+          {
+            "LayerNum": 9,
+            "IsEmpty": true,
+            "Command": "/bin/sh -c #(nop)  ENV JAVA_VERSION=11.0.3"
+          },
+          {
+            "LayerNum": 10,
+            "IsEmpty": true,
+            "Command": "/bin/sh -c #(nop)  ENV JAVA_DEBIAN_VERSION=11.0.3+1-1~bpo9+1"
+          },
+          {
+            "LayerNum": 11,
+            "LayerContentHash": "5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a",
+            "Command": "/bin/sh -c set -ex; \t\tif [ ! -d /usr/share/man/man1 ]; then \t\tmkdir -p /usr/share/man/man1; \tfi; \t\tln -svT /docker-java-home/bin/java /usr/local/bin/java; \t\tapt-get update; \tapt-get install -y --no-install-recommends \t\topenjdk-11-jre-headless=\"$JAVA_DEBIAN_VERSION\" \t; \trm -rf /var/lib/apt/lists/*; \t\trm -v /usr/local/bin/java; \t\tkeytool -importkeystore -srckeystore /etc/ssl/certs/java/cacerts -destkeystore /etc/ssl/certs/java/cacerts.jks -deststoretype JKS -srcstorepass changeit -deststorepass changeit -noprompt; \tmv /etc/ssl/certs/java/cacerts.jks /etc/ssl/certs/java/cacerts; \t/var/lib/dpkg/info/ca-certificates-java.postinst configure; \t\t[ \"$(readlink -f \"$JAVA_HOME\")\" = \"$(docker-java-home)\" ]; \t\tupdate-alternatives --get-selections | awk -v home=\"$(readlink -f \"$JAVA_HOME\")\" 'index($3, home) == 1 { $2 = \"manual\"; print | \"update-alternatives --set-selections\" }'; \tupdate-alternatives --query java | grep -q 'Status: manual'"
+          },
+          {
+            "LayerNum": 12,
+            "IsEmpty": true,
+            "Command": "/bin/sh -c #(nop)  MAINTAINER Andreas Zitzelsberger \"az@az82.de\""
+          },
+          {
+            "LayerNum": 13,
+            "IsEmpty": true,
+            "Command": "/bin/sh -c #(nop)  ENV DERBY_VERSION=10.15.1.3"
+          },
+          {
+            "LayerNum": 14,
+            "IsEmpty": true,
+            "Command": "/bin/sh -c #(nop)  ENV DERBY_HOME=/derby"
+          },
+          {
+            "LayerNum": 15,
+            "IsEmpty": true,
+            "Command": "/bin/sh -c #(nop)  ENV DERBY_LIB=/derby/lib"
+          },
+          {
+            "LayerNum": 16,
+            "IsEmpty": true,
+            "Command": "/bin/sh -c #(nop)  ENV DERBY_SCHEMA=app"
+          },
+          {
+            "LayerNum": 17,
+            "IsEmpty": true,
+            "Command": "/bin/sh -c #(nop)  ENV CLASSPATH=/derby/lib/derby.jar:/derby/lib/derbynet.jar:/derby/lib/derbytools.jar:/derby/lib/derbyoptionaltools.jar:/derby/lib/derbyclient.jar"
+          },
+          {
+            "LayerNum": 18,
+            "LayerContentHash": "c4993dbce8638355d268485fe8c7ec13b68582e8d179c7aaaa11cf7ae4349baf",
+            "Command": "/bin/sh -c #(nop) ADD file:c6310435a45520ecce160ee885baf230da0237b21deb05e034577a0b19c4f612 in /init.sh "
+          },
+          {
+            "LayerNum": 19,
+            "LayerContentHash": "a8b6f739a0c62f18090a4f75eb3ffc2ce565bb999cabc1e8420d7b366bc8d0c3",
+            "Command": "/bin/sh -c apt-get update \u0026\u0026 apt-get install -y wget netcat \u0026\u0026     wget https://dist.apache.org/repos/dist/release/db/derby/db-derby-${DERBY_VERSION}/db-derby-${DERBY_VERSION}-bin.tar.gz \u0026\u0026     tar xzf /db-derby-${DERBY_VERSION}-bin.tar.gz \u0026\u0026     mv /db-derby-${DERBY_VERSION}-bin /derby \u0026\u0026     rm -Rf /*.tar.gz ${DERBY_HOME}/demo ${DERBY_HOME}/javadoc ${DERBY_HOME}/docs ${DERBY_HOME}/test ${DERBY_HOME}/*.html ${DERBY_HOME}/KEYS     apt-get purge wget \u0026\u0026     chmod +x /init.sh \u0026\u0026     rm -rf /var/lib/apt/lists/*"
+          },
+          {
+            "LayerNum": 20,
+            "LayerContentHash": "8c112ef66fb59fa36e2e7d3ae0b397d47125b1bfaa9b657e2a11ed0226aa291e",
+            "Command": "/bin/sh -c #(nop) WORKDIR /dbs"
+          },
+          {
+            "LayerNum": 21,
+            "IsEmpty": true,
+            "Command": "/bin/sh -c #(nop)  EXPOSE 1527"
+          },
+          {
+            "LayerNum": 22,
+            "IsEmpty": true,
+            "Command": "/bin/sh -c #(nop)  HEALTHCHECK \u0026{[\"CMD-SHELL\" \"nc -z localhost 1527 ||\\u00a0exit 1\"] \"0s\" \"0s\" \"0s\" '\\x00'}"
+          },
+          {
+            "LayerNum": 23,
+            "IsEmpty": true,
+            "Command": "/bin/sh -c #(nop)  CMD [\"sh\" \"-c\" \"/init.sh\"]"
+          }
+        ],
+        "layers": [
+          "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4",
+          "sha256:270b3f9af07ef8df7a16821f3e13938bd239a785be4c2e64015a3cfd30901d5e",
+          "sha256:f5d98c1f94702e7f54e22a74216bd081508e9ef64817499cb2e71c3eea340b48",
+          "sha256:b61c7ac22d6e86b1a4dcbb81c10a3d5bc7332f4a9341eb564b1e1a6f80a9aa15",
+          "sha256:1654ace8426ec9456738f977f8150ad38be65fa8647d881da2ce0c1c84588547",
+          "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a",
+          "sha256:c4993dbce8638355d268485fe8c7ec13b68582e8d179c7aaaa11cf7ae4349baf",
+          "sha256:a8b6f739a0c62f18090a4f75eb3ffc2ce565bb999cabc1e8420d7b366bc8d0c3",
+          "sha256:8c112ef66fb59fa36e2e7d3ae0b397d47125b1bfaa9b657e2a11ed0226aa291e"
+        ],
+        "os": "Debian Linux 9.9",
+        "repoTags": [
+          "adito/derby:latest"
+        ],
+        "scansPerformed": [
+          "metadata",
+          "os",
+          "sca",
+          "secret"
         ]
       }
-    ]
-  }
+    }
+  ]
+}
