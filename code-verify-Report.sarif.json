@@ -10,6 +10,40 @@
           "name": "qscanner",
           "rules": [
             {
+              "id": "184903",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Debian Security Update for zliblibz-mingw-w64 (CVE-2022-37434)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "",
+                "customerSeverity": 5,
+                "cve-ids": [
+                  "CVE-2022-37434"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.8",
+                  "temporalScore": "8.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "NOT AVAILABLE",
+                "lastFound": "NOT AVAILABLE",
+                "publishedDate": "NOT AVAILABLE",
+                "risk": 50,
+                "severity": 5,
+                "threatIntel": {},
+                "type": "",
+                "vulnerabilityAge": "NOT AVAILABLE"
+              }
+            },
+            {
               "id": "PolicyEvaluationResult",
               "name": "PolicyEvaluation",
               "shortDescription": {
@@ -17,6 +51,26 @@
               },
               "defaultConfiguration": {
                 "level": "warning"
+              }
+            },
+            {
+              "id": "ff34aaee-e4c2-11ed-b5ea-0242ac120002",
+              "name": "Secret",
+              "shortDescription": {
+                "text": "SSH public key DSA"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              }
+            },
+            {
+              "id": "ac882852-c960-11ed-afa1-0242ac120002",
+              "name": "Secret",
+              "shortDescription": {
+                "text": "Private Key"
+              },
+              "defaultConfiguration": {
+                "level": "error"
               }
             }
           ],
@@ -26,11 +80,43 @@
       "results": [
         {
           "properties": {
+            "QID": 184903,
+            "vulnerableSoftware": [
+              {
+                "name": "zlib1g",
+                "installedVersion": "1.2.13.dfsg-1",
+                "fixedVersion": "1:1.2.11.dfsg-4.1",
+                "layerSHA": "sha256:2fa37f2ee66efbd308b9b91bce81c262f5e6ab6c3bf8056632afc60cc602785c"
+              }
+            ]
+          },
+          "ruleId": "184903",
+          "ruleIndex": 0,
+          "level": "error",
+          "message": {
+            "text": "Debian Security Update for zliblibz-mingw-w64 (CVE-2022-37434)"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "os"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
             "action": "AUDIT",
-            "evaluatedAt": "2023-12-11 10:21:32"
+            "evaluatedAt": "2023-12-11 09:35:50"
           },
           "ruleId": "PolicyEvaluationResult",
-          "ruleIndex": 0,
+          "ruleIndex": 1,
           "level": "warning",
           "message": {
             "text": "No active policy is assigned with these tags: [] and there is also no active default policy available."
@@ -48,16 +134,146 @@
               }
             }
           ]
+        },
+        {
+          "properties": {
+            "category": "PublicKey",
+            "layerSHA": "sha256:2ef3351afa6d94a8874a6af5aa1bafcd85106616ced8ac63112022fb04232d03",
+            "title": "SSH public key DSA"
+          },
+          "ruleId": "ff34aaee-e4c2-11ed-b5ea-0242ac120002",
+          "ruleIndex": 2,
+          "level": "error",
+          "message": {
+            "text": "   using the \"key::\" prefix mechanism (e.g. \"key::*******************"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/usr/share/doc/git/RelNotes/2.35.0.txt"
+                },
+                "region": {
+                  "startLine": 62,
+                  "endLine": 62
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "category": "AsymmetricPrivateKey",
+            "layerSHA": "sha256:fbc321379a11088c8b501eb89ac7e1f41d4b511b14c9914f2963683d92e78fd9",
+            "title": "Private Key"
+          },
+          "ruleId": "ac882852-c960-11ed-afa1-0242ac120002",
+          "ruleIndex": 3,
+          "level": "error",
+          "message": {
+            "text": "\tkeyPem := []byte(`-----BEGIN EC PRIVATE KEY-----************************************************************************************************************************************************************************"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/usr/local/go/src/crypto/tls/example_test.go"
+                },
+                "region": {
+                  "startLine": 139,
+                  "endLine": 139
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "category": "AsymmetricPrivateKey",
+            "layerSHA": "sha256:fbc321379a11088c8b501eb89ac7e1f41d4b511b14c9914f2963683d92e78fd9",
+            "title": "Private Key"
+          },
+          "ruleId": "ac882852-c960-11ed-afa1-0242ac120002",
+          "ruleIndex": 3,
+          "level": "error",
+          "message": {
+            "text": "\tkeyPem := []byte(`-----BEGIN EC PRIVATE KEY-----************************************************************************************************************************************************************************"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/usr/local/go/src/crypto/tls/example_test.go"
+                },
+                "region": {
+                  "startLine": 164,
+                  "endLine": 164
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "category": "AsymmetricPrivateKey",
+            "layerSHA": "sha256:fbc321379a11088c8b501eb89ac7e1f41d4b511b14c9914f2963683d92e78fd9",
+            "title": "Private Key"
+          },
+          "ruleId": "ac882852-c960-11ed-afa1-0242ac120002",
+          "ruleIndex": 3,
+          "level": "error",
+          "message": {
+            "text": "-----BEGIN EC PRIVATE KEY-----************************************************************************************************************************************************************************"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/usr/local/go/src/crypto/tls/testdata/example-key.pem"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "properties": {
+            "category": "AsymmetricPrivateKey",
+            "layerSHA": "sha256:fbc321379a11088c8b501eb89ac7e1f41d4b511b14c9914f2963683d92e78fd9",
+            "title": "Private Key"
+          },
+          "ruleId": "ac882852-c960-11ed-afa1-0242ac120002",
+          "ruleIndex": 3,
+          "level": "error",
+          "message": {
+            "text": "-----BEGIN EC PRIVATE KEY-----************************************************************************************************************************************************************************"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/usr/local/go/src/crypto/x509/platform_root_key.pem"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1
+                }
+              }
+            }
+          ]
         }
       ],
       "properties": {
         "architecture": "amd64",
-        "imageID": "sha256:3d93d86a968bfc5d2268e06eb6c1db4ae47dec098bd6b98e6ce61525857f9377",
+        "imageID": "sha256:015e6b7f599b15be5eecad68608583d19d9fa2c8cc27cb6d254204e080dae199",
         "layerInfo": [
           {
             "LayerNum": 1,
-            "LayerContentHash": "6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4",
-            "Command": "/bin/sh -c #(nop) ADD file:fcb9328ea4c1156709f3d04c3d9a5f3667e77fb36a4a83390ae2495555fc0238 in / "
+            "LayerContentHash": "2fa37f2ee66efbd308b9b91bce81c262f5e6ab6c3bf8056632afc60cc602785c",
+            "Command": "/bin/sh -c #(nop) ADD file:1e4dd5dab602337b5d5ef8d84b8dbe8b1ac62225f077b29b27d045842486d8e2 in / "
           },
           {
             "LayerNum": 2,
@@ -66,129 +282,77 @@
           },
           {
             "LayerNum": 3,
-            "LayerContentHash": "270b3f9af07ef8df7a16821f3e13938bd239a785be4c2e64015a3cfd30901d5e",
-            "Command": "/bin/sh -c apt-get update \u0026\u0026 apt-get install -y --no-install-recommends \t\tbzip2 \t\tunzip \t\txz-utils \t\u0026\u0026 rm -rf /var/lib/apt/lists/*"
+            "LayerContentHash": "5cc3a4df1251c008ebfaaf8c48fe7bd61f0b0fdd7273966bd4bbe58877337e06",
+            "Command": "/bin/sh -c set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tca-certificates \t\tcurl \t\tgnupg \t\tnetbase \t\tsq \t\twget \t; \trm -rf /var/lib/apt/lists/*"
           },
           {
             "LayerNum": 4,
-            "LayerContentHash": "f5d98c1f94702e7f54e22a74216bd081508e9ef64817499cb2e71c3eea340b48",
-            "Command": "/bin/sh -c echo 'deb http://deb.debian.org/debian stretch-backports main' \u003e /etc/apt/sources.list.d/stretch-backports.list"
+            "LayerContentHash": "2ef3351afa6d94a8874a6af5aa1bafcd85106616ced8ac63112022fb04232d03",
+            "Command": "/bin/sh -c apt-get update \u0026\u0026 apt-get install -y --no-install-recommends \t\tgit \t\tmercurial \t\topenssh-client \t\tsubversion \t\t\t\tprocps \t\u0026\u0026 rm -rf /var/lib/apt/lists/*"
           },
           {
             "LayerNum": 5,
-            "IsEmpty": true,
-            "Command": "/bin/sh -c #(nop)  ENV LANG=C.UTF-8"
+            "LayerContentHash": "e51777ae0bce0a05c4c294fc7c3fb6ac29fd215b900bd46bb9bb7302708bffeb",
+            "Command": "/bin/sh -c set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tg++ \t\tgcc \t\tlibc6-dev \t\tmake \t\tpkg-config \t; \trm -rf /var/lib/apt/lists/*"
           },
           {
             "LayerNum": 6,
-            "LayerContentHash": "b61c7ac22d6e86b1a4dcbb81c10a3d5bc7332f4a9341eb564b1e1a6f80a9aa15",
-            "Command": "/bin/sh -c { \t\techo '#!/bin/sh'; \t\techo 'set -e'; \t\techo; \t\techo 'dirname \"$(dirname \"$(readlink -f \"$(which javac || which java)\")\")\"'; \t} \u003e /usr/local/bin/docker-java-home \t\u0026\u0026 chmod +x /usr/local/bin/docker-java-home"
+            "IsEmpty": true,
+            "Command": "/bin/sh -c #(nop)  ENV PATH=/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
           },
           {
             "LayerNum": 7,
-            "LayerContentHash": "1654ace8426ec9456738f977f8150ad38be65fa8647d881da2ce0c1c84588547",
-            "Command": "/bin/sh -c ln -svT \"/usr/lib/jvm/java-11-openjdk-$(dpkg --print-architecture)\" /docker-java-home"
+            "IsEmpty": true,
+            "Command": "/bin/sh -c #(nop)  ENV GOLANG_VERSION=1.21.3"
           },
           {
             "LayerNum": 8,
-            "IsEmpty": true,
-            "Command": "/bin/sh -c #(nop)  ENV JAVA_HOME=/docker-java-home"
+            "LayerContentHash": "fbc321379a11088c8b501eb89ac7e1f41d4b511b14c9914f2963683d92e78fd9",
+            "Command": "/bin/sh -c set -eux; \tarch=\"$(dpkg --print-architecture)\"; arch=\"${arch##*-}\"; \turl=; \tcase \"$arch\" in \t\t'amd64') \t\t\turl='https://dl.google.com/go/go1.21.3.linux-amd64.tar.gz'; \t\t\tsha256='1241381b2843fae5a9707eec1f8fb2ef94d827990582c7c7c32f5bdfbfd420c8'; \t\t\t;; \t\t'armel') \t\t\texport GOARCH='arm' GOARM='5' GOOS='linux'; \t\t\t;; \t\t'armhf') \t\t\turl='https://dl.google.com/go/go1.21.3.linux-armv6l.tar.gz'; \t\t\tsha256='a1ddcaaf0821a12a800884c14cb4268ce1c1f5a0301e9060646f1e15e611c6c7'; \t\t\t;; \t\t'arm64') \t\t\turl='https://dl.google.com/go/go1.21.3.linux-arm64.tar.gz'; \t\t\tsha256='fc90fa48ae97ba6368eecb914343590bbb61b388089510d0c56c2dde52987ef3'; \t\t\t;; \t\t'i386') \t\t\turl='https://dl.google.com/go/go1.21.3.linux-386.tar.gz'; \t\t\tsha256='fb209fd070db500a84291c5a95251cceeb1723e8f6142de9baca5af70a927c0e'; \t\t\t;; \t\t'mips64el') \t\t\turl='https://dl.google.com/go/go1.21.3.linux-mips64le.tar.gz'; \t\t\tsha256='a569ffbc88b4e14cf2682f65cec950460665e4392b0d78b8868b4718c979bda8'; \t\t\t;; \t\t'ppc64el') \t\t\turl='https://dl.google.com/go/go1.21.3.linux-ppc64le.tar.gz'; \t\t\tsha256='3b0e10a3704f164a6e85e0377728ec5fd21524fabe4c925610e34076586d5826'; \t\t\t;; \t\t'riscv64') \t\t\turl='https://dl.google.com/go/go1.21.3.linux-riscv64.tar.gz'; \t\t\tsha256='67d14d3e513e505d1ec3ea34b55641c6c29556603c7899af94045c170c1c0f94'; \t\t\t;; \t\t's390x') \t\t\turl='https://dl.google.com/go/go1.21.3.linux-s390x.tar.gz'; \t\t\tsha256='4c78e2e6f4c684a3d5a9bdc97202729053f44eb7be188206f0627ef3e18716b6'; \t\t\t;; \t\t*) echo \u003e\u00262 \"error: unsupported architecture '$arch' (likely packaging update needed)\"; exit 1 ;; \tesac; \tbuild=; \tif [ -z \"$url\" ]; then \t\tbuild=1; \t\turl='https://dl.google.com/go/go1.21.3.src.tar.gz'; \t\tsha256='186f2b6f8c8b704e696821b09ab2041a5c1ee13dcbc3156a13adcf75931ee488'; \t\techo \u003e\u00262; \t\techo \u003e\u00262 \"warning: current architecture ($arch) does not have a compatible Go binary release; will be building from source\"; \t\techo \u003e\u00262; \tfi; \t\twget -O go.tgz.asc \"$url.asc\"; \twget -O go.tgz \"$url\" --progress=dot:giga; \techo \"$sha256 *go.tgz\" | sha256sum -c -; \t\tGNUPGHOME=\"$(mktemp -d)\"; export GNUPGHOME; \tgpg --batch --keyserver keyserver.ubuntu.com --recv-keys 'EB4C 1BFD 4F04 2F6D DDCC  EC91 7721 F63B D38B 4796'; \tgpg --batch --keyserver keyserver.ubuntu.com --recv-keys '2F52 8D36 D67B 69ED F998  D857 78BD 6547 3CB3 BD13'; \tgpg --batch --verify go.tgz.asc go.tgz; \tgpgconf --kill all; \trm -rf \"$GNUPGHOME\" go.tgz.asc; \t\ttar -C /usr/local -xzf go.tgz; \trm go.tgz; \t\tif [ -n \"$build\" ]; then \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \t\tapt-get update; \t\tapt-get install -y --no-install-recommends golang-go; \t\t\t\texport GOCACHE='/tmp/gocache'; \t\t\t\t( \t\t\tcd /usr/local/go/src; \t\t\texport GOROOT_BOOTSTRAP=\"$(go env GOROOT)\" GOHOSTOS=\"$GOOS\" GOHOSTARCH=\"$GOARCH\"; \t\t\t./make.bash; \t\t); \t\t\t\tapt-mark auto '.*' \u003e /dev/null; \t\tapt-mark manual $savedAptMark \u003e /dev/null; \t\tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \t\trm -rf /var/lib/apt/lists/*; \t\t\t\trm -rf \t\t\t/usr/local/go/pkg/*/cmd \t\t\t/usr/local/go/pkg/bootstrap \t\t\t/usr/local/go/pkg/obj \t\t\t/usr/local/go/pkg/tool/*/api \t\t\t/usr/local/go/pkg/tool/*/go_bootstrap \t\t\t/usr/local/go/src/cmd/dist/dist \t\t\t\"$GOCACHE\" \t\t; \tfi; \t\tgo version"
           },
           {
             "LayerNum": 9,
             "IsEmpty": true,
-            "Command": "/bin/sh -c #(nop)  ENV JAVA_VERSION=11.0.3"
+            "Command": "/bin/sh -c #(nop)  ENV GOTOOLCHAIN=local"
           },
           {
             "LayerNum": 10,
             "IsEmpty": true,
-            "Command": "/bin/sh -c #(nop)  ENV JAVA_DEBIAN_VERSION=11.0.3+1-1~bpo9+1"
+            "Command": "/bin/sh -c #(nop)  ENV GOPATH=/go"
           },
           {
             "LayerNum": 11,
-            "LayerContentHash": "5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a",
-            "Command": "/bin/sh -c set -ex; \t\tif [ ! -d /usr/share/man/man1 ]; then \t\tmkdir -p /usr/share/man/man1; \tfi; \t\tln -svT /docker-java-home/bin/java /usr/local/bin/java; \t\tapt-get update; \tapt-get install -y --no-install-recommends \t\topenjdk-11-jre-headless=\"$JAVA_DEBIAN_VERSION\" \t; \trm -rf /var/lib/apt/lists/*; \t\trm -v /usr/local/bin/java; \t\tkeytool -importkeystore -srckeystore /etc/ssl/certs/java/cacerts -destkeystore /etc/ssl/certs/java/cacerts.jks -deststoretype JKS -srcstorepass changeit -deststorepass changeit -noprompt; \tmv /etc/ssl/certs/java/cacerts.jks /etc/ssl/certs/java/cacerts; \t/var/lib/dpkg/info/ca-certificates-java.postinst configure; \t\t[ \"$(readlink -f \"$JAVA_HOME\")\" = \"$(docker-java-home)\" ]; \t\tupdate-alternatives --get-selections | awk -v home=\"$(readlink -f \"$JAVA_HOME\")\" 'index($3, home) == 1 { $2 = \"manual\"; print | \"update-alternatives --set-selections\" }'; \tupdate-alternatives --query java | grep -q 'Status: manual'"
+            "IsEmpty": true,
+            "Command": "/bin/sh -c #(nop)  ENV PATH=/go/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
           },
           {
             "LayerNum": 12,
-            "IsEmpty": true,
-            "Command": "/bin/sh -c #(nop)  MAINTAINER Andreas Zitzelsberger \"az@az82.de\""
+            "LayerContentHash": "fe7d12ddfc653078295fed87b3fd7498a496dc5176358fba91239d44d98997bd",
+            "Command": "/bin/sh -c mkdir -p \"$GOPATH/src\" \"$GOPATH/bin\" \u0026\u0026 chmod -R 1777 \"$GOPATH\""
           },
           {
             "LayerNum": 13,
             "IsEmpty": true,
-            "Command": "/bin/sh -c #(nop)  ENV DERBY_VERSION=10.15.1.3"
-          },
-          {
-            "LayerNum": 14,
-            "IsEmpty": true,
-            "Command": "/bin/sh -c #(nop)  ENV DERBY_HOME=/derby"
-          },
-          {
-            "LayerNum": 15,
-            "IsEmpty": true,
-            "Command": "/bin/sh -c #(nop)  ENV DERBY_LIB=/derby/lib"
-          },
-          {
-            "LayerNum": 16,
-            "IsEmpty": true,
-            "Command": "/bin/sh -c #(nop)  ENV DERBY_SCHEMA=app"
-          },
-          {
-            "LayerNum": 17,
-            "IsEmpty": true,
-            "Command": "/bin/sh -c #(nop)  ENV CLASSPATH=/derby/lib/derby.jar:/derby/lib/derbynet.jar:/derby/lib/derbytools.jar:/derby/lib/derbyoptionaltools.jar:/derby/lib/derbyclient.jar"
-          },
-          {
-            "LayerNum": 18,
-            "LayerContentHash": "c4993dbce8638355d268485fe8c7ec13b68582e8d179c7aaaa11cf7ae4349baf",
-            "Command": "/bin/sh -c #(nop) ADD file:c6310435a45520ecce160ee885baf230da0237b21deb05e034577a0b19c4f612 in /init.sh "
-          },
-          {
-            "LayerNum": 19,
-            "LayerContentHash": "a8b6f739a0c62f18090a4f75eb3ffc2ce565bb999cabc1e8420d7b366bc8d0c3",
-            "Command": "/bin/sh -c apt-get update \u0026\u0026 apt-get install -y wget netcat \u0026\u0026     wget https://dist.apache.org/repos/dist/release/db/derby/db-derby-${DERBY_VERSION}/db-derby-${DERBY_VERSION}-bin.tar.gz \u0026\u0026     tar xzf /db-derby-${DERBY_VERSION}-bin.tar.gz \u0026\u0026     mv /db-derby-${DERBY_VERSION}-bin /derby \u0026\u0026     rm -Rf /*.tar.gz ${DERBY_HOME}/demo ${DERBY_HOME}/javadoc ${DERBY_HOME}/docs ${DERBY_HOME}/test ${DERBY_HOME}/*.html ${DERBY_HOME}/KEYS     apt-get purge wget \u0026\u0026     chmod +x /init.sh \u0026\u0026     rm -rf /var/lib/apt/lists/*"
-          },
-          {
-            "LayerNum": 20,
-            "LayerContentHash": "8c112ef66fb59fa36e2e7d3ae0b397d47125b1bfaa9b657e2a11ed0226aa291e",
-            "Command": "/bin/sh -c #(nop) WORKDIR /dbs"
-          },
-          {
-            "LayerNum": 21,
-            "IsEmpty": true,
-            "Command": "/bin/sh -c #(nop)  EXPOSE 1527"
-          },
-          {
-            "LayerNum": 22,
-            "IsEmpty": true,
-            "Command": "/bin/sh -c #(nop)  HEALTHCHECK \u0026{[\"CMD-SHELL\" \"nc -z localhost 1527 ||\\u00a0exit 1\"] \"0s\" \"0s\" \"0s\" '\\x00'}"
-          },
-          {
-            "LayerNum": 23,
-            "IsEmpty": true,
-            "Command": "/bin/sh -c #(nop)  CMD [\"sh\" \"-c\" \"/init.sh\"]"
+            "Command": "/bin/sh -c #(nop) WORKDIR /go"
           }
         ],
         "layers": [
-          "sha256:6270adb5794c6987109e54af00ab456977c5d5cc6f1bc52c1ce58d32ec0f15f4",
-          "sha256:270b3f9af07ef8df7a16821f3e13938bd239a785be4c2e64015a3cfd30901d5e",
-          "sha256:f5d98c1f94702e7f54e22a74216bd081508e9ef64817499cb2e71c3eea340b48",
-          "sha256:b61c7ac22d6e86b1a4dcbb81c10a3d5bc7332f4a9341eb564b1e1a6f80a9aa15",
-          "sha256:1654ace8426ec9456738f977f8150ad38be65fa8647d881da2ce0c1c84588547",
-          "sha256:5ddd7da5e509bf0ba3d7ad732f2bb373f362afeceb1c6a8b1c51efcc64961d1a",
-          "sha256:c4993dbce8638355d268485fe8c7ec13b68582e8d179c7aaaa11cf7ae4349baf",
-          "sha256:a8b6f739a0c62f18090a4f75eb3ffc2ce565bb999cabc1e8420d7b366bc8d0c3",
-          "sha256:8c112ef66fb59fa36e2e7d3ae0b397d47125b1bfaa9b657e2a11ed0226aa291e"
+          "sha256:2fa37f2ee66efbd308b9b91bce81c262f5e6ab6c3bf8056632afc60cc602785c",
+          "sha256:5cc3a4df1251c008ebfaaf8c48fe7bd61f0b0fdd7273966bd4bbe58877337e06",
+          "sha256:2ef3351afa6d94a8874a6af5aa1bafcd85106616ced8ac63112022fb04232d03",
+          "sha256:e51777ae0bce0a05c4c294fc7c3fb6ac29fd215b900bd46bb9bb7302708bffeb",
+          "sha256:fbc321379a11088c8b501eb89ac7e1f41d4b511b14c9914f2963683d92e78fd9",
+          "sha256:fe7d12ddfc653078295fed87b3fd7498a496dc5176358fba91239d44d98997bd"
         ],
-        "os": "Debian Linux 9.9",
+        "os": "Debian Linux 12.2",
         "repoTags": [
-          "adito/derby:latest"
+          "golang:latest"
         ],
         "scansPerformed": [
           "metadata",
           "os",
-          "sca"
+          "sca",
+          "secret"
         ]
       }
     }
