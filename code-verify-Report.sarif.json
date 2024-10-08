@@ -10,19 +10,55 @@
           "name": "qscanner",
           "rules": [
             {
-              "id": "184903",
+              "id": "907483",
               "name": "Vulnerability",
               "shortDescription": {
-                "text": "Debian Security Update for zliblibz-mingw-w64 (CVE-2022-37434)"
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for zlib (31500)"
               },
               "defaultConfiguration": {
                 "level": "error"
               },
               "properties": {
-                "category": "",
+                "category": "CBL-Mariner",
                 "customerSeverity": 5,
                 "cve-ids": [
-                  "CVE-2022-37434"
+                  "CVE-2023-45853"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.8",
+                  "temporalScore": "8.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 02 Nov 2023 12:42:35 +0000",
+                "risk": 50,
+                "severity": 5,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "292 days"
+              }
+            },
+            {
+              "id": "909041",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (31288)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 5,
+                "cve-ids": [
+                  "CVE-2023-38545"
                 ],
                 "cvss3Info": {
                   "baseScore": "9.8",
@@ -33,326 +69,4836 @@
                   "temporalScore": "4.3",
                   "accessVector": "Adjacent Network"
                 },
-                "firstFound": "NOT AVAILABLE",
-                "lastFound": "NOT AVAILABLE",
-                "publishedDate": "NOT AVAILABLE",
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:48 +0000",
                 "risk": 50,
                 "severity": 5,
-                "threatIntel": {},
-                "type": "",
-                "vulnerabilityAge": "NOT AVAILABLE"
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
               }
             },
             {
-              "id": "PolicyEvaluationResult",
-              "name": "PolicyEvaluation",
+              "id": "909774",
+              "name": "Vulnerability",
               "shortDescription": {
-                "text": "No active policy is assigned with these tags: [] and there is also no active default policy available."
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for openssh (27651)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 5,
+                "cve-ids": [
+                  "CVE-2023-38408"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.8",
+                  "temporalScore": "8.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:00 +0000",
+                "risk": 50,
+                "severity": 5,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "908041",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for perl (37128)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 5,
+                "cve-ids": [
+                  "CVE-2023-47100"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.8",
+                  "temporalScore": "8.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Apr 2024 14:10:03 +0000",
+                "risk": 50,
+                "severity": 5,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "131 days"
+              }
+            },
+            {
+              "id": "910488",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for moby-cli (34079)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 5,
+                "cve-ids": [
+                  "CVE-2024-23653"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.8",
+                  "temporalScore": "8.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:32 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:11 +0000",
+                "risk": 50,
+                "severity": 5,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909864",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for git (42040)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 5,
+                "cve-ids": [
+                  "CVE-2024-32002"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.0",
+                  "temporalScore": "8.1"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:01 +0000",
+                "risk": 50,
+                "severity": 5,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "905276",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for git (13024)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 5,
+                "cve-ids": [
+                  "CVE-2022-23521"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.8",
+                  "temporalScore": "9.0"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.6",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Tue, 24 Jan 2023 14:35:30 +0000",
+                "risk": 50,
+                "severity": 5,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "noPatch": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "574 days"
+              }
+            },
+            {
+              "id": "910070",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for openssh (25662)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 5,
+                "cve-ids": [
+                  "CVE-2023-28531"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.8",
+                  "temporalScore": "8.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:05 +0000",
+                "risk": 50,
+                "severity": 5,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "905275",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for git (13026)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 5,
+                "cve-ids": [
+                  "CVE-2022-41903"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.8",
+                  "temporalScore": "9.0"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.6",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Tue, 24 Jan 2023 14:35:30 +0000",
+                "risk": 50,
+                "severity": 5,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "noPatch": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "574 days"
+              }
+            },
+            {
+              "id": "910917",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for krb5 (42999)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-37371"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.6",
+                  "temporalScore": "7.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 08 Aug 2024 13:19:57 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "12 days"
+              }
+            },
+            {
+              "id": "907380",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for python3 (31165)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-24329"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 19 Oct 2023 12:57:35 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "306 days"
+              }
+            },
+            {
+              "id": "908224",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for glibc (40277)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-33600"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.6",
+                  "temporalScore": "7.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 23 May 2024 13:49:56 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "89 days"
+              }
+            },
+            {
+              "id": "908028",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for less (34458)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2022-48624"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.6",
+                  "temporalScore": "7.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 28 Mar 2024 13:17:23 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "145 days"
+              }
+            },
+            {
+              "id": "910918",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for krb5 (42991)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-37370"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.6",
+                  "temporalScore": "7.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:32 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 08 Aug 2024 13:19:57 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "12 days"
+              }
+            },
+            {
+              "id": "910861",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for libarchive (42383)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-26256"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.8",
+                  "temporalScore": "6.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 18 Jul 2024 12:48:56 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "33 days"
+              }
+            },
+            {
+              "id": "909258",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (25847)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-27534"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.8",
+                  "temporalScore": "7.9"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:52 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910253",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for libssh2 (28594)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2020-22218"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:08 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910933",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for python3 (42796)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-0397"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.4",
+                  "temporalScore": "6.4"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:32 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 08 Aug 2024 13:19:57 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "12 days"
+              }
+            },
+            {
+              "id": "908227",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for glibc (40310)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-33599"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.6",
+                  "temporalScore": "7.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:32 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 23 May 2024 13:49:56 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "89 days"
+              }
+            },
+            {
+              "id": "905279",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for git (13025)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2022-41953"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.8",
+                  "temporalScore": "7.1"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.6",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:32 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Tue, 24 Jan 2023 14:35:30 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "noPatch": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "574 days"
+              }
+            },
+            {
+              "id": "910288",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (25894)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-27533"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.8",
+                  "temporalScore": "7.9"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:08 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "908233",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for glibc (40316)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-33601"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 23 May 2024 13:49:56 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "89 days"
+              }
+            },
+            {
+              "id": "907927",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for moby-cli (33618)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2022-21698"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.0",
+                  "temporalScore": "3.7",
+                  "accessVector": "Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Mon, 19 Feb 2024 13:58:35 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "easyExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "183 days"
+              }
+            },
+            {
+              "id": "908047",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for expat (34207)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-52425"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:32 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Apr 2024 14:10:03 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "131 days"
+              }
+            },
+            {
+              "id": "910247",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for glibc (31117)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-4911"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.8",
+                  "temporalScore": "7.2"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.5",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:07 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "activeAttacks": true,
+                  "highLateralMovement": true,
+                  "malware": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910570",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for libcap (27065)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-2603"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.8",
+                  "temporalScore": "7.0"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:13 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909709",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for openssh (43030)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-6387"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.1",
+                  "temporalScore": "7.3"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:59 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909083",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for python3 (35949)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-6597"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.8",
+                  "temporalScore": "6.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:49 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909548",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for less (39933)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-32487"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.6",
+                  "temporalScore": "7.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:56 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910152",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for glibc (30046)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-5156"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:06 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910920",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for krb5 (35454)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-26461"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.6",
+                  "temporalScore": "7.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:32 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 08 Aug 2024 13:19:57 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "12 days"
+              }
+            },
+            {
+              "id": "908060",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for perl (37127)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-31486"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.1",
+                  "temporalScore": "7.1"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Apr 2024 14:10:04 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "131 days"
+              }
+            },
+            {
+              "id": "909125",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for ncurses (26241)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-29491"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.8",
+                  "temporalScore": "7.0"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:50 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "902788",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for python3 (10618) (DEPRECATED)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2021-28861"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.4",
+                  "temporalScore": "6.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.6",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Mon, 29 Aug 2022 13:37:41 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "noPatch": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "722 days"
+              }
+            },
+            {
+              "id": "908046",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for expat (35841)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-28757"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.6",
+                  "temporalScore": "7.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Apr 2024 14:10:03 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "131 days"
+              }
+            },
+            {
+              "id": "908222",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for glibc (40319)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-33602"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.6",
+                  "temporalScore": "7.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 23 May 2024 13:49:56 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "89 days"
+              }
+            },
+            {
+              "id": "910938",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (37078)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-2398"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.6",
+                  "temporalScore": "7.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 08 Aug 2024 13:19:57 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "12 days"
+              }
+            },
+            {
+              "id": "910157",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for moby-cli (33616)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2021-44716"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.0",
+                  "temporalScore": "3.7",
+                  "accessVector": "Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:06 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "easyExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909901",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for moby-cli (31326)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-44487"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:32 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:02 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "908066",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for perl (37126)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-31484"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.1",
+                  "temporalScore": "7.3"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Apr 2024 14:10:04 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "131 days"
+              }
+            },
+            {
+              "id": "910919",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (37076)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-2004"
+                ],
+                "cvss3Info": {
+                  "baseScore": "3.5",
+                  "temporalScore": "3.1"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 08 Aug 2024 13:19:57 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "12 days"
+              }
+            },
+            {
+              "id": "909458",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for git (42046)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-32465"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.3",
+                  "temporalScore": "6.4"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:32 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:55 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909144",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for glibc (10675)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2021-3998"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:50 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909014",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (29698)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-38039"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:48 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910910",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (37077)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-2466"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.6",
+                  "temporalScore": "7.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 08 Aug 2024 13:19:57 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "12 days"
+              }
+            },
+            {
+              "id": "909039",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (26795)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-28319"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:48 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909932",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for nghttp2 (27682)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2023-35945"
+                ],
+                "cvss3Info": {
+                  "baseScore": "7.5",
+                  "temporalScore": "6.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:02 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910149",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for git (42022)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-32004"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.1",
+                  "temporalScore": "7.3"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:06 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910043",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for Open Secure Sockets Layer (OpenSSL) (42952)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-4741"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.6",
+                  "temporalScore": "7.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:04 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909244",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for Open Secure Sockets Layer (OpenSSL) (42949)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-2511"
+                ],
+                "cvss3Info": {
+                  "baseScore": "8.6",
+                  "temporalScore": "7.5"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:52 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910893",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for Open Secure Sockets Layer (OpenSSL) (43309)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 4,
+                "cve-ids": [
+                  "CVE-2024-5535"
+                ],
+                "cvss3Info": {
+                  "baseScore": "9.1",
+                  "temporalScore": "8.2"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 01 Aug 2024 13:21:18 +0000",
+                "risk": 40,
+                "severity": 4,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "19 days"
+              }
+            },
+            {
+              "id": "910438",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (26793)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-28320"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.9",
+                  "temporalScore": "5.3"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:32 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:11 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910610",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (25846)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-27535"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.9",
+                  "temporalScore": "5.3"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:32 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:14 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909666",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for pam (34156)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2024-22365"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.5",
+                  "temporalScore": "5.0"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:58 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909908",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (32120)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-46219"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.3",
+                  "temporalScore": "4.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:32 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:02 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909883",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for glibc (29954)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-4806"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.9",
+                  "temporalScore": "5.2"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:02 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909845",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for libssh2 (32201)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-48795"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.9",
+                  "temporalScore": "5.3"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:01 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909726",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for Open Secure Sockets Layer (OpenSSL) (31880)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-5678"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.3",
+                  "temporalScore": "4.6"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:59 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909580",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for moby-cli (33617)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2022-41717"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.3",
+                  "temporalScore": "4.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:57 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910094",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (25845)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-27536"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.9",
+                  "temporalScore": "5.3"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:05 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910930",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (34061)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2024-0853"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.3",
+                  "temporalScore": "4.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:32 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 08 Aug 2024 13:19:57 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "12 days"
+              }
+            },
+            {
+              "id": "909898",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for openssh (32204)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-48795"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.9",
+                  "temporalScore": "5.3"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:02 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910044",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for Open Secure Sockets Layer (OpenSSL) (42955)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-3446"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.3",
+                  "temporalScore": "4.6"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:04 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910092",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for moby-cli (32223)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-48795"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.9",
+                  "temporalScore": "5.3"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:05 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909704",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for Open Secure Sockets Layer (OpenSSL) (26984)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-2650"
+                ],
+                "cvss3Info": {
+                  "baseScore": "6.5",
+                  "temporalScore": "5.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:59 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909955",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (32099)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-46218"
+                ],
+                "cvss3Info": {
+                  "baseScore": "6.5",
+                  "temporalScore": "5.9"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:03 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909513",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for moby-cli (27068)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-2253"
+                ],
+                "cvss3Info": {
+                  "baseScore": "6.5",
+                  "temporalScore": "5.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:56 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910095",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for openssh (32205)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-51384"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.5",
+                  "temporalScore": "4.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:05 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909015",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for Open Secure Sockets Layer (OpenSSL) (27815)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-3817"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.3",
+                  "temporalScore": "4.6"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:48 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910684",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for python3 (36894)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2024-0450"
+                ],
+                "cvss3Info": {
+                  "baseScore": "6.2",
+                  "temporalScore": "5.4"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:15 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910158",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for Open Secure Sockets Layer (OpenSSL) (25937)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-0465"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.3",
+                  "temporalScore": "4.6"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:06 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910267",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for openssh (32203)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-51385"
+                ],
+                "cvss3Info": {
+                  "baseScore": "6.5",
+                  "temporalScore": "5.9"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:08 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "908038",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for expat (34208)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-52426"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.5",
+                  "temporalScore": "4.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 04 Apr 2024 12:37:29 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "138 days"
+              }
+            },
+            {
+              "id": "909310",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (26794)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-28321"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.9",
+                  "temporalScore": "5.3"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:53 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910383",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (25848)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-27538"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.5",
+                  "temporalScore": "5.0"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:32 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:10 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910313",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for Open Secure Sockets Layer (OpenSSL) (33937)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2024-0727"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.5",
+                  "temporalScore": "4.8"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:08 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909087",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for krb5 (27874)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-36054"
+                ],
+                "cvss3Info": {
+                  "baseScore": "6.5",
+                  "temporalScore": "5.7"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:49 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909143",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for Open Secure Sockets Layer (OpenSSL) (25936)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-0466"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.3",
+                  "temporalScore": "4.6"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:50 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909738",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for python3 (31170)"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 3,
+                "cve-ids": [
+                  "CVE-2023-40217"
+                ],
+                "cvss3Info": {
+                  "baseScore": "5.3",
+                  "temporalScore": "4.6"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:59 +0000",
+                "risk": 30,
+                "severity": 3,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "909483",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for libcap (27064)"
               },
               "defaultConfiguration": {
                 "level": "warning"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 2,
+                "cve-ids": [
+                  "CVE-2023-2602"
+                ],
+                "cvss3Info": {
+                  "baseScore": "3.3",
+                  "temporalScore": "3.0"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:55 +0000",
+                "risk": 20,
+                "severity": 2,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
               }
             },
             {
-              "id": "ff34aaee-e4c2-11ed-b5ea-0242ac120002",
-              "name": "Secret",
+              "id": "910538",
+              "name": "Vulnerability",
               "shortDescription": {
-                "text": "SSH public key DSA"
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for gcc (28769)"
               },
               "defaultConfiguration": {
-                "level": "error"
+                "level": "warning"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 2,
+                "cve-ids": [
+                  "CVE-2023-4039"
+                ],
+                "cvss3Info": {
+                  "baseScore": "4.8",
+                  "temporalScore": "4.3"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:12 +0000",
+                "risk": 20,
+                "severity": 2,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
               }
             },
             {
-              "id": "ac882852-c960-11ed-afa1-0242ac120002",
-              "name": "Secret",
+              "id": "910039",
+              "name": "Vulnerability",
               "shortDescription": {
-                "text": "Private Key"
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (31289)"
               },
               "defaultConfiguration": {
-                "level": "error"
+                "level": "warning"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 2,
+                "cve-ids": [
+                  "CVE-2023-38546"
+                ],
+                "cvss3Info": {
+                  "baseScore": "3.7",
+                  "temporalScore": "3.2"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:04 +0000",
+                "risk": 20,
+                "severity": 2,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910653",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for git (42037)"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 2,
+                "cve-ids": [
+                  "CVE-2024-32020"
+                ],
+                "cvss3Info": {
+                  "baseScore": "3.9",
+                  "temporalScore": "3.4"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:14 +0000",
+                "risk": 20,
+                "severity": 2,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "910377",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (26792)"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 2,
+                "cve-ids": [
+                  "CVE-2023-28322"
+                ],
+                "cvss3Info": {
+                  "baseScore": "3.7",
+                  "temporalScore": "3.4"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.3",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:35:10 +0000",
+                "risk": 20,
+                "severity": 2,
+                "threatIntel": {
+                  "highLateralMovement": true,
+                  "publicExploit": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
+              }
+            },
+            {
+              "id": "900947",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for openssh (9045)"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 2,
+                "cve-ids": [
+                  "CVE-2021-36368"
+                ],
+                "cvss3Info": {
+                  "baseScore": "3.7",
+                  "temporalScore": "3.4"
+                },
+                "cvssInfo": {
+                  "baseScore": "2.6",
+                  "temporalScore": "2.2",
+                  "accessVector": "Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:32 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Wed, 11 May 2022 14:16:12 +0000",
+                "risk": 20,
+                "severity": 2,
+                "threatIntel": {
+                  "noPatch": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "832 days"
+              }
+            },
+            {
+              "id": "909145",
+              "name": "Vulnerability",
+              "shortDescription": {
+                "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for git (42013)"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "properties": {
+                "category": "CBL-Mariner",
+                "customerSeverity": 2,
+                "cve-ids": [
+                  "CVE-2024-32021"
+                ],
+                "cvss3Info": {
+                  "baseScore": "3.9",
+                  "temporalScore": "3.4"
+                },
+                "cvssInfo": {
+                  "baseScore": "5.4",
+                  "temporalScore": "4.0",
+                  "accessVector": "Adjacent Network"
+                },
+                "firstFound": "Wed, 21 Aug 2024 07:04:33 +0000",
+                "lastFound": "Wed, 21 Aug 2024 08:15:59 +0000",
+                "publishedDate": "Thu, 11 Jul 2024 13:34:50 +0000",
+                "risk": 20,
+                "severity": 2,
+                "threatIntel": {
+                  "highLateralMovement": true
+                },
+                "type": "CONFIRMED",
+                "vulnerabilityAge": "40 days"
               }
             }
           ],
-          "version": ""
+          "version": "4.2.0-206-dev"
         }
       },
       "results": [
         {
           "properties": {
-            "QID": 184903,
+            "QID": 907483,
             "vulnerableSoftware": [
               {
-                "name": "zlib1g",
-                "installedVersion": "1.2.13.dfsg-1",
-                "fixedVersion": "1:1.2.11.dfsg-4.1",
-                "layerSHA": "sha256:2fa37f2ee66efbd308b9b91bce81c262f5e6ab6c3bf8056632afc60cc602785c"
+                "name": "zlib",
+                "installedVersion": "1.2.12-2.cm2",
+                "fixedVersion": "1.2.13-2.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
               }
             ]
           },
-          "ruleId": "184903",
+          "ruleId": "907483",
           "ruleIndex": 0,
           "level": "error",
           "message": {
-            "text": "Debian Security Update for zliblibz-mingw-w64 (CVE-2022-37434)"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "os"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 1
-                }
-              }
-            }
-          ]
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for zlib (31500)"
+          }
         },
         {
           "properties": {
-            "action": "AUDIT",
-            "evaluatedAt": "2023-12-11 09:35:50"
+            "QID": 909041,
+            "vulnerableSoftware": [
+              {
+                "name": "curl",
+                "installedVersion": "7.88.1-1.cm2",
+                "fixedVersion": "8.3.0-2.cm2",
+                "layerSHA": "sha256:d727da1c859146cb660c7ba665a04aed6477ccd94cd05caf0680826beffe60a6"
+              }
+            ]
           },
-          "ruleId": "PolicyEvaluationResult",
+          "ruleId": "909041",
           "ruleIndex": 1,
-          "level": "warning",
+          "level": "error",
           "message": {
-            "text": "No active policy is assigned with these tags: [] and there is also no active default policy available."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "policy-evaluation"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 1
-                }
-              }
-            }
-          ]
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (31288)"
+          }
         },
         {
           "properties": {
-            "category": "PublicKey",
-            "layerSHA": "sha256:2ef3351afa6d94a8874a6af5aa1bafcd85106616ced8ac63112022fb04232d03",
-            "title": "SSH public key DSA"
+            "QID": 909774,
+            "vulnerableSoftware": [
+              {
+                "name": "openssh",
+                "installedVersion": "8.8p1-7.cm2",
+                "fixedVersion": "8.9p1-1.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
           },
-          "ruleId": "ff34aaee-e4c2-11ed-b5ea-0242ac120002",
+          "ruleId": "909774",
           "ruleIndex": 2,
           "level": "error",
           "message": {
-            "text": "   using the \"key::\" prefix mechanism (e.g. \"key::*******************"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "/usr/share/doc/git/RelNotes/2.35.0.txt"
-                },
-                "region": {
-                  "startLine": 62,
-                  "endLine": 62
-                }
-              }
-            }
-          ]
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for openssh (27651)"
+          }
         },
         {
           "properties": {
-            "category": "AsymmetricPrivateKey",
-            "layerSHA": "sha256:fbc321379a11088c8b501eb89ac7e1f41d4b511b14c9914f2963683d92e78fd9",
-            "title": "Private Key"
+            "QID": 908041,
+            "vulnerableSoftware": [
+              {
+                "name": "perl",
+                "installedVersion": "5.34.1-488.cm2",
+                "fixedVersion": "5.34.1-489.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
           },
-          "ruleId": "ac882852-c960-11ed-afa1-0242ac120002",
+          "ruleId": "908041",
           "ruleIndex": 3,
           "level": "error",
           "message": {
-            "text": "\tkeyPem := []byte(`-----BEGIN EC PRIVATE KEY-----************************************************************************************************************************************************************************"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "/usr/local/go/src/crypto/tls/example_test.go"
-                },
-                "region": {
-                  "startLine": 139,
-                  "endLine": 139
-                }
-              }
-            }
-          ]
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for perl (37128)"
+          }
         },
         {
           "properties": {
-            "category": "AsymmetricPrivateKey",
-            "layerSHA": "sha256:fbc321379a11088c8b501eb89ac7e1f41d4b511b14c9914f2963683d92e78fd9",
-            "title": "Private Key"
+            "QID": 910488,
+            "vulnerableSoftware": [
+              {
+                "name": "moby-cli",
+                "installedVersion": "20.10.12-7.cm2",
+                "fixedVersion": "20.10.27-3.cm2",
+                "layerSHA": "sha256:301755743830d033b2feeda56c9eebc2bec6ef2aa2c315c988d64e748a2c1152"
+              }
+            ]
           },
-          "ruleId": "ac882852-c960-11ed-afa1-0242ac120002",
-          "ruleIndex": 3,
+          "ruleId": "910488",
+          "ruleIndex": 4,
           "level": "error",
           "message": {
-            "text": "\tkeyPem := []byte(`-----BEGIN EC PRIVATE KEY-----************************************************************************************************************************************************************************"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "/usr/local/go/src/crypto/tls/example_test.go"
-                },
-                "region": {
-                  "startLine": 164,
-                  "endLine": 164
-                }
-              }
-            }
-          ]
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for moby-cli (34079)"
+          }
         },
         {
           "properties": {
-            "category": "AsymmetricPrivateKey",
-            "layerSHA": "sha256:fbc321379a11088c8b501eb89ac7e1f41d4b511b14c9914f2963683d92e78fd9",
-            "title": "Private Key"
+            "QID": 909864,
+            "vulnerableSoftware": [
+              {
+                "name": "git",
+                "installedVersion": "2.33.6-1.cm2",
+                "fixedVersion": "2.39.4-1.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
           },
-          "ruleId": "ac882852-c960-11ed-afa1-0242ac120002",
-          "ruleIndex": 3,
+          "ruleId": "909864",
+          "ruleIndex": 5,
           "level": "error",
           "message": {
-            "text": "-----BEGIN EC PRIVATE KEY-----************************************************************************************************************************************************************************"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "/usr/local/go/src/crypto/tls/testdata/example-key.pem"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 1
-                }
-              }
-            }
-          ]
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for git (42040)"
+          }
         },
         {
           "properties": {
-            "category": "AsymmetricPrivateKey",
-            "layerSHA": "sha256:fbc321379a11088c8b501eb89ac7e1f41d4b511b14c9914f2963683d92e78fd9",
-            "title": "Private Key"
+            "QID": 905276,
+            "vulnerableSoftware": [
+              {
+                "name": "git",
+                "installedVersion": "2.33.6-1.cm2",
+                "fixedVersion": "2.33.8-2.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
           },
-          "ruleId": "ac882852-c960-11ed-afa1-0242ac120002",
-          "ruleIndex": 3,
+          "ruleId": "905276",
+          "ruleIndex": 6,
           "level": "error",
           "message": {
-            "text": "-----BEGIN EC PRIVATE KEY-----************************************************************************************************************************************************************************"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "/usr/local/go/src/crypto/x509/platform_root_key.pem"
-                },
-                "region": {
-                  "startLine": 1,
-                  "endLine": 1
-                }
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for git (13024)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910070,
+            "vulnerableSoftware": [
+              {
+                "name": "openssh",
+                "installedVersion": "8.8p1-7.cm2",
+                "fixedVersion": "8.9p1-5.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
               }
-            }
-          ]
+            ]
+          },
+          "ruleId": "910070",
+          "ruleIndex": 7,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for openssh (25662)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 905275,
+            "vulnerableSoftware": [
+              {
+                "name": "git",
+                "installedVersion": "2.33.6-1.cm2",
+                "fixedVersion": "2.33.8-2.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "905275",
+          "ruleIndex": 8,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for git (13026)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910917,
+            "vulnerableSoftware": [
+              {
+                "name": "krb5",
+                "installedVersion": "1.19.4-1.cm2",
+                "fixedVersion": "1.21.3-1.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "910917",
+          "ruleIndex": 9,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for krb5 (42999)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 907380,
+            "vulnerableSoftware": [
+              {
+                "name": "python3",
+                "installedVersion": "3.9.14-6.cm2",
+                "fixedVersion": "3.9.14-8.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "907380",
+          "ruleIndex": 10,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for python3 (31165)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 908224,
+            "vulnerableSoftware": [
+              {
+                "name": "glibc",
+                "installedVersion": "2.35-3.cm2",
+                "fixedVersion": "2.35-7.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "908224",
+          "ruleIndex": 11,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for glibc (40277)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 908028,
+            "vulnerableSoftware": [
+              {
+                "name": "less",
+                "installedVersion": "590-2.cm2",
+                "fixedVersion": "590-3.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "908028",
+          "ruleIndex": 12,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for less (34458)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910918,
+            "vulnerableSoftware": [
+              {
+                "name": "krb5",
+                "installedVersion": "1.19.4-1.cm2",
+                "fixedVersion": "1.21.3-1.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "910918",
+          "ruleIndex": 13,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for krb5 (42991)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910861,
+            "vulnerableSoftware": [
+              {
+                "name": "libarchive",
+                "installedVersion": "3.6.1-2.cm2",
+                "fixedVersion": "3.6.1-3.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "910861",
+          "ruleIndex": 14,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for libarchive (42383)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909258,
+            "vulnerableSoftware": [
+              {
+                "name": "curl",
+                "installedVersion": "7.88.1-1.cm2",
+                "fixedVersion": "8.0.1-1.cm2",
+                "layerSHA": "sha256:d727da1c859146cb660c7ba665a04aed6477ccd94cd05caf0680826beffe60a6"
+              }
+            ]
+          },
+          "ruleId": "909258",
+          "ruleIndex": 15,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (25847)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910253,
+            "vulnerableSoftware": [
+              {
+                "name": "libssh2",
+                "installedVersion": "1.9.0-2.cm2",
+                "fixedVersion": "1.9.0-3.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "910253",
+          "ruleIndex": 16,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for libssh2 (28594)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910933,
+            "vulnerableSoftware": [
+              {
+                "name": "python3",
+                "installedVersion": "3.9.14-6.cm2",
+                "fixedVersion": "3.9.19-3.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "910933",
+          "ruleIndex": 17,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for python3 (42796)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 908227,
+            "vulnerableSoftware": [
+              {
+                "name": "glibc",
+                "installedVersion": "2.35-3.cm2",
+                "fixedVersion": "2.35-7.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "908227",
+          "ruleIndex": 18,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for glibc (40310)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 905279,
+            "vulnerableSoftware": [
+              {
+                "name": "git",
+                "installedVersion": "2.33.6-1.cm2",
+                "fixedVersion": "2.33.8-2.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "905279",
+          "ruleIndex": 19,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for git (13025)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910288,
+            "vulnerableSoftware": [
+              {
+                "name": "curl",
+                "installedVersion": "7.88.1-1.cm2",
+                "fixedVersion": "8.0.1-1.cm2",
+                "layerSHA": "sha256:d727da1c859146cb660c7ba665a04aed6477ccd94cd05caf0680826beffe60a6"
+              }
+            ]
+          },
+          "ruleId": "910288",
+          "ruleIndex": 20,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (25894)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 908233,
+            "vulnerableSoftware": [
+              {
+                "name": "glibc",
+                "installedVersion": "2.35-3.cm2",
+                "fixedVersion": "2.35-7.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "908233",
+          "ruleIndex": 21,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for glibc (40316)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 907927,
+            "vulnerableSoftware": [
+              {
+                "name": "moby-cli",
+                "installedVersion": "20.10.12-7.cm2",
+                "fixedVersion": "20.10.27-5.cm2",
+                "layerSHA": "sha256:301755743830d033b2feeda56c9eebc2bec6ef2aa2c315c988d64e748a2c1152"
+              }
+            ]
+          },
+          "ruleId": "907927",
+          "ruleIndex": 22,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for moby-cli (33618)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 908047,
+            "vulnerableSoftware": [
+              {
+                "name": "expat",
+                "installedVersion": "2.5.0-1.cm2",
+                "fixedVersion": "2.6.2-2.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "908047",
+          "ruleIndex": 23,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for expat (34207)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910247,
+            "vulnerableSoftware": [
+              {
+                "name": "glibc",
+                "installedVersion": "2.35-3.cm2",
+                "fixedVersion": "2.35-5.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "910247",
+          "ruleIndex": 24,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for glibc (31117)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910570,
+            "vulnerableSoftware": [
+              {
+                "name": "libcap",
+                "installedVersion": "2.60-1.cm2",
+                "fixedVersion": "2.60-2.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "910570",
+          "ruleIndex": 25,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for libcap (27065)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909709,
+            "vulnerableSoftware": [
+              {
+                "name": "openssh",
+                "installedVersion": "8.8p1-7.cm2",
+                "fixedVersion": "8.9p1-6.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "909709",
+          "ruleIndex": 26,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for openssh (43030)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909083,
+            "vulnerableSoftware": [
+              {
+                "name": "python3",
+                "installedVersion": "3.9.14-6.cm2",
+                "fixedVersion": "3.9.19-1.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "909083",
+          "ruleIndex": 27,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for python3 (35949)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909548,
+            "vulnerableSoftware": [
+              {
+                "name": "less",
+                "installedVersion": "590-2.cm2",
+                "fixedVersion": "590-4.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "909548",
+          "ruleIndex": 28,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for less (39933)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910152,
+            "vulnerableSoftware": [
+              {
+                "name": "glibc",
+                "installedVersion": "2.35-3.cm2",
+                "fixedVersion": "2.35-6.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "910152",
+          "ruleIndex": 29,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for glibc (30046)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910920,
+            "vulnerableSoftware": [
+              {
+                "name": "krb5",
+                "installedVersion": "1.19.4-1.cm2",
+                "fixedVersion": "1.21.3-1.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "910920",
+          "ruleIndex": 30,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for krb5 (35454)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 908060,
+            "vulnerableSoftware": [
+              {
+                "name": "perl",
+                "installedVersion": "5.34.1-488.cm2",
+                "fixedVersion": "5.34.1-489.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "908060",
+          "ruleIndex": 31,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for perl (37127)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909125,
+            "vulnerableSoftware": [
+              {
+                "name": "ncurses",
+                "installedVersion": "6.3-2.cm2",
+                "fixedVersion": "6.4-1.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "909125",
+          "ruleIndex": 32,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for ncurses (26241)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 902788,
+            "vulnerableSoftware": [
+              {
+                "name": "python3",
+                "installedVersion": "3.9.14-6.cm2",
+                "fixedVersion": "3.9.19-1.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "902788",
+          "ruleIndex": 33,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for python3 (10618) (DEPRECATED)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 908046,
+            "vulnerableSoftware": [
+              {
+                "name": "expat",
+                "installedVersion": "2.5.0-1.cm2",
+                "fixedVersion": "2.6.2-2.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "908046",
+          "ruleIndex": 34,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for expat (35841)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 908222,
+            "vulnerableSoftware": [
+              {
+                "name": "glibc",
+                "installedVersion": "2.35-3.cm2",
+                "fixedVersion": "2.35-7.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "908222",
+          "ruleIndex": 35,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for glibc (40319)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910938,
+            "vulnerableSoftware": [
+              {
+                "name": "curl",
+                "installedVersion": "7.88.1-1.cm2",
+                "fixedVersion": "8.8.0-1.cm2",
+                "layerSHA": "sha256:d727da1c859146cb660c7ba665a04aed6477ccd94cd05caf0680826beffe60a6"
+              }
+            ]
+          },
+          "ruleId": "910938",
+          "ruleIndex": 36,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (37078)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910157,
+            "vulnerableSoftware": [
+              {
+                "name": "moby-cli",
+                "installedVersion": "20.10.12-7.cm2",
+                "fixedVersion": "20.10.27-5.cm2",
+                "layerSHA": "sha256:301755743830d033b2feeda56c9eebc2bec6ef2aa2c315c988d64e748a2c1152"
+              }
+            ]
+          },
+          "ruleId": "910157",
+          "ruleIndex": 37,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for moby-cli (33616)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909901,
+            "vulnerableSoftware": [
+              {
+                "name": "moby-cli",
+                "installedVersion": "20.10.12-7.cm2",
+                "fixedVersion": "20.10.25-2.cm2",
+                "layerSHA": "sha256:301755743830d033b2feeda56c9eebc2bec6ef2aa2c315c988d64e748a2c1152"
+              }
+            ]
+          },
+          "ruleId": "909901",
+          "ruleIndex": 38,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for moby-cli (31326)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 908066,
+            "vulnerableSoftware": [
+              {
+                "name": "perl",
+                "installedVersion": "5.34.1-488.cm2",
+                "fixedVersion": "5.34.1-489.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "908066",
+          "ruleIndex": 39,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for perl (37126)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910919,
+            "vulnerableSoftware": [
+              {
+                "name": "curl",
+                "installedVersion": "7.88.1-1.cm2",
+                "fixedVersion": "8.8.0-1.cm2",
+                "layerSHA": "sha256:d727da1c859146cb660c7ba665a04aed6477ccd94cd05caf0680826beffe60a6"
+              }
+            ]
+          },
+          "ruleId": "910919",
+          "ruleIndex": 40,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (37076)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909458,
+            "vulnerableSoftware": [
+              {
+                "name": "git",
+                "installedVersion": "2.33.6-1.cm2",
+                "fixedVersion": "2.39.4-1.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "909458",
+          "ruleIndex": 41,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for git (42046)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909144,
+            "vulnerableSoftware": [
+              {
+                "name": "glibc",
+                "installedVersion": "2.35-3.cm2",
+                "fixedVersion": "2.35-7.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "909144",
+          "ruleIndex": 42,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for glibc (10675)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909014,
+            "vulnerableSoftware": [
+              {
+                "name": "curl",
+                "installedVersion": "7.88.1-1.cm2",
+                "fixedVersion": "8.3.0-1.cm2",
+                "layerSHA": "sha256:d727da1c859146cb660c7ba665a04aed6477ccd94cd05caf0680826beffe60a6"
+              }
+            ]
+          },
+          "ruleId": "909014",
+          "ruleIndex": 43,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (29698)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910910,
+            "vulnerableSoftware": [
+              {
+                "name": "curl",
+                "installedVersion": "7.88.1-1.cm2",
+                "fixedVersion": "8.8.0-1.cm2",
+                "layerSHA": "sha256:d727da1c859146cb660c7ba665a04aed6477ccd94cd05caf0680826beffe60a6"
+              }
+            ]
+          },
+          "ruleId": "910910",
+          "ruleIndex": 44,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (37077)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909039,
+            "vulnerableSoftware": [
+              {
+                "name": "curl",
+                "installedVersion": "7.88.1-1.cm2",
+                "fixedVersion": "8.2.1-1.cm2",
+                "layerSHA": "sha256:d727da1c859146cb660c7ba665a04aed6477ccd94cd05caf0680826beffe60a6"
+              }
+            ]
+          },
+          "ruleId": "909039",
+          "ruleIndex": 45,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (26795)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909932,
+            "vulnerableSoftware": [
+              {
+                "name": "nghttp2",
+                "installedVersion": "1.46.0-2.cm2",
+                "fixedVersion": "1.46.0-3.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "909932",
+          "ruleIndex": 46,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for nghttp2 (27682)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910149,
+            "vulnerableSoftware": [
+              {
+                "name": "git",
+                "installedVersion": "2.33.6-1.cm2",
+                "fixedVersion": "2.39.4-1.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "910149",
+          "ruleIndex": 47,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for git (42022)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910043,
+            "vulnerableSoftware": [
+              {
+                "name": "openssl",
+                "installedVersion": "1.1.1k-21.cm2",
+                "fixedVersion": "1.1.1k-31.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "910043",
+          "ruleIndex": 48,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for Open Secure Sockets Layer (OpenSSL) (42952)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909244,
+            "vulnerableSoftware": [
+              {
+                "name": "openssl",
+                "installedVersion": "1.1.1k-21.cm2",
+                "fixedVersion": "1.1.1k-30.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "909244",
+          "ruleIndex": 49,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for Open Secure Sockets Layer (OpenSSL) (42949)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910893,
+            "vulnerableSoftware": [
+              {
+                "name": "openssl",
+                "installedVersion": "1.1.1k-21.cm2",
+                "fixedVersion": "1.1.1k-35.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "910893",
+          "ruleIndex": 50,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for Open Secure Sockets Layer (OpenSSL) (43309)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910438,
+            "vulnerableSoftware": [
+              {
+                "name": "curl",
+                "installedVersion": "7.88.1-1.cm2",
+                "fixedVersion": "8.2.1-1.cm2",
+                "layerSHA": "sha256:d727da1c859146cb660c7ba665a04aed6477ccd94cd05caf0680826beffe60a6"
+              }
+            ]
+          },
+          "ruleId": "910438",
+          "ruleIndex": 51,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (26793)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910610,
+            "vulnerableSoftware": [
+              {
+                "name": "curl",
+                "installedVersion": "7.88.1-1.cm2",
+                "fixedVersion": "8.0.1-1.cm2",
+                "layerSHA": "sha256:d727da1c859146cb660c7ba665a04aed6477ccd94cd05caf0680826beffe60a6"
+              }
+            ]
+          },
+          "ruleId": "910610",
+          "ruleIndex": 52,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (25846)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909666,
+            "vulnerableSoftware": [
+              {
+                "name": "pam",
+                "installedVersion": "1.5.1-5.cm2",
+                "fixedVersion": "1.5.1-6.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "909666",
+          "ruleIndex": 53,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for pam (34156)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909908,
+            "vulnerableSoftware": [
+              {
+                "name": "curl",
+                "installedVersion": "7.88.1-1.cm2",
+                "fixedVersion": "8.5.0-1.cm2",
+                "layerSHA": "sha256:d727da1c859146cb660c7ba665a04aed6477ccd94cd05caf0680826beffe60a6"
+              }
+            ]
+          },
+          "ruleId": "909908",
+          "ruleIndex": 54,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (32120)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909883,
+            "vulnerableSoftware": [
+              {
+                "name": "glibc",
+                "installedVersion": "2.35-3.cm2",
+                "fixedVersion": "2.35-6.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "909883",
+          "ruleIndex": 55,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for glibc (29954)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909845,
+            "vulnerableSoftware": [
+              {
+                "name": "libssh2",
+                "installedVersion": "1.9.0-2.cm2",
+                "fixedVersion": "1.9.0-4.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "909845",
+          "ruleIndex": 56,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for libssh2 (32201)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909726,
+            "vulnerableSoftware": [
+              {
+                "name": "openssl",
+                "installedVersion": "1.1.1k-21.cm2",
+                "fixedVersion": "1.1.1k-28.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "909726",
+          "ruleIndex": 57,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for Open Secure Sockets Layer (OpenSSL) (31880)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909580,
+            "vulnerableSoftware": [
+              {
+                "name": "moby-cli",
+                "installedVersion": "20.10.12-7.cm2",
+                "fixedVersion": "24.0.9-1.cm2",
+                "layerSHA": "sha256:301755743830d033b2feeda56c9eebc2bec6ef2aa2c315c988d64e748a2c1152"
+              }
+            ]
+          },
+          "ruleId": "909580",
+          "ruleIndex": 58,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for moby-cli (33617)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910094,
+            "vulnerableSoftware": [
+              {
+                "name": "curl",
+                "installedVersion": "7.88.1-1.cm2",
+                "fixedVersion": "8.0.1-1.cm2",
+                "layerSHA": "sha256:d727da1c859146cb660c7ba665a04aed6477ccd94cd05caf0680826beffe60a6"
+              }
+            ]
+          },
+          "ruleId": "910094",
+          "ruleIndex": 59,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (25845)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910930,
+            "vulnerableSoftware": [
+              {
+                "name": "curl",
+                "installedVersion": "7.88.1-1.cm2",
+                "fixedVersion": "8.8.0-1.cm2",
+                "layerSHA": "sha256:d727da1c859146cb660c7ba665a04aed6477ccd94cd05caf0680826beffe60a6"
+              }
+            ]
+          },
+          "ruleId": "910930",
+          "ruleIndex": 60,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (34061)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909898,
+            "vulnerableSoftware": [
+              {
+                "name": "openssh",
+                "installedVersion": "8.8p1-7.cm2",
+                "fixedVersion": "8.9p1-4.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "909898",
+          "ruleIndex": 61,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for openssh (32204)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910044,
+            "vulnerableSoftware": [
+              {
+                "name": "openssl",
+                "installedVersion": "1.1.1k-21.cm2",
+                "fixedVersion": "1.1.1k-28.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "910044",
+          "ruleIndex": 62,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for Open Secure Sockets Layer (OpenSSL) (42955)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910092,
+            "vulnerableSoftware": [
+              {
+                "name": "moby-cli",
+                "installedVersion": "20.10.12-7.cm2",
+                "fixedVersion": "20.10.27-2.cm2",
+                "layerSHA": "sha256:301755743830d033b2feeda56c9eebc2bec6ef2aa2c315c988d64e748a2c1152"
+              }
+            ]
+          },
+          "ruleId": "910092",
+          "ruleIndex": 63,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for moby-cli (32223)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909704,
+            "vulnerableSoftware": [
+              {
+                "name": "openssl",
+                "installedVersion": "1.1.1k-21.cm2",
+                "fixedVersion": "1.1.1k-25.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "909704",
+          "ruleIndex": 64,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for Open Secure Sockets Layer (OpenSSL) (26984)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909955,
+            "vulnerableSoftware": [
+              {
+                "name": "curl",
+                "installedVersion": "7.88.1-1.cm2",
+                "fixedVersion": "8.5.0-1.cm2",
+                "layerSHA": "sha256:d727da1c859146cb660c7ba665a04aed6477ccd94cd05caf0680826beffe60a6"
+              }
+            ]
+          },
+          "ruleId": "909955",
+          "ruleIndex": 65,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (32099)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909513,
+            "vulnerableSoftware": [
+              {
+                "name": "moby-cli",
+                "installedVersion": "20.10.12-7.cm2",
+                "fixedVersion": "20.10.27-1.cm2",
+                "layerSHA": "sha256:301755743830d033b2feeda56c9eebc2bec6ef2aa2c315c988d64e748a2c1152"
+              }
+            ]
+          },
+          "ruleId": "909513",
+          "ruleIndex": 66,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for moby-cli (27068)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910095,
+            "vulnerableSoftware": [
+              {
+                "name": "openssh",
+                "installedVersion": "8.8p1-7.cm2",
+                "fixedVersion": "8.9p1-3.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "910095",
+          "ruleIndex": 67,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for openssh (32205)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909015,
+            "vulnerableSoftware": [
+              {
+                "name": "openssl",
+                "installedVersion": "1.1.1k-21.cm2",
+                "fixedVersion": "1.1.1k-26.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "909015",
+          "ruleIndex": 68,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for Open Secure Sockets Layer (OpenSSL) (27815)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910684,
+            "vulnerableSoftware": [
+              {
+                "name": "python3",
+                "installedVersion": "3.9.14-6.cm2",
+                "fixedVersion": "3.9.19-1.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "910684",
+          "ruleIndex": 69,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for python3 (36894)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910158,
+            "vulnerableSoftware": [
+              {
+                "name": "openssl",
+                "installedVersion": "1.1.1k-21.cm2",
+                "fixedVersion": "1.1.1k-23.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "910158",
+          "ruleIndex": 70,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for Open Secure Sockets Layer (OpenSSL) (25937)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910267,
+            "vulnerableSoftware": [
+              {
+                "name": "openssh",
+                "installedVersion": "8.8p1-7.cm2",
+                "fixedVersion": "8.9p1-3.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "910267",
+          "ruleIndex": 71,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for openssh (32203)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 908038,
+            "vulnerableSoftware": [
+              {
+                "name": "expat",
+                "installedVersion": "2.5.0-1.cm2",
+                "fixedVersion": "2.6.2-2.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "908038",
+          "ruleIndex": 72,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for expat (34208)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909310,
+            "vulnerableSoftware": [
+              {
+                "name": "curl",
+                "installedVersion": "7.88.1-1.cm2",
+                "fixedVersion": "8.2.1-1.cm2",
+                "layerSHA": "sha256:d727da1c859146cb660c7ba665a04aed6477ccd94cd05caf0680826beffe60a6"
+              }
+            ]
+          },
+          "ruleId": "909310",
+          "ruleIndex": 73,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (26794)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910383,
+            "vulnerableSoftware": [
+              {
+                "name": "curl",
+                "installedVersion": "7.88.1-1.cm2",
+                "fixedVersion": "8.0.1-1.cm2",
+                "layerSHA": "sha256:d727da1c859146cb660c7ba665a04aed6477ccd94cd05caf0680826beffe60a6"
+              }
+            ]
+          },
+          "ruleId": "910383",
+          "ruleIndex": 74,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (25848)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910313,
+            "vulnerableSoftware": [
+              {
+                "name": "openssl",
+                "installedVersion": "1.1.1k-21.cm2",
+                "fixedVersion": "1.1.1k-29.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "910313",
+          "ruleIndex": 75,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for Open Secure Sockets Layer (OpenSSL) (33937)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909087,
+            "vulnerableSoftware": [
+              {
+                "name": "krb5",
+                "installedVersion": "1.19.4-1.cm2",
+                "fixedVersion": "1.19.4-2.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "909087",
+          "ruleIndex": 76,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for krb5 (27874)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909143,
+            "vulnerableSoftware": [
+              {
+                "name": "openssl",
+                "installedVersion": "1.1.1k-21.cm2",
+                "fixedVersion": "1.1.1k-23.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "909143",
+          "ruleIndex": 77,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for Open Secure Sockets Layer (OpenSSL) (25936)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909738,
+            "vulnerableSoftware": [
+              {
+                "name": "python3",
+                "installedVersion": "3.9.14-6.cm2",
+                "fixedVersion": "3.9.19-1.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "909738",
+          "ruleIndex": 78,
+          "level": "error",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for python3 (31170)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909483,
+            "vulnerableSoftware": [
+              {
+                "name": "libcap",
+                "installedVersion": "2.60-1.cm2",
+                "fixedVersion": "2.60-2.cm2",
+                "layerSHA": "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10"
+              }
+            ]
+          },
+          "ruleId": "909483",
+          "ruleIndex": 79,
+          "level": "warning",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for libcap (27064)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910538,
+            "vulnerableSoftware": [
+              {
+                "name": "gcc",
+                "installedVersion": "11.2.0-4.cm2",
+                "fixedVersion": "11.2.0-6.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "910538",
+          "ruleIndex": 80,
+          "level": "warning",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for gcc (28769)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910039,
+            "vulnerableSoftware": [
+              {
+                "name": "curl",
+                "installedVersion": "7.88.1-1.cm2",
+                "fixedVersion": "8.3.0-2.cm2",
+                "layerSHA": "sha256:d727da1c859146cb660c7ba665a04aed6477ccd94cd05caf0680826beffe60a6"
+              }
+            ]
+          },
+          "ruleId": "910039",
+          "ruleIndex": 81,
+          "level": "warning",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (31289)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910653,
+            "vulnerableSoftware": [
+              {
+                "name": "git",
+                "installedVersion": "2.33.6-1.cm2",
+                "fixedVersion": "2.39.4-1.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "910653",
+          "ruleIndex": 82,
+          "level": "warning",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for git (42037)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 910377,
+            "vulnerableSoftware": [
+              {
+                "name": "curl",
+                "installedVersion": "7.88.1-1.cm2",
+                "fixedVersion": "8.0.1-2.cm2",
+                "layerSHA": "sha256:d727da1c859146cb660c7ba665a04aed6477ccd94cd05caf0680826beffe60a6"
+              }
+            ]
+          },
+          "ruleId": "910377",
+          "ruleIndex": 83,
+          "level": "warning",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for curl (26792)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 900947,
+            "vulnerableSoftware": [
+              {
+                "name": "openssh",
+                "installedVersion": "8.8p1-7.cm2",
+                "fixedVersion": "8.9p1-1.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "900947",
+          "ruleIndex": 84,
+          "level": "warning",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for openssh (9045)"
+          }
+        },
+        {
+          "properties": {
+            "QID": 909145,
+            "vulnerableSoftware": [
+              {
+                "name": "git",
+                "installedVersion": "2.33.6-1.cm2",
+                "fixedVersion": "2.39.4-1.cm2",
+                "layerSHA": "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e"
+              }
+            ]
+          },
+          "ruleId": "909145",
+          "ruleIndex": 85,
+          "level": "warning",
+          "message": {
+            "text": "Common Base Linux Mariner (CBL-Mariner) Security Update for git (42013)"
+          }
         }
       ],
       "properties": {
         "architecture": "amd64",
-        "imageID": "sha256:015e6b7f599b15be5eecad68608583d19d9fa2c8cc27cb6d254204e080dae199",
+        "imageID": "sha256:9403f416133faac69b9ca12e40bac4be471ab8b62ec440de54008857cb64e99f",
         "layerInfo": [
           {
             "LayerNum": 1,
-            "LayerContentHash": "2fa37f2ee66efbd308b9b91bce81c262f5e6ab6c3bf8056632afc60cc602785c",
-            "Command": "/bin/sh -c #(nop) ADD file:1e4dd5dab602337b5d5ef8d84b8dbe8b1ac62225f077b29b27d045842486d8e2 in / "
+            "LayerContentHash": "962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10",
+            "CreatedAt": 1694041370799
           },
           {
             "LayerNum": 2,
             "IsEmpty": true,
-            "Command": "/bin/sh -c #(nop)  CMD [\"bash\"]"
+            "Command": "ARG EULA=@EULA_FILE@",
+            "CreatedAt": 1694041370799
           },
           {
             "LayerNum": 3,
-            "LayerContentHash": "5cc3a4df1251c008ebfaaf8c48fe7bd61f0b0fdd7273966bd4bbe58877337e06",
-            "Command": "/bin/sh -c set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tca-certificates \t\tcurl \t\tgnupg \t\tnetbase \t\tsq \t\twget \t; \trm -rf /var/lib/apt/lists/*"
+            "LayerContentHash": "ad3730d6f0cc27bcb19e3e760d8f46ce3489026fc9df44263eb313c3e8322a9b",
+            "Command": "COPY file:2c9b9395238ee55ff215d908ee6cf02975b45c4e6c97b276333bcd60ee705729 in . ",
+            "CreatedAt": 1694041370799
           },
           {
             "LayerNum": 4,
-            "LayerContentHash": "2ef3351afa6d94a8874a6af5aa1bafcd85106616ced8ac63112022fb04232d03",
-            "Command": "/bin/sh -c apt-get update \u0026\u0026 apt-get install -y --no-install-recommends \t\tgit \t\tmercurial \t\topenssh-client \t\tsubversion \t\t\t\tprocps \t\u0026\u0026 rm -rf /var/lib/apt/lists/*"
+            "IsEmpty": true,
+            "Command": "CMD [\"bash\"]",
+            "CreatedAt": 1694041370799
           },
           {
             "LayerNum": 5,
-            "LayerContentHash": "e51777ae0bce0a05c4c294fc7c3fb6ac29fd215b900bd46bb9bb7302708bffeb",
-            "Command": "/bin/sh -c set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tg++ \t\tgcc \t\tlibc6-dev \t\tmake \t\tpkg-config \t; \trm -rf /var/lib/apt/lists/*"
+            "LayerContentHash": "f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e",
+            "Command": "RUN tdnf check-update     \u0026\u0026 tdnf install -y         ca-certificates-microsoft         openssh-clients         tar         git     \u0026\u0026 tdnf clean all     \u0026\u0026 rm -rf /var/cache/yum",
+            "CreatedAt": 1694041370799
           },
           {
             "LayerNum": 6,
             "IsEmpty": true,
-            "Command": "/bin/sh -c #(nop)  ENV PATH=/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            "Command": "ARG MOBY_CLI_PACKAGE_URL=https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/Packages/m/moby-cli-20.10.12-7.cm2.x86_64.rpm",
+            "CreatedAt": 1694041370799
           },
           {
             "LayerNum": 7,
-            "IsEmpty": true,
-            "Command": "/bin/sh -c #(nop)  ENV GOLANG_VERSION=1.21.3"
+            "LayerContentHash": "301755743830d033b2feeda56c9eebc2bec6ef2aa2c315c988d64e748a2c1152",
+            "Command": "|1 MOBY_CLI_PACKAGE_URL=https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/Packages/m/moby-cli-20.10.12-7.cm2.x86_64.rpm /bin/sh -c set -eux;         curl -sSL ${MOBY_CLI_PACKAGE_URL} -o moby-cli.rpm;         rpm --install moby-cli.rpm;         rm -f moby-cli.deb;         rm -rf /var/cache/yum",
+            "CreatedAt": 1694041370799
           },
           {
             "LayerNum": 8,
-            "LayerContentHash": "fbc321379a11088c8b501eb89ac7e1f41d4b511b14c9914f2963683d92e78fd9",
-            "Command": "/bin/sh -c set -eux; \tarch=\"$(dpkg --print-architecture)\"; arch=\"${arch##*-}\"; \turl=; \tcase \"$arch\" in \t\t'amd64') \t\t\turl='https://dl.google.com/go/go1.21.3.linux-amd64.tar.gz'; \t\t\tsha256='1241381b2843fae5a9707eec1f8fb2ef94d827990582c7c7c32f5bdfbfd420c8'; \t\t\t;; \t\t'armel') \t\t\texport GOARCH='arm' GOARM='5' GOOS='linux'; \t\t\t;; \t\t'armhf') \t\t\turl='https://dl.google.com/go/go1.21.3.linux-armv6l.tar.gz'; \t\t\tsha256='a1ddcaaf0821a12a800884c14cb4268ce1c1f5a0301e9060646f1e15e611c6c7'; \t\t\t;; \t\t'arm64') \t\t\turl='https://dl.google.com/go/go1.21.3.linux-arm64.tar.gz'; \t\t\tsha256='fc90fa48ae97ba6368eecb914343590bbb61b388089510d0c56c2dde52987ef3'; \t\t\t;; \t\t'i386') \t\t\turl='https://dl.google.com/go/go1.21.3.linux-386.tar.gz'; \t\t\tsha256='fb209fd070db500a84291c5a95251cceeb1723e8f6142de9baca5af70a927c0e'; \t\t\t;; \t\t'mips64el') \t\t\turl='https://dl.google.com/go/go1.21.3.linux-mips64le.tar.gz'; \t\t\tsha256='a569ffbc88b4e14cf2682f65cec950460665e4392b0d78b8868b4718c979bda8'; \t\t\t;; \t\t'ppc64el') \t\t\turl='https://dl.google.com/go/go1.21.3.linux-ppc64le.tar.gz'; \t\t\tsha256='3b0e10a3704f164a6e85e0377728ec5fd21524fabe4c925610e34076586d5826'; \t\t\t;; \t\t'riscv64') \t\t\turl='https://dl.google.com/go/go1.21.3.linux-riscv64.tar.gz'; \t\t\tsha256='67d14d3e513e505d1ec3ea34b55641c6c29556603c7899af94045c170c1c0f94'; \t\t\t;; \t\t's390x') \t\t\turl='https://dl.google.com/go/go1.21.3.linux-s390x.tar.gz'; \t\t\tsha256='4c78e2e6f4c684a3d5a9bdc97202729053f44eb7be188206f0627ef3e18716b6'; \t\t\t;; \t\t*) echo \u003e\u00262 \"error: unsupported architecture '$arch' (likely packaging update needed)\"; exit 1 ;; \tesac; \tbuild=; \tif [ -z \"$url\" ]; then \t\tbuild=1; \t\turl='https://dl.google.com/go/go1.21.3.src.tar.gz'; \t\tsha256='186f2b6f8c8b704e696821b09ab2041a5c1ee13dcbc3156a13adcf75931ee488'; \t\techo \u003e\u00262; \t\techo \u003e\u00262 \"warning: current architecture ($arch) does not have a compatible Go binary release; will be building from source\"; \t\techo \u003e\u00262; \tfi; \t\twget -O go.tgz.asc \"$url.asc\"; \twget -O go.tgz \"$url\" --progress=dot:giga; \techo \"$sha256 *go.tgz\" | sha256sum -c -; \t\tGNUPGHOME=\"$(mktemp -d)\"; export GNUPGHOME; \tgpg --batch --keyserver keyserver.ubuntu.com --recv-keys 'EB4C 1BFD 4F04 2F6D DDCC  EC91 7721 F63B D38B 4796'; \tgpg --batch --keyserver keyserver.ubuntu.com --recv-keys '2F52 8D36 D67B 69ED F998  D857 78BD 6547 3CB3 BD13'; \tgpg --batch --verify go.tgz.asc go.tgz; \tgpgconf --kill all; \trm -rf \"$GNUPGHOME\" go.tgz.asc; \t\ttar -C /usr/local -xzf go.tgz; \trm go.tgz; \t\tif [ -n \"$build\" ]; then \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \t\tapt-get update; \t\tapt-get install -y --no-install-recommends golang-go; \t\t\t\texport GOCACHE='/tmp/gocache'; \t\t\t\t( \t\t\tcd /usr/local/go/src; \t\t\texport GOROOT_BOOTSTRAP=\"$(go env GOROOT)\" GOHOSTOS=\"$GOOS\" GOHOSTARCH=\"$GOARCH\"; \t\t\t./make.bash; \t\t); \t\t\t\tapt-mark auto '.*' \u003e /dev/null; \t\tapt-mark manual $savedAptMark \u003e /dev/null; \t\tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \t\trm -rf /var/lib/apt/lists/*; \t\t\t\trm -rf \t\t\t/usr/local/go/pkg/*/cmd \t\t\t/usr/local/go/pkg/bootstrap \t\t\t/usr/local/go/pkg/obj \t\t\t/usr/local/go/pkg/tool/*/api \t\t\t/usr/local/go/pkg/tool/*/go_bootstrap \t\t\t/usr/local/go/src/cmd/dist/dist \t\t\t\"$GOCACHE\" \t\t; \tfi; \t\tgo version"
+            "LayerContentHash": "84a1dc89b87d967051a77d158bc5f8e91d4c983832308df0a6f546d1fc071f59",
+            "Command": "COPY file:bc40e8851ca2469a8b966da992cffff6c123868fa45da5a0c1205191634ae67c in /usr/local/bin/ ",
+            "CreatedAt": 1694041370799
           },
           {
             "LayerNum": 9,
-            "IsEmpty": true,
-            "Command": "/bin/sh -c #(nop)  ENV GOTOOLCHAIN=local"
+            "LayerContentHash": "e4b0f0f6ac948f0f7bbfa634b2501f9751984ce00c9b307ad224077346ee9c96",
+            "Command": "|1 MOBY_CLI_PACKAGE_URL=https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/Packages/m/moby-cli-20.10.12-7.cm2.x86_64.rpm /bin/sh -c chmod +x /usr/local/bin/docker-entrypoint.sh",
+            "CreatedAt": 1694041370799
           },
           {
             "LayerNum": 10,
             "IsEmpty": true,
-            "Command": "/bin/sh -c #(nop)  ENV GOPATH=/go"
+            "Command": "ENTRYPOINT [\"docker-entrypoint.sh\"]",
+            "CreatedAt": 1694041370799
           },
           {
             "LayerNum": 11,
             "IsEmpty": true,
-            "Command": "/bin/sh -c #(nop)  ENV PATH=/go/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            "Command": "CMD [\"sh\"]",
+            "CreatedAt": 1694041370799
           },
           {
             "LayerNum": 12,
-            "LayerContentHash": "fe7d12ddfc653078295fed87b3fd7498a496dc5176358fba91239d44d98997bd",
-            "Command": "/bin/sh -c mkdir -p \"$GOPATH/src\" \"$GOPATH/bin\" \u0026\u0026 chmod -R 1777 \"$GOPATH\""
+            "LayerContentHash": "d727da1c859146cb660c7ba665a04aed6477ccd94cd05caf0680826beffe60a6",
+            "Command": "RUN /bin/sh -c yum update curl-0:7.88.1-1.cm2 -y \u0026\u0026     yum update gnupg2-0:2.4.0-1.cm2 -y # buildkit",
+            "CreatedAt": 1694041370799
           },
           {
             "LayerNum": 13,
+            "LayerContentHash": "ab8a47047bda677defeb824c0181649a95a4cd945b8535e146da25af18a5fa0a",
+            "Command": "COPY src/bin/Release/net6.0/linux-x64 /tmp/proj/ # buildkit",
+            "CreatedAt": 1694041370799
+          },
+          {
+            "LayerNum": 14,
+            "LayerContentHash": "d4d5a87bdebd3cd2924650c0277c9d27609f4f00554941c1a02f5c55d9a915a6",
+            "Command": "RUN /bin/sh -c chmod +x /tmp/proj/MsftScanTool # buildkit",
+            "CreatedAt": 1694041370799
+          },
+          {
+            "LayerNum": 15,
             "IsEmpty": true,
-            "Command": "/bin/sh -c #(nop) WORKDIR /go"
+            "Command": "ENTRYPOINT [\"/tmp/proj/MsftScanTool\"]",
+            "CreatedAt": 1694041370799
           }
         ],
         "layers": [
-          "sha256:2fa37f2ee66efbd308b9b91bce81c262f5e6ab6c3bf8056632afc60cc602785c",
-          "sha256:5cc3a4df1251c008ebfaaf8c48fe7bd61f0b0fdd7273966bd4bbe58877337e06",
-          "sha256:2ef3351afa6d94a8874a6af5aa1bafcd85106616ced8ac63112022fb04232d03",
-          "sha256:e51777ae0bce0a05c4c294fc7c3fb6ac29fd215b900bd46bb9bb7302708bffeb",
-          "sha256:fbc321379a11088c8b501eb89ac7e1f41d4b511b14c9914f2963683d92e78fd9",
-          "sha256:fe7d12ddfc653078295fed87b3fd7498a496dc5176358fba91239d44d98997bd"
+          "sha256:962582918c65932d9edd2aea2dacbabfe5ae4996aef530d0e00bbf6ffd302e10",
+          "sha256:ad3730d6f0cc27bcb19e3e760d8f46ce3489026fc9df44263eb313c3e8322a9b",
+          "sha256:f6250637aca02f34a5d10d12eabbb8ce9dd5e03c8b362d0623168bf2c42f8a0e",
+          "sha256:301755743830d033b2feeda56c9eebc2bec6ef2aa2c315c988d64e748a2c1152",
+          "sha256:84a1dc89b87d967051a77d158bc5f8e91d4c983832308df0a6f546d1fc071f59",
+          "sha256:e4b0f0f6ac948f0f7bbfa634b2501f9751984ce00c9b307ad224077346ee9c96",
+          "sha256:d727da1c859146cb660c7ba665a04aed6477ccd94cd05caf0680826beffe60a6",
+          "sha256:ab8a47047bda677defeb824c0181649a95a4cd945b8535e146da25af18a5fa0a",
+          "sha256:d4d5a87bdebd3cd2924650c0277c9d27609f4f00554941c1a02f5c55d9a915a6"
         ],
-        "os": "Debian Linux 12.2",
+        "os": "CBL-Mariner Linux 2.0.20230303",
         "repoTags": [
-          "golang:latest"
+          "qualysdockerhub/sensor_automation:msftscanner_linux"
         ],
         "scansPerformed": [
           "metadata",
           "os",
-          "sca",
-          "secret"
+          "sca"
         ]
       }
     }
