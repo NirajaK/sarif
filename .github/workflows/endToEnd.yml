@@ -26,7 +26,7 @@ jobs:
       - name: Download Qscanner
         run: |
           QSCANNER_URL=$(curl $proxy -s https://www.qualys.com/downloads/qscanner/ | grep -ai "gen_cask_artifacts" | sed 's/^.*https/https/' | sed 's/".*//')
-          wget $QSCANNER_URL
+          wget https://www.qualys.com/qscanner/download/v4.2.0/download_qscanner.sh
           ls -ltr
           pwd
           sudo bash $(pwd)/download_qscanner.sh
