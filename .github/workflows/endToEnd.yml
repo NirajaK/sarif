@@ -1,4 +1,4 @@
-name: Build Docker Image
+name: Sarif complete workflow
 on:
   push:
     branches:
