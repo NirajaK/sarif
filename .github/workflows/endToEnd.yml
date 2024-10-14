@@ -72,7 +72,7 @@ jobs:
         uses: github/codeql-action/upload-sarif@v3
         with:
           # Path to SARIF file relative to the root of the repository
-          sarif_file: /home/ubuntu/Qscanner-4.3/sarif-reports/$image_sha-Report.sarif.json
+          sarif_file: /home/ubuntu/Qscanner-4.3/sarif-reports/91ef0af61f39ece4d6710e465df5ed6ca12112358344fd51ae6a3b886634148b-Report.sarif.json
           # Optional category for the results
           # Used to differentiate multiple results for one commit
           category: my-analysis-tool
