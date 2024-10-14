@@ -54,7 +54,7 @@ jobs:
           ls
       - name: Qscanner token
         run: |
-          export QUALYS_ACCESS_TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJxdWF5c19wejkiLCJpc3MiOiJxYXMiLCJwb3J0YWxVc2VySWQiOjg0NjIyMDY0Mywic2VjcmV0SWQiOiIwY2I2ZDJhMS0wMjhmLTRmODUtYWI1ZC1jOGUyMmY4ZTU0N2QiLCJxd2ViVXNlcklkIjoxMDYzNDQ5LCJhdWQiOiJxYXMiLCJjdXN0b21lcklkIjoxOTUwNDY5LCJ1c2VyVXVpZCI6ImNkYmM0OWNlLWVlMzUtNWVhNC04MWMxLThkODQ1ZTY4N2I4ZCIsInN1YnNjcmlwdGlvblV1aWQiOiIxMDRiMDA0NC0zYjBjLTU5YjItODA2Yi1jMGJmMjEzZTc1ZTUiLCJleHAiOjE3NTQ3MjMxNzgsInN1YnNjcmlwdGlvbklkIjoxMjYxMDYzLCJ0b2tlblR5cGUiOiJzdWJzY3JpcHRpb24iLCJpYXQiOjE3MjMxODcxNzgsImp0aSI6Ijg1MWVhNDAwLTViY2EtNGE4My1hYTViLWUxN2MyMjcxNjI2MyJ9.SEp7DnB4-s10lCb57nNvDDHwH3bU-VBFNmsygYGVC7Hdt4fH9glESKObVWXc4ITfZ36oMJqWm1SBNDGXvtHTIw
+          export QUALYS_ACCESS_TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0cXVheTlpdCIsImlzcyI6InFhcyIsInBvcnRhbFVzZXJJZCI6OTM5Mzg2NSwic2VjcmV0SWQiOiI5NjQwMmRkOC1lYmE2LTQ3YTItYTUxNi01MzdjNDg1YWIzNTgiLCJxd2ViVXNlcklkIjoxNTkyMTI3LCJhdWQiOiJxYXMiLCJjdXN0b21lcklkIjo0MTQ0MzUsInVzZXJVdWlkIjoiZGE0ODg1YWItNmQ3MS00ZWEzLTgyMTYtNTg2N2RjNmIxM2M4Iiwic3Vic2NyaXB0aW9uVXVpZCI6IjcxMzAxYzRhLTk1ZWMtZDdkYy04MWE0LWY1MmMwMGU0MjIzMCIsImV4cCI6MTc0MDg3MzU5OSwic3Vic2NyaXB0aW9uSWQiOjEwNjQ4OTQsInRva2VuVHlwZSI6InN1YnNjcmlwdGlvbiIsImlhdCI6MTcxMDE1MjAwMSwianRpIjoiMjE4YjM5ZjktN2FkNC00NGYyLTgxODUtZjIxNjcxNGM1NThmIn0.xFEMnnXw3gGG1CtyYqi0JtAgNuTR2HnGhqTuAL3n5VT2G0tc8F_5toTkai0Q9Z24kbAc2XA9B4yNj2eYlfayfQ
           echo $QUALYS_ACCESS_TOKEN
       - name: Image scan through Qscanner
         run: |
@@ -62,15 +62,15 @@ jobs:
          sockpath=$(docker info -f '{{.DockerRootDir}}')
          sockpath=$(echo $sockpath | awk -v srch="data" -v repl="docker.sock" '{ sub(srch,repl,$0); print $0 }')
          echo $sockpath
-         echo "sudo $(pwd)/linux-amd64/qscanner image $image_sha  --pod ENG-POD01 --access-token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJxdWF5c19wejkiLCJpc3MiOiJxYXMiLCJwb3J0YWxVc2VySWQiOjg0NjIyMDY0Mywic2VjcmV0SWQiOiIwY2I2ZDJhMS0wMjhmLTRmODUtYWI1ZC1jOGUyMmY4ZTU0N2QiLCJxd2ViVXNlcklkIjoxMDYzNDQ5LCJhdWQiOiJxYXMiLCJjdXN0b21lcklkIjoxOTUwNDY5LCJ1c2VyVXVpZCI6ImNkYmM0OWNlLWVlMzUtNWVhNC04MWMxLThkODQ1ZTY4N2I4ZCIsInN1YnNjcmlwdGlvblV1aWQiOiIxMDRiMDA0NC0zYjBjLTU5YjItODA2Yi1jMGJmMjEzZTc1ZTUiLCJleHAiOjE3NTQ3MjMxNzgsInN1YnNjcmlwdGlvbklkIjoxMjYxMDYzLCJ0b2tlblR5cGUiOiJzdWJzY3JpcHRpb24iLCJpYXQiOjE3MjMxODcxNzgsImp0aSI6Ijg1MWVhNDAwLTViY2EtNGE4My1hYTViLWUxN2MyMjcxNjI2MyJ9.SEp7DnB4-s10lCb57nNvDDHwH3bU-VBFNmsygYGVC7Hdt4fH9glESKObVWXc4ITfZ36oMJqWm1SBNDGXvtHTIw"
-         sudo DOCKER_HOST=unix://$sockpath $(pwd)/linux-amd64/qscanner image $image_sha  --pod ENG-POD01 --access-token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJxdWF5c19wejkiLCJpc3MiOiJxYXMiLCJwb3J0YWxVc2VySWQiOjg0NjIyMDY0Mywic2VjcmV0SWQiOiIwY2I2ZDJhMS0wMjhmLTRmODUtYWI1ZC1jOGUyMmY4ZTU0N2QiLCJxd2ViVXNlcklkIjoxMDYzNDQ5LCJhdWQiOiJxYXMiLCJjdXN0b21lcklkIjoxOTUwNDY5LCJ1c2VyVXVpZCI6ImNkYmM0OWNlLWVlMzUtNWVhNC04MWMxLThkODQ1ZTY4N2I4ZCIsInN1YnNjcmlwdGlvblV1aWQiOiIxMDRiMDA0NC0zYjBjLTU5YjItODA2Yi1jMGJmMjEzZTc1ZTUiLCJleHAiOjE3NTQ3MjMxNzgsInN1YnNjcmlwdGlvbklkIjoxMjYxMDYzLCJ0b2tlblR5cGUiOiJzdWJzY3JpcHRpb24iLCJpYXQiOjE3MjMxODcxNzgsImp0aSI6Ijg1MWVhNDAwLTViY2EtNGE4My1hYTViLWUxN2MyMjcxNjI2MyJ9.SEp7DnB4-s10lCb57nNvDDHwH3bU-VBFNmsygYGVC7Hdt4fH9glESKObVWXc4ITfZ36oMJqWm1SBNDGXvtHTIw --report-format sarif
+         echo "sudo $(pwd)/linux-amd64/qscanner image $image_sha  --pod CA1 --access-token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0cXVheTlpdCIsImlzcyI6InFhcyIsInBvcnRhbFVzZXJJZCI6OTM5Mzg2NSwic2VjcmV0SWQiOiI5NjQwMmRkOC1lYmE2LTQ3YTItYTUxNi01MzdjNDg1YWIzNTgiLCJxd2ViVXNlcklkIjoxNTkyMTI3LCJhdWQiOiJxYXMiLCJjdXN0b21lcklkIjo0MTQ0MzUsInVzZXJVdWlkIjoiZGE0ODg1YWItNmQ3MS00ZWEzLTgyMTYtNTg2N2RjNmIxM2M4Iiwic3Vic2NyaXB0aW9uVXVpZCI6IjcxMzAxYzRhLTk1ZWMtZDdkYy04MWE0LWY1MmMwMGU0MjIzMCIsImV4cCI6MTc0MDg3MzU5OSwic3Vic2NyaXB0aW9uSWQiOjEwNjQ4OTQsInRva2VuVHlwZSI6InN1YnNjcmlwdGlvbiIsImlhdCI6MTcxMDE1MjAwMSwianRpIjoiMjE4YjM5ZjktN2FkNC00NGYyLTgxODUtZjIxNjcxNGM1NThmIn0.xFEMnnXw3gGG1CtyYqi0JtAgNuTR2HnGhqTuAL3n5VT2G0tc8F_5toTkai0Q9Z24kbAc2XA9B4yNj2eYlfayfQ"
+         sudo DOCKER_HOST=unix://$sockpath $(pwd)/linux-amd64/qscanner image $image_sha  --pod CA1 --access-token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0cXVheTlpdCIsImlzcyI6InFhcyIsInBvcnRhbFVzZXJJZCI6OTM5Mzg2NSwic2VjcmV0SWQiOiI5NjQwMmRkOC1lYmE2LTQ3YTItYTUxNi01MzdjNDg1YWIzNTgiLCJxd2ViVXNlcklkIjoxNTkyMTI3LCJhdWQiOiJxYXMiLCJjdXN0b21lcklkIjo0MTQ0MzUsInVzZXJVdWlkIjoiZGE0ODg1YWItNmQ3MS00ZWEzLTgyMTYtNTg2N2RjNmIxM2M4Iiwic3Vic2NyaXB0aW9uVXVpZCI6IjcxMzAxYzRhLTk1ZWMtZDdkYy04MWE0LWY1MmMwMGU0MjIzMCIsImV4cCI6MTc0MDg3MzU5OSwic3Vic2NyaXB0aW9uSWQiOjEwNjQ4OTQsInRva2VuVHlwZSI6InN1YnNjcmlwdGlvbiIsImlhdCI6MTcxMDE1MjAwMSwianRpIjoiMjE4YjM5ZjktN2FkNC00NGYyLTgxODUtZjIxNjcxNGM1NThmIn0.xFEMnnXw3gGG1CtyYqi0JtAgNuTR2HnGhqTuAL3n5VT2G0tc8F_5toTkai0Q9Z24kbAc2XA9B4yNj2eYlfayfQ --report-format sarif
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Upload SARIF file
         uses: github/codeql-action/upload-sarif@v3
         with:
           # Path to SARIF file relative to the root of the repository
-          sarif_file: code-verify-Report.sarif.json
+          sarif_file: $(pwd)/output/$image_sha-Report.sarif.json
           # Optional category for the results
           # Used to differentiate multiple results for one commit
           category: my-analysis-tool
