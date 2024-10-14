@@ -5,6 +5,7 @@ on:
       - main
 jobs:
   docker:
+    permissions: write-all
     runs-on: self-hosted
     steps:
       # - name: Set up Docker1
