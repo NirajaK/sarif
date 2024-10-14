@@ -7,7 +7,7 @@ jobs:
   docker:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up Docker
+      - name: Set up Docker1
         uses: crazy-max/ghaction-setup-docker@v3
         with:
           daemon-config: |
