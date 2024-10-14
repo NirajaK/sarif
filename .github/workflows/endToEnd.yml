@@ -33,7 +33,9 @@ jobs:
       - name: Docker version
         run: docker info
       - name: Docker image pull
-        run: docker pull alpine:latest  
+        run: docker pull alpine:latest
+      - name: Docker qscanner image pull
+        run: docker pull art-hq.intranet.qualys.com:5001/qualys/internal/qscanner:4.3.0-12-dev-linux-amd64-1728887376
       - name: Build Docker image
         run: |
           docker buildx create --use
