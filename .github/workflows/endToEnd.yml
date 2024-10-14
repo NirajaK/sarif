@@ -32,17 +32,17 @@ jobs:
       #     sudo bash $(pwd)/download_qscanner.sh
       # - name: Docker version
       #   run: docker info
-      # - name: Docker image pull
-      #   run: docker pull alpine:latest
+      - name: Docker image pull
+        run: sudo docker pull alpine:latest
       - name: Docker qscanner image pull
-        run: docker pull art-hq.intranet.qualys.com:5001/qualys/internal/qscanner:4.3.0-12-dev-linux-amd64-1728887376
+        run: sudo docker pull art-hq.intranet.qualys.com:5001/qualys/internal/qscanner:4.3.0-12-dev-linux-amd64-1728887376
       # - name: Build Docker image
       #   run: |
       #     docker buildx create --use
       #     docker buildx inspect
       #     docker buildx build --file /home/runner/work/sarif/sarif/Dockerfile --platform linux/amd64,linux/arm64 -t crmtestimage:multiid --load .
-      # - name: List docker images
-      #   run: docker images
+      - name: List docker images
+        run: sudo docker images
       # - name: docker inspect
       #   run: |
       #    image_sha=$(docker inspect -f '{{.Id}}' alpine:latest)
