@@ -34,7 +34,7 @@ jobs:
       # - name: Docker version
       #   run: docker info
       - name: Docker image pull
-        run: sudo docker pull alpine:latest
+        run: sudo docker pull iojs:latest
       # - name: Docker qscanner image pull
       #   run: sudo docker pull art-hq.intranet.qualys.com:5001/qualys/internal/qscanner:4.3.0-12-dev-linux-amd64-1728887376
       # - name: Build Docker image
@@ -46,7 +46,7 @@ jobs:
         run: sudo docker images
       - name: docker inspect
         run: |
-         image_sha=$(sudo docker inspect -f '{{.Id}}' alpine:latest)
+         image_sha=$(sudo docker inspect -f '{{.Id}}' iojs:latest)
          echo "Image SHA: $image_sha"
          sudo docker history $image_sha
       # - name: save multi-arch image
@@ -61,7 +61,7 @@ jobs:
           echo $QUALYS_ACCESS_TOKEN
       - name: Image scan through Qscanner
         run: |
-         image_sha=$(sudo docker inspect -f '{{.Id}}' alpine:latest)
+         image_sha=$(sudo docker inspect -f '{{.Id}}' iojs:latest)
          # sockpath=$(sudo docker info -f '{{.DockerRootDir}}')
          # sockpath=$(echo $sockpath | awk -v srch="data" -v repl="docker.sock" '{ sub(srch,repl,$0); print $0 }')
          # echo $sockpath
